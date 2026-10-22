@@ -28,6 +28,8 @@ jobs:
       - name: Inject Heybox login session
         run: |
           mkdir -p ~/.cache/hb-sdk
+          echo "secret length: $(printf '%s' '${{ secrets.HEYBOX_AUTH_JSON }}' | wc -c)"
+          echo "secret head: $(printf '%s' '${{ secrets.HEYBOX_AUTH_JSON }}' | head -c 80)"
           printf '%s' '${{ secrets.HEYBOX_AUTH_JSON }}' | tr -d ' \n\r\t' | base64 -d > ~/.cache/hb-sdk/auth.json
           chmod 600 ~/.cache/hb-sdk/auth.json
           echo "auth.json size: $(wc -c < ~/.cache/hb-sdk/auth.json)"
