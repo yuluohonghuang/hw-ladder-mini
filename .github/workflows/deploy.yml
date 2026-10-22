@@ -28,7 +28,7 @@ jobs:
       - name: Inject Heybox login session
         run: |
           mkdir -p ~/.cache/hb-sdk
-          printf '%s' "${{ secrets.HEYBOX_AUTH_JSON }}" > ~/.cache/hb-sdk/auth.json
+          echo '${{ secrets.HEYBOX_AUTH_JSON }}' | base64 -d > ~/.cache/hb-sdk/auth.json
           chmod 600 ~/.cache/hb-sdk/auth.json
 
       - name: Bump patch version
