@@ -410,13 +410,13 @@ function getFiltered(){
   list.forEach(it => { it.vendor = vendorOf(it.name); });
   if(currentSort === 'value'){
     list.sort((a,b) => {
-      if(a.value == null && b.value == null) return a.sort - b.sort;
+      if(a.value == null && b.value == null) return b.score - a.score;
       if(a.value == null) return 1;
       if(b.value == null) return -1;
       return b.value - a.value;
     });
   } else {
-    list.sort((a,b) => a.sort - b.sort);
+    list.sort((a,b) => b.score - a.score);
   }
   return list;
 }
