@@ -39,4 +39,4 @@ jobs:
         run: npm run build
 
       - name: Deploy (submit for review)
-        run: npx hb-sdk remote deploy --release-note "auto: ${{ github.event.head_commit.message }}"
+        run: 'npx hb-sdk remote deploy --release-note "auto: ${{ github.event.head_commit.message }}"'
