@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>硬件天梯图</title>
+<style>
+:root{
+  --bg:#0B1220;--panel:#111A2E;--panel2:#0E1626;--line:#1F2B45;
+  --txt:#E8EDF6;--mut:#93A3BC;--dim:#64748B;
+  --amber:#FFB020;--cyan:#49C0F0;--green:#3CCF8E;--red:#F2555A;
+  --radius:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--txt);font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.num{font-variant-numeric:tabular-nums}
+.wrap{max-width:800px;margin:0 auto;padding:12px;position:relative;z-index:1}
+
+/* 动态背景 */
+.bg-scene{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+.bg-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(73,192,240,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(73,192,240,.06) 1px,transparent 1px);background-size:40px 40px;transform:perspective(500px) rotateX(30deg);transform-origin:center top;animation:gridScroll 20s linear infinite}
+@keyframes gridScroll{to{background-position:0 40px,0 0}}
+.bg-glow{position:absolute;border-radius:50%;filter:blur(60px);opacity:.12;animation:glowFloat 12s ease-in-out infinite alternate}
+.g1{width:300px;height:300px;left:-80px;top:-80px;background:#49C0F0}
+.g2{width:250px;height:250px;right:-60px;top:30%;background:#FFB020;animation-delay:-4s}
+.g3{width:200px;height:200px;left:30%;bottom:-80px;background:#3CCF8E;animation-delay:-8s}
+@keyframes glowFloat{0%{transform:translate(0,0) scale(1)}100%{transform:translate(30px,20px) scale(1.1)}}
+
+/* 顶栏 */
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--line);flex-wrap:wrap;gap:8px}
+.brand h1{font-size:18px;font-weight:900;background:linear-gradient(90deg,#FFB020,#49C0F0);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.brand p{font-size:10px;color:var(--mut)}
+.badge{font-size:10px;color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:2px 8px;background:rgba(255,255,255,.02)}
+
+/* 三栏切换 */
+.tabs{display:flex;gap:6px;margin:12px 0}
+.tab{flex:1;border:1px solid var(--line);background:rgba(17,26,46,.8);color:var(--mut);font-size:12px;font-weight:700;padding:10px;border-radius:8px;text-align:center;cursor:pointer;transition:all .2s}
+.tab.active{background:linear-gradient(135deg,#FFB020,#ff9500);color:#0B1220;border-color:#FFB020}
+.tab.active.gpu{background:linear-gradient(135deg,#49C0F0,#2196F3);border-color:#49C0F0}
+.tab.active.chip{background:linear-gradient(135deg,#3CCF8E,#2E7D32);border-color:#3CCF8E;color:#fff}
+
+/* 筛选栏 */
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;align-items:center}
+.fgroup{display:flex;align-items:center;gap:4px;background:rgba(17,26,46,.8);border:1px solid var(--line);border-radius:6px;padding:4px 8px}
+.fgroup label{font-size:10px;color:var(--dim)}
+.fgroup select,.fgroup input{background:transparent;border:0;color:var(--txt);font-size:11px;font-family:inherit;outline:none}
+.fgroup select option{background:#111A2E}
+.fcount{font-size:10px;color:var(--mut);margin-left:auto}
+
+/* 天梯图主体 */
+.ladder{display:grid;grid-template-columns:1fr 50px 1fr;gap:0;background:rgba(17,26,46,.7);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.ladder-left,.ladder-right{padding:12px 8px}
+.ladder-left{border-right:1px solid var(--line)}
+.ladder-center{position:relative;background:linear-gradient(to top,#1a3a5c 0%,#2a6ab0 25%,#49C0F0 50%,#6fd0e8 75%,#FFD700 100%);display:flex;flex-direction:column;justify-content:space-between;align-items:center;padding:16px 0}
+.ladder-center::before{content:"";position:absolute;top:0;bottom:0;left:50%;width:20px;transform:translateX(-50%);background:linear-gradient(to top,rgba(26,58,92,.95),rgba(255,215,0,.95));clip-path:polygon(50% 0%,100% 5%,100% 95%,50% 100%,0% 95%,0% 5%)}
+.perf-label{writing-mode:vertical-rl;font-size:11px;font-weight:900;color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.6);z-index:1;letter-spacing:2px}
+
+/* 型号列表 */
+.vendor-header{font-size:12px;font-weight:900;margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+.vendor-header.amd{color:var(--red)}
+.vendor-header.intel{color:var(--cyan)}
+.vendor-header.nvidia{color:var(--green)}
+.model-list{display:flex;flex-direction:column;gap:2px}
+.model{font-size:10px;padding:3px 6px;border-radius:3px;background:rgba(255,255,255,.03);display:flex;justify-content:space-between;align-items:center}
+.model .score{color:var(--dim);font-size:9px}
+.model.top{background:rgba(255,176,32,.15);color:var(--amber);font-weight:700;border-left:2px solid var(--amber)}
+.model.old{opacity:.6}
+
+/* 芯片组年代表 */
+.chip-table{width:100%;border-collapse:collapse;font-size:11px}
+.chip-table th{background:rgba(255,255,255,.05);padding:8px;text-align:left;font-weight:700;border-bottom:2px solid var(--line)}
+.chip-table td{padding:6px 8px;border-bottom:1px solid var(--line)}
+.chip-year{color:var(--dim);font-weight:600}
+
+/* 数据表 */
+.table-panel{background:rgba(17,26,46,.7);border:1px solid var(--line);border-radius:var(--radius);padding:12px;margin-top:12px}
+.table-panel h3{font-size:12px;font-weight:700;margin-bottom:8px}
+.table-scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:11px}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:center;white-space:nowrap}
+th{color:var(--dim);font-weight:600;font-size:10px;background:rgba(255,255,255,.02)}
+td.name{text-align:left;font-weight:600}
+td.score{font-weight:700;color:var(--amber)}
+td.price{color:var(--mut)}
+td.value{font-weight:700;color:var(--green)}
+.vchip{display:inline-block;font-size:9px;border:1px solid var(--line);border-radius:99px;padding:0 4px;margin-right:2px}
+.vchip.amd{color:var(--red);border-color:rgba(242,85,90,.4)}
+.vchip.intel{color:var(--cyan);border-color:rgba(73,192,240,.4)}
+.vchip.nvidia{color:var(--green);border-color:rgba(60,207,142,.4)}
+
+/* 图例 */
+.legend{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px;font-size:10px;color:var(--mut)}
+.legend i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:3px;vertical-align:-1px}
+.legend .L-amd i{background:var(--red)}
+.legend .L-intel i{background:var(--cyan)}
+.legend .L-nvidia i{background:var(--green)}
+
+/* 底部 */
+.foot{font-size:10px;color:var(--dim);padding:12px 0 20px;line-height:1.5}
+.foot b{color:var(--mut)}
+</style>
+</head>
+<body>
+
+<!-- 动态背景 -->
+<div class="bg-scene" id="particles">
+  <div class="bg-grid"></div>
+  <div class="bg-glow g1"></div>
+  <div class="bg-glow g2"></div>
+  <div class="bg-glow g3"></div>
+</div>
+
+<div class="wrap">
+  <header class="topbar">
+    <div class="brand">
+      <h1>硬件天梯图</h1>
+      <p>CPU / GPU / 芯片组 性能排行</p>
+    </div>
+    <div class="badge">数据更新于 2026-10-19</div>
+  </header>
+
+  <div class="tabs">
+    <div class="tab cpu active" data-cat="cpu">CPU 天梯</div>
+    <div class="tab gpu" data-cat="gpu">显卡天梯</div>
+    <div class="tab chip" data-cat="chip">芯片组年代表</div>
+  </div>
+
+  <div class="filters">
+    <div class="fgroup"><label>搜索</label><input id="fSearch" type="search" placeholder="型号关键字" style="width:100px"></div>
+    <div class="fgroup"><label>厂商</label><select id="fVendor">
+      <option value="all">全部</option>
+      <option value="amd">AMD</option>
+      <option value="intel">Intel</option>
+      <option value="nvidia">NVIDIA</option>
+    </select></div>
+    <div class="fgroup"><label>排序</label><select id="fSort">
+      <option value="score">按跑分 ↓</option>
+      <option value="value">按性价比 ↓</option>
+    </select></div>
+    <span class="fcount">显示 <b class="num" id="fCount">0</b> 款</span>
+  </div>
+
+  <div id="mainContent"></div>
+
+  <div class="legend">
+    <span class="L-amd"><i></i>AMD</span>
+    <span class="L-intel"><i></i>Intel</span>
+    <span class="L-nvidia"><i></i>NVIDIA</span>
+  </div>
+
+  <div class="table-panel">
+    <h3>全部型号明细</h3>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>排名</th><th>型号</th><th>厂商</th><th>跑分</th><th>参考价</th><th>性价比</th></tr></thead>
+        <tbody id="tblBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer class="foot">
+    <b>数据来源：</b>PassMark 官方跑分数据库，更新于 2026-10-19。<br>
+    价格按内置汇率（更新于 2026-10-21）折算为人民币，仅用于横向性价比对比，非国内实际行情。<br>
+    <b>说明：</b>跑分数据来自 PassMark 综合测试，与实际游戏表现可能存在差异（如驱动优化、游戏适配等因素），仅供横向参考。
+  </footer>
+</div>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
