@@ -1,3 +1,4 @@
+# Auto deploy workflow: push to main → build → submit to Xiaoheihe for review
 name: Auto Deploy to Xiaoheihe
 
 on:
