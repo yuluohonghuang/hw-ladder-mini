@@ -26,6 +26,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Validate data quality
+        run: node scripts/validate-data.mjs
+
       - name: Inject Heybox login session
         run: |
           mkdir -p ~/.cache/hb-sdk

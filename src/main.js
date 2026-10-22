@@ -444,6 +444,7 @@ function renderLadder(list){
   }
   
   let leftModels = [];
+  let midModels = [];
   let rightModels = [];
   
   if(currentCat === 'cpu'){
@@ -451,7 +452,8 @@ function renderLadder(list){
     rightModels = list.filter(it => it.vendor === 'amd');
   } else {
     leftModels = list.filter(it => it.vendor === 'nvidia');
-    rightModels = list.filter(it => it.vendor === 'amd' || it.vendor === 'intel');
+    midModels = list.filter(it => it.vendor === 'intel');
+    rightModels = list.filter(it => it.vendor === 'amd');
   }
   
   let leftHtml = `<div class="vendor-header ${currentCat === 'cpu' ? 'intel' : 'nvidia'}">${currentCat === 'cpu' ? 'Intel' : 'NVIDIA'}</div><div class="model-list">`;
@@ -461,6 +463,16 @@ function renderLadder(list){
   });
   leftHtml += '</div>';
   
+  let midHtml = '';
+  if(currentCat === 'gpu' && midModels.length){
+    midHtml = `<div class="vendor-header intel">Intel Arc</div><div class="model-list fishbone">`;
+    midModels.forEach((it, i) => {
+      const laptopTag = it.laptop ? '<span class="laptop-tag">笔电</span>' : '';
+      midHtml += `<div class="model fishbone-item ${i === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span class="bone"></span><span>${shortName(it.name)}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
+    });
+    midHtml += '</div>';
+  }
+  
   let rightHtml = `<div class="vendor-header amd">AMD</div><div class="model-list">`;
   rightModels.forEach((it, i) => {
     const laptopTag = it.laptop ? '<span class="laptop-tag">笔电</span>' : '';
@@ -468,9 +480,11 @@ function renderLadder(list){
   });
   rightHtml += '</div>';
   
+  const gridCols = currentCat === 'gpu' ? '1fr 1fr 40px 1fr' : '1fr 50px 1fr';
   container.innerHTML = `
-    <div class="ladder">
+    <div class="ladder" style="grid-template-columns:${gridCols}">
       <div class="ladder-left">${leftHtml}</div>
+      ${midHtml ? `<div class="ladder-mid">${midHtml}</div>` : ''}
       <div class="ladder-center">
         <span class="perf-label">最高性能</span>
         <span class="perf-label">高性能</span>
