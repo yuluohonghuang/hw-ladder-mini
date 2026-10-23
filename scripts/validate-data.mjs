@@ -66,6 +66,30 @@ cpu.filter(it => /H$|HS$|HX$/i.test(it.name)).forEach(it => {
   if (!it.laptop) warnings.push(`CPU: ${it.name} 疑似笔电型号但未标 laptop:true`);
 });
 
+// 5. 型号基准清单对比（查漏补缺）
+try {
+  const baseline = JSON.parse(readFileSync('./data/baseline-models.json', 'utf-8'));
+  const cpuNames = new Set(cpu.filter(it => !it.laptop).map(it => it.name));
+  const gpuNames = new Set(gpu.filter(it => !it.laptop).map(it => it.name));
+  
+  const checks = [
+    ['CPU Intel', baseline.cpu_desktop_intel, cpuNames],
+    ['CPU AMD', baseline.cpu_desktop_amd, cpuNames],
+    ['GPU NVIDIA', baseline.gpu_desktop_nvidia, gpuNames],
+    ['GPU AMD', baseline.gpu_desktop_amd, gpuNames],
+    ['GPU Intel', baseline.gpu_desktop_intel, gpuNames],
+  ];
+  
+  checks.forEach(([label, expected, actual]) => {
+    const missing = expected.filter(name => !actual.has(name));
+    if (missing.length) {
+      warnings.push(`${label} 缺失型号 (${missing.length}): ${missing.join(', ')}`);
+    }
+  });
+} catch(e) {
+  warnings.push(`基准清单加载失败: ${e.message}`);
+}
+
 // 输出
 console.log('=== 数据质量校验 ===');
 console.log(`CPU: ${cpu.length} 款, GPU: ${gpu.length} 款`);

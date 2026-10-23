@@ -53,6 +53,7 @@ const HW_DATA = {
     {name:'Intel Core i5-12600K',score:27497,price:288.0,value:95.5,sort:34},
     {name:'Intel Core i5-12600KF',score:27300,price:269.0,value:101.5,sort:34.5},
     {name:'AMD Ryzen 5 7600',score:26962,price:209.8,value:128.5,sort:35},
+    {name:'Intel Core i5-14490F',score:27059,price:159.0,value:170.2,sort:35.5},
     {name:'Intel Core i5-13490F',score:26762,price:189.0,value:141.6,sort:36},
     {name:'Intel Core i5-13400F',score:25800,price:169.0,value:152.7,sort:36.5},
     {name:'AMD Ryzen 7 5700X',score:26540,price:154.71,value:171.5,sort:37},
