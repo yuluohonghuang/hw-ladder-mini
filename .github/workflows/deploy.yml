@@ -72,3 +72,20 @@ jobs:
 
       - name: Deploy (submit for review)
         run: 'npx hb-sdk remote deploy --release-note "auto: ${{ github.event.head_commit.message }}"'
+
+      - name: Auto release (publish after approval)
+        run: |
+          echo "等待审核通过..."
+          sleep 30
+          # 查最新版本状态
+          for i in {1..12}; do
+            STATUS=$(npx hb-sdk remote versions 2>&1 | grep '^\[hb-sdk\] INFO' | grep 'approved' | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -1)
+            if [ -n "$STATUS" ]; then
+              echo "审核通过: $STATUS，自动发布..."
+              npx hb-sdk remote release "$STATUS" --yes
+              echo "发布完成"
+              break
+            fi
+            echo "第 $i 次检查，还在审核中..."
+            sleep 30
+          done

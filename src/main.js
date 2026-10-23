@@ -467,16 +467,16 @@ function fmtNum(n){ return n == null ? '—' : (n|0).toLocaleString('en-US'); }
 function fmtPrice(p){ return p == null ? '—' : '¥' + Math.round(p * FX).toLocaleString('zh-CN'); }
 function fmtVal(v){ return v == null ? '—' : v.toFixed(1); }
 
-// 性能档位标签：旗舰 / 高端 / 主流 / 入门
+// 性能档位色块：旗舰 / 高端 / 主流 / 入门
 function getCategory(score, allScores){
   if(!allScores || allScores.length < 4) return '';
   const sorted = [...allScores].sort((a,b) => b - a);
   const rank = sorted.indexOf(score);
   const pct = rank / sorted.length;
-  if(pct < 0.05) return '<span class="cat-tag cat-flagship">旗舰</span>';
-  if(pct < 0.20) return '<span class="cat-tag cat-high">高端</span>';
-  if(pct < 0.50) return '<span class="cat-tag cat-mid">主流</span>';
-  return '<span class="cat-tag cat-entry">入门</span>';
+  if(pct < 0.05) return '<span class="cat-tag cat-flagship"></span>';
+  if(pct < 0.20) return '<span class="cat-tag cat-high"></span>';
+  if(pct < 0.50) return '<span class="cat-tag cat-mid"></span>';
+  return '<span class="cat-tag cat-entry"></span>';
 }
 
 function getFiltered(){

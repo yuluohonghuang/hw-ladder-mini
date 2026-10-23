@@ -65,11 +65,11 @@ body{background:var(--bg);color:var(--txt);font-family:system-ui,-apple-system,"
 .model .score{color:var(--dim);font-size:9px}
 .model.top{background:rgba(255,176,32,.15);color:var(--amber);font-weight:700;border-left:2px solid var(--amber)}
 .model.old{opacity:.6}
-.cat-tag{font-size:8px;padding:1px 4px;border-radius:2px;margin-left:4px;font-weight:600}
-.cat-flagship{background:rgba(255,176,32,.2);color:var(--amber)}
-.cat-high{background:rgba(73,192,240,.2);color:var(--cyan)}
-.cat-mid{background:rgba(60,207,142,.15);color:var(--green)}
-.cat-entry{background:rgba(147,163,188,.15);color:var(--mut)}
+.cat-tag{display:inline-block;width:6px;height:6px;border-radius:50%;margin-left:4px}
+.cat-flagship{background:var(--amber)}
+.cat-high{background:var(--cyan)}
+.cat-mid{background:var(--green)}
+.cat-entry{background:var(--mut)}
 
 /* Intel Arc 鱼骨式 */
 .ladder-mid{padding:12px 8px;border-left:1px solid var(--line)}
@@ -105,6 +105,11 @@ td.value{font-weight:700;color:var(--green)}
 .legend .L-amd i{background:var(--red)}
 .legend .L-intel i{background:var(--cyan)}
 .legend .L-nvidia i{background:var(--green)}
+.legend .L-cat i{border-radius:50%}
+.legend .L-cat .c-flagship{background:var(--amber)}
+.legend .L-cat .c-high{background:var(--cyan)}
+.legend .L-cat .c-mid{background:var(--green)}
+.legend .L-cat .c-entry{background:var(--mut)}
 
 /* 底部 */
 .foot{font-size:10px;color:var(--dim);padding:12px 0 20px;line-height:1.5}
@@ -157,6 +162,10 @@ td.value{font-weight:700;color:var(--green)}
     <span class="L-amd"><i></i>AMD</span>
     <span class="L-intel"><i></i>Intel</span>
     <span class="L-nvidia"><i></i>NVIDIA</span>
+    <span class="L-cat"><i class="c-flagship"></i>旗舰</span>
+    <span class="L-cat"><i class="c-high"></i>高端</span>
+    <span class="L-cat"><i class="c-mid"></i>主流</span>
+    <span class="L-cat"><i class="c-entry"></i>入门</span>
   </div>
 
   <div class="table-panel">
