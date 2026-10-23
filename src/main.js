@@ -283,6 +283,7 @@ const HW_DATA = {
     {name:'Radeon RX 6600 XT',score:16446,price:495.0,value:33.2,sort:51},
     {name:'Radeon RX 7600',score:16438,price:339.99,value:48.3,sort:52},
     {name:'Intel Arc B580',score:16101,price:249.99,value:64.4,sort:53},
+    {name:'Intel Arc B570',score:14500,price:219.0,value:66.2,sort:53.5},
     {name:'GeForce RTX 2070',score:16051,price:585.0,value:27.4,sort:54},
     {name:'Radeon RX 5700 XT',score:16025,price:229.99,value:69.7,sort:55},
     {name:'Radeon RX 5600 XT',score:15800,price:299.0,value:52.8,sort:55.5},
@@ -300,6 +301,8 @@ const HW_DATA = {
     {name:'GeForce GTX 1660 Ti',score:12555,price:199.99,value:62.8,sort:66},
     {name:'GeForce RTX 3050 8GB',score:12459,price:259.99,value:47.9,sort:67},
     {name:'Intel Arc A580',score:12079,price:199.99,value:60.4,sort:68},
+    {name:'Intel Arc A380',score:7500,price:139.0,value:54.0,sort:75},
+    {name:'Intel Arc A310',score:5500,price:99.0,value:55.6,sort:78},
     {name:'GeForce GTX 1660',score:11610,price:262.62,value:44.2,sort:69},
     {name:'GeForce GTX 980',score:11071,price:248.45,value:44.6,sort:70},
     {name:'GeForce RTX 3050 6GB',score:10739,price:249.99,value:43.0,sort:71},
@@ -451,12 +454,12 @@ function renderLadder(list){
     leftModels = list.filter(it => it.vendor === 'intel');
     rightModels = list.filter(it => it.vendor === 'amd');
   } else {
-    leftModels = list.filter(it => it.vendor === 'nvidia');
-    midModels = list.filter(it => it.vendor === 'intel');
+    leftModels = list.filter(it => it.vendor === 'intel');
+    midModels = list.filter(it => it.vendor === 'nvidia');
     rightModels = list.filter(it => it.vendor === 'amd');
   }
   
-  let leftHtml = `<div class="vendor-header ${currentCat === 'cpu' ? 'intel' : 'nvidia'}">${currentCat === 'cpu' ? 'Intel' : 'NVIDIA'}</div><div class="model-list">`;
+  let leftHtml = `<div class="vendor-header ${currentCat === 'cpu' ? 'intel' : 'intel'}">${currentCat === 'cpu' ? 'Intel' : 'Intel Arc'}</div><div class="model-list">`;
   leftModels.forEach((it, i) => {
     const laptopTag = it.laptop ? '<span class="laptop-tag">笔电</span>' : '';
     leftHtml += `<div class="model ${i === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
@@ -465,10 +468,10 @@ function renderLadder(list){
   
   let midHtml = '';
   if(currentCat === 'gpu' && midModels.length){
-    midHtml = `<div class="vendor-header intel">Intel Arc</div><div class="model-list fishbone">`;
+    midHtml = `<div class="vendor-header nvidia">NVIDIA</div><div class="model-list">`;
     midModels.forEach((it, i) => {
       const laptopTag = it.laptop ? '<span class="laptop-tag">笔电</span>' : '';
-      midHtml += `<div class="model fishbone-item ${i === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span class="bone"></span><span>${shortName(it.name)}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
+      midHtml += `<div class="model ${i === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
     });
     midHtml += '</div>';
   }
