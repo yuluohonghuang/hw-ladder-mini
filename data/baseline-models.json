@@ -11,6 +11,7 @@
     "Intel Core i7-14700KF",
     "Intel Core i7-14700K",
     "Intel Core Ultra 5 250K Plus",
+    "Intel Core Ultra 5 250KF Plus",
     "Intel Core i7-13700K",
     "Intel Core i7-13700KF",
     "Intel Core Ultra 5 245K",
@@ -318,6 +319,7 @@
     "Radeon RX 9050",
     "Radeon RX 6700 XT",
     "Radeon RX 9060 XT 8GB",
+    "Radeon RX 9060 XT LP",
     "Radeon RX 7650 GRE",
     "Radeon RX 7600 XT",
     "Radeon RX 6650 XT",
@@ -374,6 +376,7 @@
     "Radeon RX 7900M",
     "Radeon RX 7700S",
     "Radeon RX 7600M XT",
+    "Radeon RX 7600M",
     "Radeon RX 7600S"
   ]
 }
