@@ -8,6 +8,7 @@ const HW_DATA = {
   cpu: [
     // ===== 桌面 CPU（经典天梯顺序）=====
     {name:'AMD Ryzen 9 9950X3D',score:70105,price:691.99,value:101.3,sort:1},
+    {name:'AMD Ryzen 9 9950X3D2 Dual Edition',score:72000,price:899.0,value:80.1,sort:0.5},
     {name:'AMD Ryzen 9 9900X3D',score:62000,price:499.0,value:124.2,sort:1.5},
     {name:'Intel Core Ultra 9 285K',score:67229,price:499.78,value:134.5,sort:2},
     {name:'AMD Ryzen 9 9950X',score:65695,price:539.0,value:121.9,sort:3},
@@ -123,12 +124,20 @@ const HW_DATA = {
     {name:'AMD Ryzen AI 5 330',score:18000,price:null,value:null,sort:50,laptop:true},
     {name:'AMD Ryzen AI Max+ 392',score:33000,price:null,value:null,sort:26,laptop:true},
     {name:'AMD Ryzen AI Max+ 388',score:31000,price:null,value:null,sort:28.5,laptop:true},
+    {name:'AMD Ryzen AI 9 HX 475',score:30000,price:null,value:null,sort:29,laptop:true},
+    {name:'AMD Ryzen AI 9 HX 470',score:29500,price:null,value:null,sort:29.5,laptop:true},
+    {name:'AMD Ryzen AI 9 465',score:27000,price:null,value:null,sort:32,laptop:true},
+    {name:'AMD Ryzen AI 7 445',score:22000,price:null,value:null,sort:43,laptop:true},
+    {name:'AMD Ryzen AI 5 430',score:17000,price:null,value:null,sort:51,laptop:true},
     {name:'AMD Ryzen AI Max+ 395',score:32000,price:null,value:null,sort:27,laptop:true},
     {name:'AMD Ryzen 9 6900HX',score:23000,price:null,value:null,sort:41.5,laptop:true},
     {name:'AMD Ryzen 7 8845HS',score:22000,price:null,value:null,sort:42.5,laptop:true},
     {name:'Intel Core Ultra 9 285H',score:22000,price:null,value:null,sort:42.6,laptop:true},
     {name:'Intel Core Ultra 7 265H',score:20500,price:null,value:null,sort:43.5,laptop:true},
     {name:'Intel Core Ultra X9 388H',score:26000,price:null,value:null,sort:33,laptop:true},
+    {name:'Intel Core Ultra X7 368H',score:23000,price:null,value:null,sort:40,laptop:true},
+    {name:'Intel Core Ultra 7 366H',score:20000,price:null,value:null,sort:45,laptop:true},
+    {name:'Intel Core Ultra 5 338H',score:16000,price:null,value:null,sort:54,laptop:true},
     {name:'Intel Core Ultra 9 386H',score:24000,price:null,value:null,sort:38,laptop:true},
     {name:'Intel Core Ultra X7 358H',score:21000,price:null,value:null,sort:44,laptop:true},
     {name:'Intel Core Ultra 7 355H',score:19000,price:null,value:null,sort:48,laptop:true},
@@ -150,6 +159,8 @@ const HW_DATA = {
     {name:'AMD Ryzen 5 5600H',score:12000,price:null,value:null,sort:55.5,laptop:true},
     {name:'AMD Ryzen 9 9955HX',score:40000,sort:17.75,laptop:true},
     {name:'AMD Ryzen 9 9955HX3D',score:42000,sort:17.6,laptop:true},
+    {name:'AMD Ryzen 9 9950HX3D',score:41500,sort:17.65,laptop:true},
+    {name:'AMD Ryzen 9 9845HX',score:37000,sort:21,laptop:true},
     {name:'Intel Core Ultra 9 290HX Plus',score:43000,sort:17.5,laptop:true},
     {name:'Intel Core Ultra 7 270HX Plus',score:40500,sort:17.8,laptop:true},
     {name:'Intel Core Ultra 9 285HX',score:41000,sort:17.7,laptop:true},
@@ -255,6 +266,7 @@ const HW_DATA = {
     // ===== 桌面 GPU（经典天梯顺序）=====
     {name:'GeForce RTX 5090',score:38995,price:2869.36,value:13.6,sort:1},
     {name:'GeForce RTX 5090 D',score:36500,price:1649.0,value:22.1,sort:2},
+    {name:'GeForce RTX 5090 D v2',score:37500,price:1749.0,value:21.4,sort:2.5},
     {name:'GeForce RTX 4090',score:38032,price:4399.0,value:8.6,sort:2},
     {name:'GeForce RTX 5080',score:35643,price:1869.46,value:19.1,sort:3},
     {name:'GeForce RTX 4080 SUPER',score:34214,price:1790.0,value:19.1,sort:4},
@@ -364,6 +376,7 @@ const HW_DATA = {
     // ===== 笔电 GPU =====
     {name:'GeForce RTX 5090 Laptop',score:22000,price:null,value:null,sort:98,laptop:true},
     {name:'Radeon RX 7900M',score:16000,price:null,value:null,sort:99.5,laptop:true},
+    {name:'Radeon RX 7800M',score:13000,price:null,value:null,sort:103.5,laptop:true},
     {name:'GeForce RTX 4090 Laptop',score:18000,price:null,value:null,sort:99,laptop:true},
     {name:'GeForce RTX 5080 Laptop',score:17000,price:null,value:null,sort:100,laptop:true},
     {name:'GeForce RTX 4080 Laptop',score:15000,price:null,value:null,sort:101,laptop:true},
@@ -438,6 +451,18 @@ function fmtNum(n){ return n == null ? '—' : (n|0).toLocaleString('en-US'); }
 function fmtPrice(p){ return p == null ? '—' : '¥' + Math.round(p * FX).toLocaleString('zh-CN'); }
 function fmtVal(v){ return v == null ? '—' : v.toFixed(1); }
 
+// 性能档位标签：旗舰 / 高端 / 主流 / 入门
+function getCategory(score, allScores){
+  if(!allScores || allScores.length < 4) return '';
+  const sorted = [...allScores].sort((a,b) => b - a);
+  const rank = sorted.indexOf(score);
+  const pct = rank / sorted.length;
+  if(pct < 0.05) return '<span class="cat-tag cat-flagship">旗舰</span>';
+  if(pct < 0.20) return '<span class="cat-tag cat-high">高端</span>';
+  if(pct < 0.50) return '<span class="cat-tag cat-mid">主流</span>';
+  return '<span class="cat-tag cat-entry">入门</span>';
+}
+
 function getFiltered(){
   if(currentCat === 'chip') return HW_DATA.chipset;
   let list = HW_DATA[currentCat].filter(it => {
@@ -461,6 +486,7 @@ function getFiltered(){
 
 function renderLadder(list){
   const container = document.getElementById('mainContent');
+  const allScores = list.map(it => it.score);
   
   if(currentCat === 'chip'){
     let html = `<div class="ladder" style="grid-template-columns:1fr">
@@ -493,7 +519,8 @@ function renderLadder(list){
   let leftHtml = `<div class="vendor-header ${currentCat === 'cpu' ? 'intel' : 'intel'}">${currentCat === 'cpu' ? 'Intel' : 'Intel Arc'}</div><div class="model-list">`;
   leftModels.forEach((it, i) => {
     const laptopTag = it.laptop ? '<span class="laptop-tag">笔电</span>' : '';
-    leftHtml += `<div class="model ${i === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
+    const catTag = getCategory(it.score, allScores);
+    leftHtml += `<div class="model ${i === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${catTag}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
   });
   leftHtml += '</div>';
   
@@ -502,7 +529,8 @@ function renderLadder(list){
     midHtml = `<div class="vendor-header nvidia">NVIDIA</div><div class="model-list">`;
     midModels.forEach((it, i) => {
       const laptopTag = it.laptop ? '<span class="laptop-tag">笔电</span>' : '';
-      midHtml += `<div class="model ${i === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
+      const catTag = getCategory(it.score, allScores);
+      midHtml += `<div class="model ${i === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${catTag}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
     });
     midHtml += '</div>';
   }
@@ -510,7 +538,8 @@ function renderLadder(list){
   let rightHtml = `<div class="vendor-header amd">AMD</div><div class="model-list">`;
   rightModels.forEach((it, i) => {
     const laptopTag = it.laptop ? '<span class="laptop-tag">笔电</span>' : '';
-    rightHtml += `<div class="model ${i === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
+    const catTag = getCategory(it.score, allScores);
+    rightHtml += `<div class="model ${i === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${catTag}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
   });
   rightHtml += '</div>';
   
