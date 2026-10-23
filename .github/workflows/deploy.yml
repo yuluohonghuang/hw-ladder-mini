@@ -38,7 +38,34 @@ jobs:
 
       - name: Bump patch version
         run: |
-          node -e "const p=require('./package.json');const [m,mi,pa]=p.version.split('.').map(Number);p.version=m+'.'+mi+'.'+(pa+1);require('fs').writeFileSync('package.json',JSON.stringify(p,null,2)+'\n');console.log('Deploy version:',p.version)"
+          # 1. 查远端版本列表
+          echo "=== 查远端版本号 ==="
+          REMOTE_VERSIONS=$(npx hb-sdk remote versions 2>&1 || echo "")
+          echo "$REMOTE_VERSIONS"
+          
+          # 2. 提取所有版本号，找最新的
+          LATEST=$(echo "$REMOTE_VERSIONS" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | sort -V | tail -1)
+          echo "远端最新版本: $LATEST"
+          
+          # 3. 找有没有 auditing / pending 状态的版本
+          AUDITING=$(echo "$REMOTE_VERSIONS" | grep -E 'auditing|pending' | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -1)
+          
+          if [ -n "$AUDITING" ]; then
+            echo "检测到审核中版本: $AUDITING，先撤回..."
+            npx hb-sdk remote withdraw "$AUDITING" --yes
+          fi
+          
+          # 4. 计算新版本号（最新版本号 +1）
+          if [ -n "$LATEST" ]; then
+            IFS='.' read -r MAJOR MINOR PATCH <<< "$LATEST"
+            NEW_VERSION="$MAJOR.$MINOR.$((PATCH + 1))"
+          else
+            # 兜底：本地版本号 +1
+            NEW_VERSION=$(node -e "const p=require('./package.json');const [m,mi,pa]=p.version.split('.').map(Number);console.log(m+'.'+mi+'.'+(pa+1))")
+          fi
+          
+          # 5. 写入新版本号
+          node -e "const p=require('./package.json');p.version='$NEW_VERSION';require('fs').writeFileSync('package.json',JSON.stringify(p,null,2)+'\n');console.log('Deploy version:',p.version)"
 
       - name: Build
         run: npm run build
