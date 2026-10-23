@@ -43,12 +43,12 @@ jobs:
           REMOTE_VERSIONS=$(npx hb-sdk remote versions 2>&1 || echo "")
           echo "$REMOTE_VERSIONS"
           
-          # 2. 提取所有版本号，找最新的
-          LATEST=$(echo "$REMOTE_VERSIONS" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | sort -V | tail -1)
+          # 2. 提取所有版本号（只从 INFO 行提取，避免匹配到 WARN 里的 hb-sdk 版本号）
+          LATEST=$(echo "$REMOTE_VERSIONS" | grep '^\[hb-sdk\] INFO' | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | sort -V | tail -1)
           echo "远端最新版本: $LATEST"
           
-          # 3. 找有没有 auditing / pending 状态的版本
-          AUDITING=$(echo "$REMOTE_VERSIONS" | grep -E 'auditing|pending' | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -1)
+          # 3. 找有没有 auditing / pending 状态的版本（只从 INFO 行找）
+          AUDITING=$(echo "$REMOTE_VERSIONS" | grep '^\[hb-sdk\] INFO' | grep -E 'auditing|pending' | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -1)
           
           if [ -n "$AUDITING" ]; then
             echo "检测到审核中版本: $AUDITING，先撤回..."
