@@ -1,6 +1,6 @@
 {
   "name": "hw-ladder-mini",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "private": true,
   "type": "module",
   "heybox": {
@@ -8,8 +8,16 @@
     "name": "硬件天梯图",
     "category": "tool",
     "icon": "assets/icon-200.png",
-    "coverImages": ["assets/cover-1200.png"],
-    "platforms": ["android", "ios", "ohos", "windows", "macos"],
+    "coverImages": [
+      "assets/cover-1200.png"
+    ],
+    "platforms": [
+      "android",
+      "ios",
+      "ohos",
+      "windows",
+      "macos"
+    ],
     "permissions": {}
   },
   "scripts": {
