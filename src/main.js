@@ -520,44 +520,55 @@ function renderLadder(list){
     return;
   }
   
-  let leftModels = [];
-  let midModels = [];
-  let rightModels = [];
+  // 按全局跑分排名对齐三列：第 N 行放全局第 N 名的型号，其他厂商该位置留空
+  const maxLen = list.length;
+  let leftArr = new Array(maxLen).fill(null);
+  let midArr = new Array(maxLen).fill(null);
+  let rightArr = new Array(maxLen).fill(null);
   
-  if(currentCat === 'cpu'){
-    leftModels = list.filter(it => it.vendor === 'intel');
-    rightModels = list.filter(it => it.vendor === 'amd');
-  } else {
-    leftModels = list.filter(it => it.vendor === 'intel');
-    midModels = list.filter(it => it.vendor === 'nvidia');
-    rightModels = list.filter(it => it.vendor === 'amd');
+  list.forEach((it, rank) => {
+    if(currentCat === 'cpu'){
+      if(it.vendor === 'intel') leftArr[rank] = it;
+      else rightArr[rank] = it;
+    } else {
+      if(it.vendor === 'intel') leftArr[rank] = it;
+      else if(it.vendor === 'nvidia') midArr[rank] = it;
+      else rightArr[rank] = it;
+    }
+  });
+  
+  // 去掉尾部连续的 null，让列表紧凑
+  function trimTail(arr){
+    let last = arr.length - 1;
+    while(last >= 0 && !arr[last]) last--;
+    return arr.slice(0, last + 1);
   }
+  leftArr = trimTail(leftArr);
+  midArr = trimTail(midArr);
+  rightArr = trimTail(rightArr);
   
-  let leftHtml = `<div class="vendor-header ${currentCat === 'cpu' ? 'intel' : 'intel'}">${currentCat === 'cpu' ? 'Intel' : 'Intel Arc'}</div><div class="model-list">`;
-  leftModels.forEach((it, i) => {
+  function renderRow(it, rank){
+    if(!it) return '<div class="model" style="visibility:hidden"></div>';
     const laptopTag = it.laptop ? '<span class="laptop-tag">笔电</span>' : '';
     const catTag = getCategory(it.score, allScores);
-    leftHtml += `<div class="model ${i === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${catTag}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
-  });
+    return `<div class="model ${rank === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${catTag}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
+  }
+  
+  const rowCount = Math.max(leftArr.length, midArr.length, rightArr.length);
+  
+  let leftHtml = `<div class="vendor-header intel">${currentCat === 'cpu' ? 'Intel' : 'Intel Arc'}</div><div class="model-list">`;
+  for(let i = 0; i < rowCount; i++) leftHtml += renderRow(leftArr[i], i);
   leftHtml += '</div>';
   
   let midHtml = '';
-  if(currentCat === 'gpu' && midModels.length){
+  if(currentCat === 'gpu'){
     midHtml = `<div class="vendor-header nvidia">NVIDIA</div><div class="model-list">`;
-    midModels.forEach((it, i) => {
-      const laptopTag = it.laptop ? '<span class="laptop-tag">笔电</span>' : '';
-      const catTag = getCategory(it.score, allScores);
-      midHtml += `<div class="model ${i === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${catTag}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
-    });
+    for(let i = 0; i < rowCount; i++) midHtml += renderRow(midArr[i], i);
     midHtml += '</div>';
   }
   
   let rightHtml = `<div class="vendor-header amd">AMD</div><div class="model-list">`;
-  rightModels.forEach((it, i) => {
-    const laptopTag = it.laptop ? '<span class="laptop-tag">笔电</span>' : '';
-    const catTag = getCategory(it.score, allScores);
-    rightHtml += `<div class="model ${i === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${catTag}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
-  });
+  for(let i = 0; i < rowCount; i++) rightHtml += renderRow(rightArr[i], i);
   rightHtml += '</div>';
   
   const gridCols = currentCat === 'gpu' ? '1fr 1fr 40px 1fr' : '1fr 50px 1fr';
