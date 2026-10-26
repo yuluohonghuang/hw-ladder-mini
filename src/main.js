@@ -12,6 +12,12 @@ let currentCat = 'cpu';
 let currentVendor = 'all';
 let currentSort = 'score';
 let currentQuery = '';
+let currentBenchmark = 'timespy'; // 默认 Time Spy（游戏向），可选 passmark（综合向）
+
+function getBenchmarkScore(item){
+  if(currentBenchmark === 'timespy' && item.timespy != null) return item.timespy;
+  return item.score;
+}
 
 function vendorOf(name){
   if(name.indexOf('AMD') !== -1 || name.indexOf('Radeon') !== -1) return 'amd';
@@ -48,13 +54,13 @@ function getFiltered(){
   list.forEach(it => { it.vendor = vendorOf(it.name); });
   if(currentSort === 'value'){
     list.sort((a,b) => {
-      if(a.value == null && b.value == null) return b.score - a.score;
+      if(a.value == null && b.value == null) return getBenchmarkScore(b) - getBenchmarkScore(a);
       if(a.value == null) return 1;
       if(b.value == null) return -1;
       return b.value - a.value;
     });
   } else {
-    list.sort((a,b) => b.score - a.score);
+    list.sort((a,b) => getBenchmarkScore(b) - getBenchmarkScore(a));
   }
   return list;
 }
@@ -108,8 +114,9 @@ function renderLadder(list){
   function renderRow(it, rank){
     if(!it) return '<div class="model" style="visibility:hidden"></div>';
     const laptopTag = it.laptop ? '<span class="laptop-tag">笔电</span>' : '';
-    const catTag = getCategory(it.score, allScores);
-    return `<div class="model ${rank === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${catTag}${laptopTag}</span><span class="score num">${fmtNum(it.score)}</span></div>`;
+    const score = getBenchmarkScore(it);
+    const catTag = getCategory(score, allScores);
+    return `<div class="model ${rank === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${catTag}${laptopTag}</span><span class="score num">${fmtNum(score)}</span></div>`;
   }
   
   const rowCount = Math.max(leftArr.length, midArr.length, rightArr.length);
@@ -157,11 +164,12 @@ function renderTable(list){
   let html = '';
   list.forEach((it, i) => {
     const laptopTag = it.laptop ? '<span class="laptop-tag" style="font-size:10px;margin-left:4px">笔电</span>' : '';
+    const score = getBenchmarkScore(it);
     html += `<tr>
       <td class="rank num">${i+1}</td>
       <td class="name">${it.name}${laptopTag}</td>
       <td><span class="vchip ${it.vendor}">${it.vendor === 'amd' ? 'AMD' : it.vendor === 'intel' ? 'Intel' : 'NVIDIA'}</span></td>
-      <td class="score num">${fmtNum(it.score)}</td>
+      <td class="score num">${fmtNum(score)}</td>
       <td class="price num">${fmtPrice(it.price)}</td>
       <td class="value num">${fmtVal(it.value)}</td>
     </tr>`;
@@ -208,6 +216,12 @@ document.querySelectorAll('.tab').forEach(tab => {
 document.getElementById('fVendor').addEventListener('change', e => { currentVendor = e.target.value; refresh(); });
 document.getElementById('fSort').addEventListener('change', e => { currentSort = e.target.value; refresh(); });
 document.getElementById('fSearch').addEventListener('input', e => { currentQuery = e.target.value.toLowerCase(); refresh(); });
+document.getElementById('fBenchmark').addEventListener('click', e => {
+  currentBenchmark = currentBenchmark === 'timespy' ? 'passmark' : 'timespy';
+  e.target.textContent = currentBenchmark === 'timespy' ? 'Time Spy' : 'PassMark';
+  e.target.style.background = currentBenchmark === 'timespy' ? 'var(--amber)' : 'var(--cyan)';
+  refresh();
+});
 
 // 生成粒子背景
 (function(){
