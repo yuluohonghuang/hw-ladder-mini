@@ -185,6 +185,8 @@ async function loadData(){
     refresh();
   } catch(e) {
     console.warn('远程数据加载失败，使用内置数据', e);
+    const updateEl = document.getElementById('updateDate');
+    if(updateEl) updateEl.textContent = '数据更新于 2026-10-26（本地模式，远程加载失败: ' + e.message + '）';
   }
 }
 
