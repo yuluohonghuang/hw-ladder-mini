@@ -1,5 +1,6 @@
 import hbSDK from '@heybox/hb-sdk';
 import './styles.css';
+import LOCAL_DATA from '../data.json';
 
 if (hbSDK && hbSDK.storage) window.__hbStorage = hbSDK.storage;
 
@@ -169,17 +170,22 @@ function renderTable(list){
   document.getElementById('fCount').textContent = list.length;
 }
 
-// ===== 数据区（从远程 JSON 加载，不再写死在代码里）=====
-let HW_DATA = { cpu: [], gpu: [], chipset: [] };
+// ===== 数据区（本地兜底 + 远程更新）=====
+let HW_DATA = LOCAL_DATA;
 
 async function loadData(){
+  // 先用本地数据渲染（已在初始化时渲染），再异步拉远程更新
   try {
-    const res = await fetch('https://yuluohonghuang.github.io/hw-ladder-mini/data.json');
-    HW_DATA = await res.json();
+    const res = await fetch('https://yuluohonghuang.github.io/hw-ladder-mini/data.json?t=' + Date.now());
+    const remote = await res.json();
+    HW_DATA = remote;
+    // 更新右上角数据更新日期
+    const updateEl = document.getElementById('updateDate');
+    if(updateEl) updateEl.textContent = '数据更新于 2026-10-26（远程同步）';
+    refresh();
   } catch(e) {
-    console.warn('远程数据加载失败，使用内置兜底数据', e);
+    console.warn('远程数据加载失败，使用内置数据', e);
   }
-  refresh();
 }
 
 function refresh(){
@@ -216,7 +222,8 @@ document.getElementById('fSearch').addEventListener('input', e => { currentQuery
   }
 })();
 
-// 初始化（先加载远程数据，再渲染）
+// 初始化：先用本地数据渲染，再异步拉远程更新
+refresh();
 loadData();
 
 // 汇率采用内置静态值（见上方 FX 定义），更新于 2026-10-21，无外部网络请求
