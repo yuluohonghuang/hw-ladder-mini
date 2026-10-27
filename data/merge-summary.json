@@ -1,0 +1,4807 @@
+{
+  "additions": [
+    {
+      "name": "AMD Ryzen 9 9950X3D2 Dual Edition",
+      "kind": "cpu",
+      "score": 72076,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 9 3950X",
+      "kind": "cpu",
+      "score": 38394,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 7 1800X",
+      "kind": "cpu",
+      "score": 16266,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 7 1700X",
+      "kind": "cpu",
+      "score": 15578,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 7 1700",
+      "kind": "cpu",
+      "score": 14730,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 5 3500X",
+      "kind": "cpu",
+      "score": 13163,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 3 5300G",
+      "kind": "cpu",
+      "score": 13004,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 3 3300X",
+      "kind": "cpu",
+      "score": 12578,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 3 3100",
+      "kind": "cpu",
+      "score": 11505,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 5 3400G",
+      "kind": "cpu",
+      "score": 9151,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 5 2400G",
+      "kind": "cpu",
+      "score": 8707,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 3 2300X",
+      "kind": "cpu",
+      "score": 7576,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 3 1300X",
+      "kind": "cpu",
+      "score": 6921,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 3 3200G",
+      "kind": "cpu",
+      "score": 6969,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 3 1200",
+      "kind": "cpu",
+      "score": 6271,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "AMD FX-8300",
+      "kind": "cpu",
+      "score": 5326,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "AMD Phenom II X6 1090T",
+      "kind": "cpu",
+      "score": 3841,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "AMD FX-4300",
+      "kind": "cpu",
+      "score": 3008,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "AMD Ryzen 9 7945HX",
+      "kind": "cpu",
+      "score": 53758,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 9 7845HX",
+      "kind": "cpu",
+      "score": 44201,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 9 8945HS",
+      "kind": "cpu",
+      "score": 29129,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen AI 9 HX 370",
+      "kind": "cpu",
+      "score": 34945,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen AI 9 HX 375",
+      "kind": "cpu",
+      "score": 35444,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen AI 7 350",
+      "kind": "cpu",
+      "score": 24975,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen AI 5 330",
+      "kind": "cpu",
+      "score": 12682,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen AI Max+ 392",
+      "kind": "cpu",
+      "score": 45892,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen AI Max PRO 385",
+      "kind": "cpu",
+      "score": 31858,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen AI Max+ 388",
+      "kind": "cpu",
+      "score": 32831,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen AI 9 HX 475",
+      "kind": "cpu",
+      "score": 38807,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen AI 9 HX 470",
+      "kind": "cpu",
+      "score": 37238,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen AI 9 465",
+      "kind": "cpu",
+      "score": 29164,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen AI 7 445",
+      "kind": "cpu",
+      "score": 18281,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen AI 5 430",
+      "kind": "cpu",
+      "score": 13020,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen AI Max+ 395",
+      "kind": "cpu",
+      "score": 54782,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 9 6900HX",
+      "kind": "cpu",
+      "score": 24010,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 7 8845HS",
+      "kind": "cpu",
+      "score": 28251,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 7 7840HS",
+      "kind": "cpu",
+      "score": 28207,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 5 7640HS",
+      "kind": "cpu",
+      "score": 22687,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 7 7735HS",
+      "kind": "cpu",
+      "score": 22121,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 7 5800H",
+      "kind": "cpu",
+      "score": 20433,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 5 7535HS",
+      "kind": "cpu",
+      "score": 17542,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 5 5600H",
+      "kind": "cpu",
+      "score": 16333,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 9 9955HX",
+      "kind": "cpu",
+      "score": 56362,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 9 9955HX3D",
+      "kind": "cpu",
+      "score": 62114,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 7 8745HX",
+      "kind": "cpu",
+      "score": 31373,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 7 9850HX",
+      "kind": "cpu",
+      "score": 51722,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 7 7745HX",
+      "kind": "cpu",
+      "score": 32339,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 5 7645HX",
+      "kind": "cpu",
+      "score": 25777,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 7 6800H",
+      "kind": "cpu",
+      "score": 22667,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 9 5900HX",
+      "kind": "cpu",
+      "score": 21963,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 7 6800U",
+      "kind": "cpu",
+      "score": 20651,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 9 5900H",
+      "kind": "cpu",
+      "score": 21963,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 9 4900H",
+      "kind": "cpu",
+      "score": 18707,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 7 4800H",
+      "kind": "cpu",
+      "score": 17791,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 5 6600H",
+      "kind": "cpu",
+      "score": 19801,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 7 4800U",
+      "kind": "cpu",
+      "score": 16331,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 5 6600U",
+      "kind": "cpu",
+      "score": 16871,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 5 4600H",
+      "kind": "cpu",
+      "score": 14169,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 5 4600U",
+      "kind": "cpu",
+      "score": 12800,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 3 5400U",
+      "kind": "cpu",
+      "score": 10707,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 3 4300U",
+      "kind": "cpu",
+      "score": 7340,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i9-10900K",
+      "kind": "cpu",
+      "score": 22215,
+      "timespy": null,
+      "price": 399.89,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i9-10900KF",
+      "kind": "cpu",
+      "score": 22129,
+      "timespy": null,
+      "price": 275.11,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i9-11900K",
+      "kind": "cpu",
+      "score": 24891,
+      "timespy": null,
+      "price": 406.21,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i9-11900KF",
+      "kind": "cpu",
+      "score": 24495,
+      "timespy": null,
+      "price": 399,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-10700K",
+      "kind": "cpu",
+      "score": 18480,
+      "timespy": null,
+      "price": 301.92,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-10700KF",
+      "kind": "cpu",
+      "score": 18267,
+      "timespy": null,
+      "price": 182.11,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i9-9900K",
+      "kind": "cpu",
+      "score": 18020,
+      "timespy": null,
+      "price": 222,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "Intel Core i9-9900KF",
+      "kind": "cpu",
+      "score": 17991,
+      "timespy": null,
+      "price": 219.26,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "Intel Core i7-11700K",
+      "kind": "cpu",
+      "score": 24306,
+      "timespy": null,
+      "price": 241,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-11700KF",
+      "kind": "cpu",
+      "score": 23737,
+      "timespy": null,
+      "price": 379.99,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-10700",
+      "kind": "cpu",
+      "score": 16083,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-11700",
+      "kind": "cpu",
+      "score": 20571,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-9700K",
+      "kind": "cpu",
+      "score": 14396,
+      "timespy": null,
+      "price": 117.7,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "Intel Core i7-9700KF",
+      "kind": "cpu",
+      "score": 14248,
+      "timespy": null,
+      "price": 150.48,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "Intel Core i5-11600K",
+      "kind": "cpu",
+      "score": 19472,
+      "timespy": null,
+      "price": 182.36,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i5-11600KF",
+      "kind": "cpu",
+      "score": 19379,
+      "timespy": null,
+      "price": 152.98,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i5-10600K",
+      "kind": "cpu",
+      "score": 14237,
+      "timespy": null,
+      "price": 145,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i5-10600KF",
+      "kind": "cpu",
+      "score": 14101,
+      "timespy": null,
+      "price": 236.42,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i5-11500",
+      "kind": "cpu",
+      "score": 17051,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i5-10500",
+      "kind": "cpu",
+      "score": 12881,
+      "timespy": null,
+      "price": 129.26,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-8700K",
+      "kind": "cpu",
+      "score": 13554,
+      "timespy": null,
+      "price": 112.6,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "Intel Core i5-9600K",
+      "kind": "cpu",
+      "score": 10653,
+      "timespy": null,
+      "price": 89.01,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "Intel Core i5-9600",
+      "kind": "cpu",
+      "score": 10332,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "Intel Core i3-14100F",
+      "kind": "cpu",
+      "score": 15401,
+      "timespy": null,
+      "price": 104,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i3-14100",
+      "kind": "cpu",
+      "score": 15401,
+      "timespy": null,
+      "price": 104,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i3-13100F",
+      "kind": "cpu",
+      "score": 14654,
+      "timespy": null,
+      "price": 98.76,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i3-13100",
+      "kind": "cpu",
+      "score": 14654,
+      "timespy": null,
+      "price": 98.76,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i3-12300",
+      "kind": "cpu",
+      "score": 14365,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i3-12100F",
+      "kind": "cpu",
+      "score": 13953,
+      "timespy": null,
+      "price": 127.87,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i3-12100",
+      "kind": "cpu",
+      "score": 12525,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i3-10325",
+      "kind": "cpu",
+      "score": 10099,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core i3-10105F",
+      "kind": "cpu",
+      "score": 8860,
+      "timespy": null,
+      "price": 86.9,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Xeon E3-1230 V5",
+      "kind": "cpu",
+      "score": 7927,
+      "timespy": null,
+      "price": 89.7,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "Intel Core i3-9100F",
+      "kind": "cpu",
+      "score": 6704,
+      "timespy": null,
+      "price": 61,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "Intel Core i3-9100",
+      "kind": "cpu",
+      "score": 6627,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "Intel Pentium G5400",
+      "kind": "cpu",
+      "score": 3729,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "Intel Celeron G5905",
+      "kind": "cpu",
+      "score": 2762,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Celeron G4900",
+      "kind": "cpu",
+      "score": 2371,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": true
+    },
+    {
+      "name": "Intel Core i9-14900HX",
+      "kind": "cpu",
+      "score": 43511,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i9-13980HX",
+      "kind": "cpu",
+      "score": 45256,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i9-13900HX",
+      "kind": "cpu",
+      "score": 41367,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-14650HX",
+      "kind": "cpu",
+      "score": 33263,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-13700HX",
+      "kind": "cpu",
+      "score": 31538,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 9 285H",
+      "kind": "cpu",
+      "score": 34213,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 9 185H",
+      "kind": "cpu",
+      "score": 28925,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 7 265H",
+      "kind": "cpu",
+      "score": 33953,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra X9 388H",
+      "kind": "cpu",
+      "score": 36504,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra X9 378H",
+      "kind": "cpu",
+      "score": 33002,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra X7 368H",
+      "kind": "cpu",
+      "score": 33547,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 7 366H",
+      "kind": "cpu",
+      "score": 34086,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 5 338H",
+      "kind": "cpu",
+      "score": 27989,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 9 386H",
+      "kind": "cpu",
+      "score": 36116,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra X7 358H",
+      "kind": "cpu",
+      "score": 33547,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 7 255H",
+      "kind": "cpu",
+      "score": 28867,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 5 235H",
+      "kind": "cpu",
+      "score": 23841,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-13700H",
+      "kind": "cpu",
+      "score": 25782,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-12700H",
+      "kind": "cpu",
+      "score": 24917,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 7 155H",
+      "kind": "cpu",
+      "score": 24418,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-13620H",
+      "kind": "cpu",
+      "score": 23144,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i5-13500H",
+      "kind": "cpu",
+      "score": 20902,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i5-12500H",
+      "kind": "cpu",
+      "score": 20210,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 5 125H",
+      "kind": "cpu",
+      "score": 19913,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 9 290HX Plus",
+      "kind": "cpu",
+      "score": 58066,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 7 270HX Plus",
+      "kind": "cpu",
+      "score": 48925,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 9 285HX",
+      "kind": "cpu",
+      "score": 56411,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 9 275HX",
+      "kind": "cpu",
+      "score": 55658,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 7 251HX",
+      "kind": "cpu",
+      "score": 47130,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-14700HX",
+      "kind": "cpu",
+      "score": 36383,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i9-12900HX",
+      "kind": "cpu",
+      "score": 32695,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-12800HX",
+      "kind": "cpu",
+      "score": 30964,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i9-12900H",
+      "kind": "cpu",
+      "score": 26527,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i5-13450HX",
+      "kind": "cpu",
+      "score": 24358,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i5-14450HX",
+      "kind": "cpu",
+      "score": 23630,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i9-11980HK",
+      "kind": "cpu",
+      "score": 21880,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-11800H",
+      "kind": "cpu",
+      "score": 19552,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i5-12450H",
+      "kind": "cpu",
+      "score": 15845,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i5-11400H",
+      "kind": "cpu",
+      "score": 15097,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i9-10980HK",
+      "kind": "cpu",
+      "score": 15049,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-10875H",
+      "kind": "cpu",
+      "score": 14350,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-11370H",
+      "kind": "cpu",
+      "score": 11520,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i7-10750H",
+      "kind": "cpu",
+      "score": 11418,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i5-11300H",
+      "kind": "cpu",
+      "score": 10744,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i5-10300H",
+      "kind": "cpu",
+      "score": 8169,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core i5-10400H",
+      "kind": "cpu",
+      "score": 8058,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Radeon RX 7900M",
+      "kind": "gpu",
+      "score": 22239,
+      "timespy": 19434,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Radeon RX 7800M",
+      "kind": "gpu",
+      "score": 17607,
+      "timespy": 15806,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Radeon RX 7600S",
+      "kind": "gpu",
+      "score": 15601,
+      "timespy": 9203,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Radeon RX 7700S",
+      "kind": "gpu",
+      "score": 15476,
+      "timespy": 10206,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Radeon RX 7600M XT",
+      "kind": "gpu",
+      "score": 14312,
+      "timespy": 9856,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Radeon RX 7600M",
+      "kind": "gpu",
+      "score": 10937,
+      "timespy": 9097,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Radeon RX 5500 XT",
+      "kind": "gpu",
+      "score": 9045,
+      "timespy": 4941,
+      "price": 199,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 5090 Laptop",
+      "kind": "gpu",
+      "score": 28423,
+      "timespy": 24483,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 4090 Laptop",
+      "kind": "gpu",
+      "score": 27024,
+      "timespy": 21251,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 5080 Laptop",
+      "kind": "gpu",
+      "score": 26309,
+      "timespy": 21453,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 4080 Laptop",
+      "kind": "gpu",
+      "score": 24740,
+      "timespy": 18441,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 5070 Ti Laptop",
+      "kind": "gpu",
+      "score": 22500,
+      "timespy": 16874,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 5070 Laptop",
+      "kind": "gpu",
+      "score": 19157,
+      "timespy": 13563,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 5070 Laptop 12GB",
+      "kind": "gpu",
+      "score": 19157,
+      "timespy": 13563,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 4070 Laptop",
+      "kind": "gpu",
+      "score": 19456,
+      "timespy": 11960,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 5060 Laptop",
+      "kind": "gpu",
+      "score": 16772,
+      "timespy": 11937,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 4060 Laptop",
+      "kind": "gpu",
+      "score": 17312,
+      "timespy": 10338,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 3080 Ti Laptop",
+      "kind": "gpu",
+      "score": 18777,
+      "timespy": 12269,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 3080 Laptop",
+      "kind": "gpu",
+      "score": 16018,
+      "timespy": 10752,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 3070 Ti Laptop",
+      "kind": "gpu",
+      "score": 17244,
+      "timespy": 10462,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 3070 Laptop",
+      "kind": "gpu",
+      "score": 15005,
+      "timespy": 9681,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 5050 Laptop",
+      "kind": "gpu",
+      "score": 13967,
+      "timespy": 9122,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 4050 Laptop",
+      "kind": "gpu",
+      "score": 14193,
+      "timespy": 8125,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 3060 Laptop",
+      "kind": "gpu",
+      "score": 13093,
+      "timespy": 8322,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 3050 Ti Laptop",
+      "kind": "gpu",
+      "score": 10056,
+      "timespy": 5170,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce RTX 3050 Laptop",
+      "kind": "gpu",
+      "score": 9508,
+      "timespy": 4497,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "GeForce GTX 1650 Laptop",
+      "kind": "gpu",
+      "score": 6968,
+      "timespy": 3488,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "AMD Ryzen 3 5100",
+      "kind": "cpu",
+      "score": 12500,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Radeon RX 9080M",
+      "kind": "gpu",
+      "score": 24000,
+      "timespy": 21500,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Radeon RX 9070M XT",
+      "kind": "gpu",
+      "score": 21500,
+      "timespy": 16500,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Radeon RX 9070M",
+      "kind": "gpu",
+      "score": 18500,
+      "timespy": 13000,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Radeon RX 9070S",
+      "kind": "gpu",
+      "score": 17500,
+      "timespy": 12400,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Radeon RX 9060M",
+      "kind": "gpu",
+      "score": 16000,
+      "timespy": 11300,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Radeon RX 9060S",
+      "kind": "gpu",
+      "score": 15200,
+      "timespy": 10700,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Pentium Gold G6400",
+      "kind": "cpu",
+      "score": 4124,
+      "timespy": null,
+      "price": null,
+      "laptop": false,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 7 355H",
+      "kind": "cpu",
+      "score": 20153,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    },
+    {
+      "name": "Intel Core Ultra 5 325H",
+      "kind": "cpu",
+      "score": 19150,
+      "timespy": null,
+      "price": null,
+      "laptop": true,
+      "old": false
+    }
+  ],
+  "corrections": [
+    {
+      "name": "AMD Ryzen 9 9900X3D",
+      "field": "score",
+      "old": 62000,
+      "new": 56041,
+      "url": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+9+9900X3D",
+      "note": "PassMark当前Multithread Rating 56041（Samples 1273），原值62000偏高约11%"
+    },
+    {
+      "name": "AMD Ryzen 7 9850X3D",
+      "field": "score",
+      "old": 41294,
+      "new": 41288,
+      "url": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+7+9850X3D",
+      "note": "PassMark当前41288（Samples 1887），原值41294基本一致，微调"
+    },
+    {
+      "name": "AMD Ryzen 5 9500F",
+      "field": "score",
+      "old": 28500,
+      "new": 28110,
+      "url": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+5+9500F",
+      "note": "PassMark当前28110（Samples 41，新上市样本少），原值28500略高"
+    },
+    {
+      "name": "AMD Ryzen 7 8700G",
+      "field": "score",
+      "old": 24000,
+      "new": 31450,
+      "url": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+7+8700G",
+      "note": "PassMark当前31450（Samples 2345），原值24000严重偏低，8核Zen4实际跑分应在31k左右"
+    },
+    {
+      "name": "AMD Ryzen 5 8600G",
+      "field": "score",
+      "old": 21000,
+      "new": 25178,
+      "url": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+5+8600G",
+      "note": "PassMark当前25178（Samples 2107），原值21000偏低约16%"
+    },
+    {
+      "name": "AMD Ryzen 5 5500GT",
+      "field": "score",
+      "old": 19500,
+      "new": 19050,
+      "url": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+5+5500GT",
+      "note": "PassMark当前19050（Samples 1077），原值19500略高"
+    },
+    {
+      "name": "AMD Ryzen 5 1600",
+      "field": "score",
+      "old": 11000,
+      "new": 12242,
+      "url": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+5+1600X",
+      "note": "PassMark上1600(non-X)=12242（来自1600X页面popular comparison交叉确认），原值11000偏低约11%"
+    },
+    {
+      "name": "AMD FX-8350",
+      "field": "score",
+      "old": 8500,
+      "new": 6095,
+      "url": "https://216.146.205.45/cpu.php?cpu=AMD+FX-8350",
+      "note": "PassMark当前6095（Samples 20563），原值8500严重偏高，FX-8350 V10跑分约6k"
+    },
+    {
+      "name": "AMD FX-6300",
+      "field": "score",
+      "old": 6000,
+      "new": 4233,
+      "url": "https://216.146.205.45/cpu.php?cpu=AMD+FX-6300",
+      "note": "PassMark当前4233（Samples 12823），原值6000偏高约42%"
+    },
+    {
+      "name": "AMD Phenom II X4 955",
+      "field": "score",
+      "old": 4500,
+      "new": 2565,
+      "url": "https://216.146.205.45/cpu.php?cpu=AMD+Phenom+II+X4+955",
+      "note": "PassMark当前2565（Samples 4167），原值4500严重偏高约76%"
+    },
+    {
+      "name": "AMD Athlon II X4 640",
+      "field": "score",
+      "old": 2800,
+      "new": 2291,
+      "url": "https://216.146.205.45/cpu.php?cpu=AMD+Athlon+II+X4+640",
+      "note": "PassMark当前2291（Samples 1869），原值2800偏高约22%"
+    },
+    {
+      "name": "AMD Athlon 64 X2 5000+",
+      "field": "score",
+      "old": 1500,
+      "new": 809,
+      "url": "https://216.146.205.45/cpu.php?cpu=AMD+Athlon+64+X2+5000%2B",
+      "note": "PassMark当前809（Samples 1176），原值1500严重偏高约85%"
+    },
+    {
+      "name": "AMD Athlon XP 3200+",
+      "field": "score",
+      "old": 500,
+      "new": 281,
+      "url": "https://216.146.205.45/cpu.php?cpu=AMD+Athlon+XP+3200%2B",
+      "note": "PassMark当前281（Samples 56），原值500偏高约78%"
+    },
+    {
+      "name": "Intel Core Ultra 7 270K Plus",
+      "field": "score",
+      "old": 61000,
+      "new": 68520,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+Ultra+7+270K+Plus",
+      "note": "现PassMark V10均值68520(2929样本),原61000偏低"
+    },
+    {
+      "name": "Intel Core Ultra 5 250KF Plus",
+      "field": "score",
+      "old": 51400,
+      "new": 51108,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+Ultra+5+250K+Plus",
+      "note": "对比表KF=51108,微调"
+    },
+    {
+      "name": "Intel Core Ultra 5 245K",
+      "field": "score",
+      "old": 44000,
+      "new": 42996,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+Ultra+5+245KF",
+      "note": "对比表245K=42996"
+    },
+    {
+      "name": "Intel Core Ultra 5 245KF",
+      "field": "score",
+      "old": 43800,
+      "new": 43042,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+Ultra+5+245KF",
+      "note": "实际页43042"
+    },
+    {
+      "name": "Intel Core i5-14600K",
+      "field": "score",
+      "old": 37000,
+      "new": 38349,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14600K",
+      "note": "实际页38349"
+    },
+    {
+      "name": "Intel Core i5-14600KF",
+      "field": "score",
+      "old": 36800,
+      "new": 38218,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14600K",
+      "note": "对比表KF=38218"
+    },
+    {
+      "name": "Intel Core i5-13600K",
+      "field": "score",
+      "old": 36500,
+      "new": 37433,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600K",
+      "note": "实际页37433"
+    },
+    {
+      "name": "Intel Core i5-12600KF",
+      "field": "score",
+      "old": 27300,
+      "new": 27498,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700KF",
+      "note": "对比表27498,微调"
+    },
+    {
+      "name": "Intel Core i5-13400F",
+      "field": "score",
+      "old": 25800,
+      "new": 24871,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13400F",
+      "note": "实际页24871"
+    },
+    {
+      "name": "Intel Core i5-8400",
+      "field": "score",
+      "old": 9235,
+      "new": 9236,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8400",
+      "note": "实际页9236,无误"
+    },
+    {
+      "name": "Intel Core i5-6500",
+      "field": "score",
+      "old": 5599,
+      "new": 5597,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4590",
+      "note": "对比表5597,微调"
+    },
+    {
+      "name": "Intel Core i7-4790K",
+      "field": "score",
+      "old": 5200,
+      "new": 8058,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4790K",
+      "note": "原5200严重偏低,实际8058(25162样本)"
+    },
+    {
+      "name": "Intel Core i7-4770K",
+      "field": "score",
+      "old": 4800,
+      "new": 7149,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4770K",
+      "note": "原4800偏低,实际7149"
+    },
+    {
+      "name": "Intel Core i7-3770K",
+      "field": "score",
+      "old": 4200,
+      "new": 6521,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-3770K",
+      "note": "原4200偏低,实际6521"
+    },
+    {
+      "name": "Intel Core i7-2600K",
+      "field": "score",
+      "old": 3800,
+      "new": 5475,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-2600K",
+      "note": "原3800偏低,实际5475"
+    },
+    {
+      "name": "Intel Core i5-4590",
+      "field": "score",
+      "old": 3500,
+      "new": 5381,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4590",
+      "note": "原3500偏低,实际5381"
+    },
+    {
+      "name": "Intel Core i5-3570K",
+      "field": "score",
+      "old": 3200,
+      "new": 4967,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3570K",
+      "note": "原3200偏低,实际4967"
+    },
+    {
+      "name": "Intel Core i5-2500K",
+      "field": "score",
+      "old": 3000,
+      "new": 4145,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-2600K",
+      "note": "对比表4145,原3000偏低"
+    },
+    {
+      "name": "Intel Core 2 Quad Q9550",
+      "field": "score",
+      "old": 1800,
+      "new": 2384,
+      "url": "https://www.passmark.com/cpubenchmark/cpu.php?cpu=Intel+Core2+Quad+Q9550+%40+2.83GHz&id=1049",
+      "note": "PassMark对比页2384,原1800偏低"
+    },
+    {
+      "name": "Intel Core 2 Duo E8400",
+      "field": "score",
+      "old": 1200,
+      "new": 1226,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E8400",
+      "note": "实际页1226"
+    },
+    {
+      "name": "Intel Core 2 Duo E7500",
+      "field": "score",
+      "old": 900,
+      "new": 1162,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E7500",
+      "note": "实际页1162,原900偏低"
+    },
+    {
+      "name": "Intel Pentium E5200",
+      "field": "score",
+      "old": 600,
+      "new": 942,
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E5200",
+      "note": "实际页942,原600偏低"
+    },
+    {
+      "name": "GeForce RTX 5090",
+      "field": "timespy",
+      "old": 32000,
+      "new": 48169,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 官网提交中位数 48,169 Graphics Score（cpuranklist 2026-07 更新），原值 32000 为占位值，严重偏低"
+    },
+    {
+      "name": "GeForce RTX 4090",
+      "field": "timespy",
+      "old": 30000,
+      "new": 36924,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 36,924；交叉验证：3DMark 官方有效提交 Graphics Score 35,727~39,769（https://www.3dmark.com/3dm/149592244），comparigon/nanoreview 约 36,000-36,300"
+    },
+    {
+      "name": "GeForce RTX 5090 D v2",
+      "field": "score",
+      "old": 37500,
+      "new": 34101,
+      "url": "https://www.videocardbenchmark.net/compare/6421vs7099/Radeon-RX-9070-GRE-vs-GeForce-RTX-5090-D-v2",
+      "note": "PassMark G3D 34,101（5090 D v2 为 2025 年底缩减版，性能介于 5080 与 5070 Ti 之间）；原值 37,500 明显偏高"
+    },
+    {
+      "name": "GeForce RTX 5090 D",
+      "field": "score",
+      "old": 36500,
+      "new": 42260,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 42,260（原版 5090 D 为中国特供满血版，575W TDP）；原值 36,500 严重偏低"
+    },
+    {
+      "name": "GeForce RTX 5090 D",
+      "field": "timespy",
+      "old": 29500,
+      "new": 40000,
+      "url": "https://www.equivalentto.org/gpu/rtx-5090-d-vs-rtx-3080-12gb",
+      "note": "equivalentto.org 标注 RTX 5090 D Time Spy 约 40,000；3DMark Hall of Fame 最高 57,874（OC），ZOL 评测 OC 版 49,432； stock 参考约 38,000-42,000，取 40,000"
+    },
+    {
+      "name": "GeForce RTX 5080",
+      "field": "timespy",
+      "old": 26000,
+      "new": 32108,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 32,108；交叉验证：3DMark 有效提交 32,838，specpicks 汇总 32,701（https://specpicks.com/benchmarks/nvidia-rtx-5080）"
+    },
+    {
+      "name": "GeForce RTX 4080",
+      "field": "timespy",
+      "old": 24000,
+      "new": 28754,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 28,754，原值 24,000 偏低约 16%"
+    },
+    {
+      "name": "GeForce RTX 4080 SUPER",
+      "field": "timespy",
+      "old": 25000,
+      "new": 28353,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 28,353，原值 25,000 偏低约 12%"
+    },
+    {
+      "name": "GeForce RTX 5070 Ti",
+      "field": "timespy",
+      "old": 21000,
+      "new": 27186,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 27,186，原值 21,000 偏低约 29%"
+    },
+    {
+      "name": "GeForce RTX 4070 Ti SUPER",
+      "field": "timespy",
+      "old": 22000,
+      "new": 23821,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 23,821，原值 22,000 偏低约 8%"
+    },
+    {
+      "name": "GeForce RTX 4070 Ti",
+      "field": "timespy",
+      "old": 20500,
+      "new": 22518,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 22,518，原值 20,500 偏低约 10%"
+    },
+    {
+      "name": "Radeon RX 7900 XTX",
+      "field": "timespy",
+      "old": 28000,
+      "new": 29819,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=amd",
+      "note": "3DMark 中位数 29,819；交叉验证：Linus Tech Tips stock 实测 27,875，notebookcheck 汇总约 28,000-30,000"
+    },
+    {
+      "name": "GeForce RTX 4070 SUPER",
+      "field": "timespy",
+      "old": 18000,
+      "new": 21031,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 21,031，原值 18,000 偏低约 17%"
+    },
+    {
+      "name": "GeForce RTX 3090 Ti",
+      "field": "timespy",
+      "old": 19000,
+      "new": 21825,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 21,825，原值 19,000 偏低约 15%"
+    },
+    {
+      "name": "Radeon RX 7900 XT",
+      "field": "timespy",
+      "old": 24000,
+      "new": 25256,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=amd",
+      "note": "3DMark 中位数 25,256，原值 24,000 偏低约 5%"
+    },
+    {
+      "name": "GeForce RTX 5070",
+      "field": "timespy",
+      "old": 16000,
+      "new": 22327,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 22,327；交叉验证：comparigon 显示 22,672（https://comparigon.com/gpu-comparison/radeon-rx-9070-xt-vs-geforce-rtx-5070），原值 16,000 严重偏低"
+    },
+    {
+      "name": "Radeon RX 6950 XT",
+      "field": "timespy",
+      "old": 17500,
+      "new": 21806,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=amd",
+      "note": "3DMark 中位数 21,806，原值 17,500 偏低约 25%"
+    },
+    {
+      "name": "Radeon RX 9070 XT",
+      "field": "timespy",
+      "old": 22000,
+      "new": 29803,
+      "url": "https://comparigon.com/gpu-comparison/radeon-rx-9070-xt-vs-geforce-rtx-5070",
+      "note": "comparigon 汇总 Time Spy 29,803；specpicks 汇总 29,716-30,530（https://specpicks.com/benchmarks/amd-radeon-rx-9070-xt）；原值 22,000 严重偏低"
+    },
+    {
+      "name": "GeForce RTX 4070",
+      "field": "timespy",
+      "old": 16000,
+      "new": 17793,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 17,793，原值 16,000 偏低约 11%"
+    },
+    {
+      "name": "GeForce RTX 3080 Ti",
+      "field": "timespy",
+      "old": 17000,
+      "new": 19834,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 19,834，原值 17,000 偏低约 17%"
+    },
+    {
+      "name": "Radeon RX 6900 XT",
+      "field": "timespy",
+      "old": 16500,
+      "new": 20974,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=amd",
+      "note": "3DMark 中位数 20,974，原值 16,500 偏低约 27%"
+    },
+    {
+      "name": "GeForce RTX 3090",
+      "field": "timespy",
+      "old": 17500,
+      "new": 20474,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 20,474，原值 17,500 偏低约 17%"
+    },
+    {
+      "name": "Radeon RX 9070",
+      "field": "timespy",
+      "old": 18000,
+      "new": 24777,
+      "url": "https://www.itmedia.co.jp/pcuser/spv/2606/02/news053_3.html",
+      "note": "ITmedia 评测实测 Time Spy (WQHD) 24,777；原值 18,000 严重偏低约 38%"
+    },
+    {
+      "name": "Radeon RX 6800 XT",
+      "field": "timespy",
+      "old": 16000,
+      "new": 19445,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=amd",
+      "note": "3DMark 中位数 19,445，原值 16,000 偏低约 22%"
+    },
+    {
+      "name": "GeForce RTX 3080",
+      "field": "timespy",
+      "old": 15500,
+      "new": 18141,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 18,141；交叉验证：nanoreview 汇总 17,664，原值 15,500 偏低约 17%"
+    },
+    {
+      "name": "Radeon RX 7800 XT",
+      "field": "timespy",
+      "old": 18000,
+      "new": 19419,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=amd",
+      "note": "3DMark 中位数 19,419，原值 18,000 偏低约 8%"
+    },
+    {
+      "name": "Radeon RX 9070 GRE",
+      "field": "timespy",
+      "old": 16000,
+      "new": 19241,
+      "url": "https://www.itmedia.co.jp/pcuser/spv/2606/02/news053_3.html",
+      "note": "ITmedia 评测实测 Time Spy (WQHD) 19,241；原值 16,000 偏低约 20%"
+    },
+    {
+      "name": "GeForce RTX 3070 Ti",
+      "field": "timespy",
+      "old": 13000,
+      "new": 15159,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 15,159，原值 13,000 偏低约 17%"
+    },
+    {
+      "name": "Radeon RX 7700 XT",
+      "field": "timespy",
+      "old": 15000,
+      "new": 16551,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=amd",
+      "note": "3DMark 中位数 16,551，原值 15,000 偏低约 10%"
+    },
+    {
+      "name": "GeForce RTX 5060 Ti 16GB",
+      "field": "timespy",
+      "old": 13500,
+      "new": 15389,
+      "url": "https://specpicks.com/benchmarks/nvidia-rtx-5060-ti",
+      "note": "KitGuru 评测 Time Spy 15,389；3DMark 有效提交 15,438；Gizbot 评测 16,208；原值 13,500 偏低约 14%"
+    },
+    {
+      "name": "GeForce RTX 4060 Ti",
+      "field": "timespy",
+      "old": 12000,
+      "new": 13344,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 13,344，原值 12,000 偏低约 11%"
+    },
+    {
+      "name": "GeForce RTX 4060 Ti 16GB",
+      "field": "timespy",
+      "old": 12000,
+      "new": 13344,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "16GB 与 8GB GPU 核心完全相同，Time Spy 性能一致，取中位数 13,344"
+    },
+    {
+      "name": "GeForce RTX 3070",
+      "field": "timespy",
+      "old": 12000,
+      "new": 13751,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 13,751，原值 12,000 偏低约 15%"
+    },
+    {
+      "name": "Radeon RX 6800",
+      "field": "timespy",
+      "old": 15000,
+      "new": 16140,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=amd",
+      "note": "3DMark 中位数 16,140，原值 15,000 偏低约 7.6%"
+    },
+    {
+      "name": "GeForce RTX 5060 Ti 8GB",
+      "field": "timespy",
+      "old": 12500,
+      "new": 15168,
+      "url": "https://specpicks.com/benchmarks/nvidia-rtx-5060-ti",
+      "note": "Notebookcheck Time Spy 15,168（8GB 因显存带宽略低于 16GB）；原值 12,500 偏低约 21%"
+    },
+    {
+      "name": "GeForce RTX 2080 Ti",
+      "field": "timespy",
+      "old": 13000,
+      "new": 15045,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 15,045，原值 13,000 偏低约 16%"
+    },
+    {
+      "name": "GeForce RTX 5060",
+      "field": "timespy",
+      "old": 10500,
+      "new": 14464,
+      "url": "https://www.digitaltrends.com/computing/nvidia-rtx-5060-review/",
+      "note": "Digital Trends 评测 Time Spy 14,464；nanoreview 汇总 13,751；cputronic 汇总 13,901；原值 10,500 严重偏低约 38%"
+    },
+    {
+      "name": "GeForce RTX 3060 Ti",
+      "field": "timespy",
+      "old": 10500,
+      "new": 11889,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=nvidia",
+      "note": "3DMark 中位数 11,889，原值 10,500 偏低约 13%"
+    },
+    {
+      "name": "Radeon RX 9060 XT 16GB",
+      "field": "timespy",
+      "old": 13000,
+      "new": 16511,
+      "url": "https://www.itmedia.co.jp/pcuser/spv/2606/02/news053_3.html",
+      "note": "ITmedia 评测实测 Time Spy (WQHD) 16,511；AMD 官方幻灯片 16,309；原值 13,000 偏低约 27%"
+    },
+    {
+      "name": "GeForce RTX 4090",
+      "field": "price",
+      "old": 1699,
+      "new": 4450,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "RTX 4090 已停产，PassMark 2026-10 追踪均价 $4,450；新卡市价 $2,755-$4,400（sellgpu.com），二手 $1,099-$2,500；原 MSRP $1,599/$1,699 已不反映当前市场"
+    },
+    {
+      "name": "GeForce GTX 1660",
+      "field": "timespy",
+      "old": 5500,
+      "new": 5521,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy",
+      "note": "Time Spy总分=5521，原5500偏差0.4%，更新为权威值"
+    },
+    {
+      "name": "GeForce GTX 980",
+      "field": "score",
+      "old": 11071,
+      "new": 11072,
+      "url": "https://www.videocardbenchmark.net/compare/4078vs2954vs2953",
+      "note": "PassMark G3D=11072，与原值几乎一致"
+    },
+    {
+      "name": "GeForce GTX 980",
+      "field": "timespy",
+      "old": 5000,
+      "new": 4250,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=4250，原占位值5000偏高15%，修正"
+    },
+    {
+      "name": "GeForce RTX 3050 6GB",
+      "field": "score",
+      "old": 10739,
+      "new": 10744,
+      "url": "https://www.videocardbenchmark.net/compare/Quadro+P4000vsQuadro+K5000/common_gpus.html",
+      "note": "PassMark G3D=10744，原10739偏差0.05%"
+    },
+    {
+      "name": "GeForce RTX 3050 6GB",
+      "field": "timespy",
+      "old": 5000,
+      "new": 4832,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=4832，原5000偏差3.4%，更新为权威值"
+    },
+    {
+      "name": "GeForce GTX 1650 SUPER",
+      "field": "score",
+      "old": 10191,
+      "new": 10190,
+      "url": "https://www.videocardbenchmark.net/gpu.php?id=4167",
+      "note": "PassMark G3D=10190，完全吻合"
+    },
+    {
+      "name": "GeForce GTX 1650 SUPER",
+      "field": "timespy",
+      "old": 4500,
+      "new": 4595,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=4595，原4500偏差2.1%"
+    },
+    {
+      "name": "GeForce GTX 1060",
+      "field": "timespy",
+      "old": 4500,
+      "new": 4099,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=4099(6GB)，原占位值4500偏高9.8%，修正"
+    },
+    {
+      "name": "GeForce GTX 970",
+      "field": "timespy",
+      "old": 3500,
+      "new": 3708,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=3708，原3500偏低6%，修正"
+    },
+    {
+      "name": "Radeon RX 6500 XT",
+      "field": "score",
+      "old": 9615,
+      "new": 9625,
+      "url": "https://www.videocardbenchmark.net/video_lookup.php?gpu=Eng+Sample%3A+100-000000561-40_Y&id=5946",
+      "note": "PassMark G3D=9625，原9615偏差0.1%"
+    },
+    {
+      "name": "Radeon RX 6500 XT",
+      "field": "timespy",
+      "old": 4000,
+      "new": 5061,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=5061，原占位值4000偏低26.5%，修正"
+    },
+    {
+      "name": "Radeon RX 590",
+      "field": "score",
+      "old": 9500,
+      "new": 9274,
+      "url": "https://www.videocardbenchmark.net/gpu.php?gpu=Radeon+RX+590&id=4025",
+      "note": "PassMark G3D=9274，原9500偏差2.4%，更新为权威值"
+    },
+    {
+      "name": "Radeon RX 590",
+      "field": "timespy",
+      "old": 5500,
+      "new": 4864,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=4864(NotebookCheck均值5271含OC样本)，原5500偏高13%，修正"
+    },
+    {
+      "name": "Radeon RX 580",
+      "field": "timespy",
+      "old": 4500,
+      "new": 4451,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=4451，原4500偏差1.1%"
+    },
+    {
+      "name": "GeForce GTX 1650",
+      "field": "score",
+      "old": 7868,
+      "new": 7872,
+      "url": "https://www.videocardbenchmark.net/compare/Quadro+P4000vsQuadro+K5000/common_gpus.html",
+      "note": "PassMark G3D=7872，原7868偏差0.05%"
+    },
+    {
+      "name": "GeForce GTX 1650",
+      "field": "timespy",
+      "old": 3500,
+      "new": 3521,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=3521，原3500偏差0.6%"
+    },
+    {
+      "name": "Radeon RX 6400",
+      "field": "score",
+      "old": 7756,
+      "new": 7746,
+      "url": "https://www.videocardbenchmark.net/gpu.php?id=4536",
+      "note": "PassMark G3D=7746，原7756偏差0.1%"
+    },
+    {
+      "name": "Radeon RX 6400",
+      "field": "timespy",
+      "old": 3000,
+      "new": 3662,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=3662，原占位值3000偏低22%，修正"
+    },
+    {
+      "name": "Intel Arc A380",
+      "field": "score",
+      "old": 7500,
+      "new": 6331,
+      "url": "https://www.videocardbenchmark.net/gpu.php?gpu=Intel+Arc+A380&id=4568",
+      "note": "PassMark G3D=6331，原占位值7500偏高18.5%，大幅修正——这是逆序#2的根因"
+    },
+    {
+      "name": "Intel Arc A380",
+      "field": "timespy",
+      "old": 4500,
+      "new": 4277,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=4277，原4500偏差5.2%，修正"
+    },
+    {
+      "name": "Radeon RX 480",
+      "field": "score",
+      "old": 8200,
+      "new": 8525,
+      "url": "https://www.videocardbenchmark.net/gpu.php?gpu=Radeon+RX+480&id=3533",
+      "note": "PassMark G3D=8525(样本12678)，原8200偏差3.8%，更新为权威值"
+    },
+    {
+      "name": "Radeon RX 480",
+      "field": "timespy",
+      "old": 4500,
+      "new": 4243,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=4243，原4500偏差5.5%，修正"
+    },
+    {
+      "name": "Radeon RX 570",
+      "field": "score",
+      "old": 7250,
+      "new": 7906,
+      "url": "https://www.videocardbenchmark.net/gpu.php?id=3558",
+      "note": "PassMark将RX 470/570合并统计，合并G3D=7906(样本24289)；原7250偏低8.3%，取合并权威值"
+    },
+    {
+      "name": "Radeon RX 570",
+      "field": "timespy",
+      "old": 4000,
+      "new": 3953,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=3953，原4000偏差1.2%"
+    },
+    {
+      "name": "Radeon RX 470",
+      "field": "score",
+      "old": 7000,
+      "new": 7906,
+      "url": "https://www.videocardbenchmark.net/gpu.php?id=3558",
+      "note": "PassMark将RX 470/570合并统计，合并G3D=7906；原7000偏低13%，取合并权威值(注：570略快于470，合并值取中)"
+    },
+    {
+      "name": "Radeon RX 470",
+      "field": "timespy",
+      "old": 3500,
+      "new": 3778,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=3778，原3500偏低8%，修正"
+    },
+    {
+      "name": "Intel Arc A310",
+      "field": "score",
+      "old": 5500,
+      "new": 5463,
+      "url": "https://www.videocardbenchmark.net/gpu.php?gpu=Intel+Arc+A310&id=4879",
+      "note": "PassMark G3D=5463，原5500偏差0.7%"
+    },
+    {
+      "name": "Intel Arc A310",
+      "field": "timespy",
+      "old": 3000,
+      "new": 3087,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=3087，原3000偏差2.9%"
+    },
+    {
+      "name": "GeForce GTX 1050 Ti",
+      "field": "score",
+      "old": 6368,
+      "new": 6366,
+      "url": "https://www.videocardbenchmark.net/compare/Quadro+P4000vsQuadro+K5000/common_gpus.html",
+      "note": "PassMark G3D=6366，原6368偏差0.03%"
+    },
+    {
+      "name": "GeForce GTX 1050 Ti",
+      "field": "timespy",
+      "old": 2500,
+      "new": 2290,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=2290，原占位值2500偏高9.2%，修正"
+    },
+    {
+      "name": "GeForce GTX 1050",
+      "field": "timespy",
+      "old": 2000,
+      "new": 1769,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=1769，原占位值2000偏高13%，修正"
+    },
+    {
+      "name": "GeForce GTX 1630",
+      "field": "timespy",
+      "old": 2500,
+      "new": 2060,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=2060，原占位值2500偏高21.3%，修正"
+    },
+    {
+      "name": "GeForce GTX 950",
+      "field": "score",
+      "old": 5700,
+      "new": 5357,
+      "url": "https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+GTX+950&id=3295",
+      "note": "PassMark G3D=5357(样本8142)，原占位值5700偏高6.4%，修正——这是逆序#4和#5的关键"
+    },
+    {
+      "name": "GeForce GTX 950",
+      "field": "timespy",
+      "old": 2500,
+      "new": 1921,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=1921，原占位值2500偏高30%，修正"
+    },
+    {
+      "name": "Radeon R9 290",
+      "field": "score",
+      "old": 8000,
+      "new": 8132,
+      "url": "https://www.videocardbenchmark.net/gpu.php?gpu=Radeon+R9+290&id=4259",
+      "note": "PassMark G3D=8132，原8000偏差1.6%，在5%容差内"
+    },
+    {
+      "name": "Radeon R9 290",
+      "field": "timespy",
+      "old": 4000,
+      "new": 3619,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=3619，原4000偏高10.5%，修正(GCN2架构可跑Time Spy)"
+    },
+    {
+      "name": "Radeon R9 380",
+      "field": "score",
+      "old": 7000,
+      "new": 5956,
+      "url": "https://www.videocardbenchmark.net/gpu.php?gpu=Quadro+M5500&id=3460",
+      "note": "PassMark G3D=5956(样本4025)，原占位值7000偏高17.5%，大幅修正"
+    },
+    {
+      "name": "Radeon R9 380",
+      "field": "timespy",
+      "old": 3000,
+      "new": 2847,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=2847，原3000偏差5.1%，修正"
+    },
+    {
+      "name": "GeForce GTX 960",
+      "field": "score",
+      "old": 6500,
+      "new": 6150,
+      "url": "https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+GTX+960&id=3114",
+      "note": "PassMark G3D=6150(样本26932)，原占位值6500偏高5.7%，修正"
+    },
+    {
+      "name": "GeForce GTX 960",
+      "field": "timespy",
+      "old": 2500,
+      "new": 2236,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=2236，原占位值2500偏高10.5%，修正"
+    },
+    {
+      "name": "Radeon RX 560",
+      "field": "score",
+      "old": 5500,
+      "new": 3688,
+      "url": "https://www.videocardbenchmark.net/gpu.php?gpu=Radeon+RX+560&id=3708",
+      "note": "PassMark G3D=3688(样本5363)，原占位值5500严重偏高49%，大幅修正"
+    },
+    {
+      "name": "Radeon RX 560",
+      "field": "timespy",
+      "old": 2000,
+      "new": 1773,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=1773，原占位值2000偏高11.5%，修正"
+    },
+    {
+      "name": "GeForce GTX 750 Ti",
+      "field": "score",
+      "old": 4500,
+      "new": 3900,
+      "url": "https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+GTX+750+Ti&id=2815",
+      "note": "PassMark G3D=3900(样本24620)，原占位值4500偏高15.4%，修正"
+    },
+    {
+      "name": "GeForce GTX 750 Ti",
+      "field": "timespy",
+      "old": 1500,
+      "new": 1295,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=1295，原占位值1500偏高13.7%，修正(Maxwell GM107支持DX12)"
+    },
+    {
+      "name": "GeForce GTX 660",
+      "field": "score",
+      "old": 4000,
+      "new": 4043,
+      "url": "https://ftp.videocardbenchmark.net/gpu.php?gpu=GeForce+GTX+660&id=2152",
+      "note": "PassMark G3D=4043(样本16688)，原4000偏差1.1%"
+    },
+    {
+      "name": "GeForce GTX 660",
+      "field": "timespy",
+      "old": 1000,
+      "new": 1285,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=1285(Kepler支持DX12 FL11_0可跑)，原1000偏低28.5%，修正"
+    },
+    {
+      "name": "Radeon HD 7870",
+      "field": "score",
+      "old": 4000,
+      "new": 4569,
+      "url": "https://www.videocardbenchmark.net/compare/GeForce-GTX-660-vs-Radeon-HD-7870-vs-Radeon-Vega-11/2152vs324vs4136",
+      "note": "PassMark G3D=4569(样本7934)，原占位值4000偏低14.2%，修正"
+    },
+    {
+      "name": "Radeon HD 7870",
+      "field": "timespy",
+      "old": 1500,
+      "new": 2000,
+      "url": "https://www.3dmark.com/spy/58873954",
+      "note": "Time Spy总分=1997-2079(GCN1架构支持DX12)，原占位值1500偏低33%，修正为约2000"
+    },
+    {
+      "name": "GeForce GTX 750",
+      "field": "score",
+      "old": 3500,
+      "new": 3281,
+      "url": "https://www.videocardbenchmark.net/compare/2825vs3708/GeForce-GTX-750-vs-Radeon-RX-560",
+      "note": "PassMark G3D=3281，原占位值3500偏高6.7%，修正"
+    },
+    {
+      "name": "GeForce GTX 750",
+      "field": "timespy",
+      "old": 1000,
+      "new": 1056,
+      "url": "https://cputronic.com/index.php/gpu-ranking/3dmark-time-spy?page=2",
+      "note": "Time Spy总分=1056，原1000偏差5.6%"
+    },
+    {
+      "name": "GeForce GTX 560 Ti",
+      "field": "score",
+      "old": 3000,
+      "new": 3080,
+      "url": "https://www.videocardbenchmark.net/video_lookup.php?gpu=GRID+M10-1B&id=3766",
+      "note": "PassMark G3D≈3080(样本充足)，原3000偏差2.7%在容差内"
+    },
+    {
+      "name": "GeForce GTX 560 Ti",
+      "field": "timespy",
+      "old": 800,
+      "new": null,
+      "url": "",
+      "note": "Fermi架构(2011)不支持DX12，无法运行Time Spy，原占位值800已移除"
+    },
+    {
+      "name": "Radeon HD 6850",
+      "field": "score",
+      "old": 2500,
+      "new": 1928,
+      "url": "https://www.videocardbenchmark.net/compare/Radeon+HD+6850vsGeForce+GTX+1050/45vs3596",
+      "note": "PassMark G3D=1928，原占位值2500偏高29.7%，修正"
+    },
+    {
+      "name": "Radeon HD 6850",
+      "field": "timespy",
+      "old": 500,
+      "new": null,
+      "url": "",
+      "note": "TeraScale 2架构(2010)不支持DX12，无法运行Time Spy，原占位值500已移除"
+    },
+    {
+      "name": "GeForce GTX 460",
+      "field": "score",
+      "old": 2000,
+      "new": 2268,
+      "url": "https://www.videocardbenchmark.net/gpu.php?id=31",
+      "note": "PassMark G3D=2268(样本6972)，原占位值2000偏低13.4%，修正"
+    },
+    {
+      "name": "GeForce GTX 460",
+      "field": "timespy",
+      "old": 400,
+      "new": null,
+      "url": "",
+      "note": "Fermi架构(2010)不支持DX12，无法运行Time Spy，原占位值400已移除"
+    },
+    {
+      "name": "Radeon HD 5770",
+      "field": "score",
+      "old": 1500,
+      "new": 1346,
+      "url": "https://www.videocardbenchmark.net/gpu.php?gpu=Radeon+HD+5770&id=6",
+      "note": "PassMark G3D=1346(样本7848)，原占位值1500偏高11.4%，修正"
+    },
+    {
+      "name": "Radeon HD 5770",
+      "field": "timespy",
+      "old": 200,
+      "new": null,
+      "url": "",
+      "note": "TeraScale 2架构(2009)不支持DX12，无法运行Time Spy，原占位值200已移除"
+    },
+    {
+      "name": "GeForce 8800 GT",
+      "field": "score",
+      "old": 1200,
+      "new": 452,
+      "url": "https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+8800+GT&id=1279",
+      "note": "PassMark G3D=452(2007年Tesla架构，现代G3D权重偏向DX11/12故分数极低)，原占位值1200严重偏高165%，修正"
+    },
+    {
+      "name": "GeForce 8800 GT",
+      "field": "timespy",
+      "old": 100,
+      "new": null,
+      "url": "",
+      "note": "Tesla架构(2007)仅支持DX10，无法运行Time Spy，原占位值100已移除"
+    },
+    {
+      "name": "GeForce GTS 450",
+      "field": "score",
+      "old": 1000,
+      "new": 1355,
+      "url": "https://www.videocardbenchmark.net/gpu.php?id=1",
+      "note": "PassMark G3D=1355，原占位值1000偏低26%，修正"
+    },
+    {
+      "name": "GeForce GTS 450",
+      "field": "timespy",
+      "old": 80,
+      "new": null,
+      "url": "",
+      "note": "Fermi架构(2010)不支持DX12，无法运行Time Spy，原占位值80已移除"
+    },
+    {
+      "name": "GeForce 9800 GT",
+      "field": "score",
+      "old": 800,
+      "new": 441,
+      "url": "https://www.videocardbenchmark.net/video_lookup.php?gpu=Radeon+R7+%2B+R5+M435+Dual+A8-9600+RADEON&id=9149",
+      "note": "PassMark G3D=441(2008年Tesla架构)，原占位值800偏高81%，修正"
+    },
+    {
+      "name": "GeForce 9800 GT",
+      "field": "timespy",
+      "old": 50,
+      "new": null,
+      "url": "",
+      "note": "Tesla架构(2008)仅支持DX10，无法运行Time Spy，原占位值50已移除"
+    },
+    {
+      "name": "Radeon X1950 Pro",
+      "field": "score",
+      "old": 800,
+      "new": 113,
+      "url": "https://ftp.videocardbenchmark.net/gpu.php?gpu=Radeon%20X1950%20Pro&id=1764",
+      "note": "PassMark G3D=113(样本仅116，2006年R500架构仅支持DX9)，原占位值800严重偏高608%，修正"
+    },
+    {
+      "name": "Radeon X1950 Pro",
+      "field": "timespy",
+      "old": 50,
+      "new": null,
+      "url": "",
+      "note": "R500架构(2006)仅支持DX9，无法运行Time Spy，原占位值50已移除"
+    },
+    {
+      "name": "Radeon RX 6700 XT",
+      "field": "score",
+      "old": 19717,
+      "new": 19716,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 19,716，与原值基本一致"
+    },
+    {
+      "name": "Radeon RX 6700 XT",
+      "field": "timespy",
+      "old": 11500,
+      "new": 12750,
+      "url": "https://www.computerbase.de/artikel/grafikkarten/3dmark-time-spy-benchmark.88185/",
+      "note": "ComputerBase 12,739 / cpuranklist 12,834 / get-your-rig 12,813 三源交叉，原11500偏低约10%"
+    },
+    {
+      "name": "Radeon RX 9060 XT 8GB",
+      "field": "score",
+      "old": 19669,
+      "new": 19668,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 19,668，基本一致"
+    },
+    {
+      "name": "Radeon RX 9060 XT 8GB",
+      "field": "timespy",
+      "old": 12000,
+      "new": 15760,
+      "url": "https://www.computerbase.de/artikel/grafikkarten/3dmark-time-spy-benchmark.88185/",
+      "note": "ComputerBase 15,762；原12000严重偏低（占位值），8GB版Time Spy Graphics约15700+"
+    },
+    {
+      "name": "GeForce RTX 4060",
+      "field": "timespy",
+      "old": 10000,
+      "new": 10600,
+      "url": "https://www.notebookcheck.org/NVIDIA-GeForce-RTX-4060-Grafikkarte-Benchmarks-und-Spezifikationen.735477.0.html",
+      "note": "Notebookcheck avg 10,427 / ComputerBase 10,596 / get-your-rig 10,620，原10000偏低约6%"
+    },
+    {
+      "name": "GeForce RTX 2080 SUPER",
+      "field": "score",
+      "old": 19387,
+      "new": 19388,
+      "url": "https://www.videocardbenchmark.net/compare/GeForce+RTX+2080+SUPERvsGeForce+GTX+1080+Ti/4123vs3699",
+      "note": "PassMark G3D 19,388（compare页确认），基本一致"
+    },
+    {
+      "name": "GeForce RTX 2080 SUPER",
+      "field": "timespy",
+      "old": 11000,
+      "new": 11440,
+      "url": "https://www.notebookcheck.biz/NVIDIA-GeForce-RTX-2080-Super.451394.0.html",
+      "note": "Notebookcheck avg 11,439 Time Spy Graphics，原11000略低"
+    },
+    {
+      "name": "GeForce GTX 1080 Ti",
+      "field": "score",
+      "old": 18596,
+      "new": 18595,
+      "url": "https://www.videocardbenchmark.net/compare/GeForce+RTX+2080+SUPERvsGeForce+GTX+1080+Ti/4123vs3699",
+      "note": "PassMark G3D 18,595，基本一致"
+    },
+    {
+      "name": "GeForce GTX 1080 Ti",
+      "field": "timespy",
+      "old": 10500,
+      "new": 9800,
+      "url": "https://www.computerbase.de/artikel/grafikkarten/3dmark-time-spy-benchmark.88185/",
+      "note": "ComputerBase 9,525 / cputronic 10,077，中位约9,800；原10500偏高"
+    },
+    {
+      "name": "Radeon RX 9060 XT LP",
+      "field": "score",
+      "old": 18500,
+      "new": 19061,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 19,061，原18500偏低约3%"
+    },
+    {
+      "name": "GeForce RTX 2080",
+      "field": "score",
+      "old": 18568,
+      "new": 18570,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 18,570，基本一致"
+    },
+    {
+      "name": "GeForce RTX 2080",
+      "field": "timespy",
+      "old": 10000,
+      "new": 11070,
+      "url": "https://www.computerbase.de/artikel/grafikkarten/3dmark-time-spy-benchmark.88185/",
+      "note": "ComputerBase 11,061 / get-your-rig 11,080，原10000偏低约10%"
+    },
+    {
+      "name": "Radeon RX 7650 GRE",
+      "field": "timespy",
+      "old": 10500,
+      "new": 10800,
+      "url": "https://specpicks.com/benchmarks/amd-radeon-rx-7650-gre",
+      "note": "SpecPicks聚合10,906/10,833；3dmark用户提交10,691，中位约10,800"
+    },
+    {
+      "name": "GeForce RTX 2070 SUPER",
+      "field": "score",
+      "old": 18122,
+      "new": 18123,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 18,123，基本一致"
+    },
+    {
+      "name": "GeForce RTX 2070 SUPER",
+      "field": "timespy",
+      "old": 9000,
+      "new": 10200,
+      "url": "https://www.get-your-rig.de/Home/GpuBestenliste",
+      "note": "get-your-rig 10,167 / cputronic 10,331，原9000偏低约13%"
+    },
+    {
+      "name": "Radeon RX 7600 XT",
+      "field": "score",
+      "old": 17359,
+      "new": 17361,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 17,361，基本一致"
+    },
+    {
+      "name": "Radeon RX 7600 XT",
+      "field": "timespy",
+      "old": 11000,
+      "new": 11200,
+      "url": "https://www.computerbase.de/artikel/grafikkarten/3dmark-time-spy-benchmark.88185/",
+      "note": "ComputerBase 11,206 / cpuranklist 11,230，原11000略低"
+    },
+    {
+      "name": "Radeon RX 6650 XT",
+      "field": "timespy",
+      "old": 10000,
+      "new": 9900,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=AMD",
+      "note": "cpuranklist 10,070 / ComputerBase 9,802，约9,900，与原值接近"
+    },
+    {
+      "name": "GeForce RTX 5050",
+      "field": "score",
+      "old": 16737,
+      "new": 16738,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 16,738，基本一致"
+    },
+    {
+      "name": "GeForce RTX 5050",
+      "field": "timespy",
+      "old": 8000,
+      "new": 10280,
+      "url": "https://www.get-your-rig.de/Home/GpuBestenliste",
+      "note": "get-your-rig 10,281；原8000严重偏低（占位值），5050 Time Spy Graphics约10300"
+    },
+    {
+      "name": "GeForce RTX 3060 12GB",
+      "field": "timespy",
+      "old": 8500,
+      "new": 8750,
+      "url": "https://www.get-your-rig.de/Home/GpuBestenliste",
+      "note": "get-your-rig RTX 3060 8,752，原8500略低"
+    },
+    {
+      "name": "Radeon RX 9060",
+      "field": "score",
+      "old": 16500,
+      "new": 17715,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 17,715，原16500偏低约7.4%"
+    },
+    {
+      "name": "Radeon RX 9060",
+      "field": "timespy",
+      "old": 9500,
+      "new": 14285,
+      "url": "https://www.get-your-rig.de/Home/GpuBestenliste",
+      "note": "get-your-rig 14,285；原9500严重偏低（占位值），9060 Time Spy Graphics约14300"
+    },
+    {
+      "name": "GeForce RTX 2060 SUPER",
+      "field": "timespy",
+      "old": 7500,
+      "new": 8740,
+      "url": "https://www.computerbase.de/artikel/grafikkarten/3dmark-time-spy-benchmark.88185/",
+      "note": "ComputerBase 8,744 / get-your-rig 8,733，原7500偏低约16%"
+    },
+    {
+      "name": "Radeon RX 6600 XT",
+      "field": "score",
+      "old": 16446,
+      "new": 16448,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 16,448，基本一致"
+    },
+    {
+      "name": "Radeon RX 6600 XT",
+      "field": "timespy",
+      "old": 9000,
+      "new": 9550,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=AMD",
+      "note": "cpuranklist 9,553 / ComputerBase 9,463 / get-your-rig 9,642，原9000略低"
+    },
+    {
+      "name": "Radeon RX 7600",
+      "field": "score",
+      "old": 16438,
+      "new": 16439,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 16,439，基本一致"
+    },
+    {
+      "name": "Radeon RX 7600",
+      "field": "timespy",
+      "old": 9500,
+      "new": 10800,
+      "url": "https://www.computerbase.de/artikel/grafikkarten/3dmark-time-spy-benchmark.88185/",
+      "note": "ComputerBase 11,007 / cpuranklist 10,828 / get-your-rig 10,944，原9500偏低约14%"
+    },
+    {
+      "name": "Intel Arc B580",
+      "field": "timespy",
+      "old": 11500,
+      "new": 14660,
+      "url": "https://www.notebookcheck.net/Intel-Arc-B580-Limited-Edition-desktop-GPU-review-Intel-s-answer-to-AMD-Radeon-RX-and-Nvidia-GeForce-RTX.939607.0.html",
+      "note": "Notebookcheck 14,662 / nanoreview 14,685 / comparigon 14,656，原11500严重偏低（占位值）"
+    },
+    {
+      "name": "GeForce RTX 2070",
+      "field": "score",
+      "old": 16051,
+      "new": 16052,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 16,052，基本一致"
+    },
+    {
+      "name": "GeForce RTX 2070",
+      "field": "timespy",
+      "old": 8000,
+      "new": 9090,
+      "url": "https://www.get-your-rig.de/Home/GpuBestenliste",
+      "note": "get-your-rig 9,080 / cputronic 9,097，原8000偏低约14%"
+    },
+    {
+      "name": "Radeon RX 5700 XT",
+      "field": "timespy",
+      "old": 9000,
+      "new": 9450,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=AMD",
+      "note": "cpuranklist 9,544 / get-your-rig 9,423 / cputronic 9,357，约9,450，原9000略低"
+    },
+    {
+      "name": "Radeon RX 5600 XT",
+      "field": "score",
+      "old": 15800,
+      "new": 13379,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 13,379；原15800严重偏高（占位值），实际应在GTX 980 Ti(13615)与Arc A770(13371)之间"
+    },
+    {
+      "name": "Radeon RX 5600 XT",
+      "field": "timespy",
+      "old": 8000,
+      "new": 7650,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=AMD",
+      "note": "cpuranklist 7,531 / get-your-rig 7,632 / cputronic 7,905，约7,650，原8000略高"
+    },
+    {
+      "name": "GeForce GTX 1080",
+      "field": "timespy",
+      "old": 7500,
+      "new": 7400,
+      "url": "https://www.get-your-rig.de/Home/GpuBestenliste",
+      "note": "get-your-rig 7,592 / ComputerBase 7,223，约7,400，与原值接近"
+    },
+    {
+      "name": "Radeon RX Vega 64",
+      "field": "score",
+      "old": 15400,
+      "new": 13830,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 13,830；原15400严重偏高（占位值），Vega 64实际G3D约13800"
+    },
+    {
+      "name": "Radeon RX Vega 64",
+      "field": "timespy",
+      "old": 9000,
+      "new": 7500,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=AMD",
+      "note": "cpuranklist 7,349 / cputronic 7,690，约7,500；原9000偏高约17%"
+    },
+    {
+      "name": "Radeon RX 6600",
+      "field": "timespy",
+      "old": 8500,
+      "new": 8200,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=AMD",
+      "note": "cpuranklist 8,287 / ComputerBase 8,263 / get-your-rig 8,101，约8,200，原8500略高"
+    },
+    {
+      "name": "GeForce GTX 1070 Ti",
+      "field": "score",
+      "old": 14680,
+      "new": 14681,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 14,681，基本一致"
+    },
+    {
+      "name": "GeForce GTX 1070 Ti",
+      "field": "timespy",
+      "old": 7000,
+      "new": 6750,
+      "url": "https://www.get-your-rig.de/Home/GpuBestenliste",
+      "note": "get-your-rig 6,842 / cputronic 6,669，约6,750，原7000略高"
+    },
+    {
+      "name": "Intel Arc B570",
+      "field": "score",
+      "old": 14500,
+      "new": 14073,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 14,073，原14500略高约3%"
+    },
+    {
+      "name": "Intel Arc B570",
+      "field": "timespy",
+      "old": 10000,
+      "new": 12470,
+      "url": "https://www.computerbase.de/artikel/grafikkarten/3dmark-time-spy-benchmark.88185/",
+      "note": "ComputerBase 12,473；原10000严重偏低（占位值），B570 Time Spy Graphics约12500"
+    },
+    {
+      "name": "Radeon RX 5700",
+      "field": "score",
+      "old": 14193,
+      "new": 14192,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 14,192，基本一致"
+    },
+    {
+      "name": "Radeon RX 5700",
+      "field": "timespy",
+      "old": 7500,
+      "new": 8100,
+      "url": "https://cpuranklist.com/gpu-timespy.php?filter=AMD",
+      "note": "cpuranklist 8,068 / cputronic 8,706(偏高样本)，取8,100；原7500略低"
+    },
+    {
+      "name": "GeForce RTX 2060",
+      "field": "timespy",
+      "old": 6500,
+      "new": 7800,
+      "url": "https://www.computerbase.de/artikel/grafikkarten/3dmark-time-spy-benchmark.88185/",
+      "note": "ComputerBase 8,096 / get-your-rig 7,566，中位约7,800。原6500偏低约20%。对比5070笔电Time Spy 13563，RTX 2060约为其57%，合理"
+    },
+    {
+      "name": "Radeon RX 9050",
+      "field": "score",
+      "old": 13500,
+      "new": 11272,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 11,272；原13500严重偏高（占位值），9050是低端RDNA4卡"
+    },
+    {
+      "name": "Radeon RX 9050",
+      "field": "timespy",
+      "old": 7500,
+      "new": 8866,
+      "url": "https://hardzone.es/noticias/tarjetas-graficas/comparativa-rendimiento-amd-rx-9050-nvidia-rtx-5050/",
+      "note": "GDM/Hermitage Akihabara实测Time Spy Graphics 8,866（hardzone/caseking/hertzyn多源交叉）；原7500偏低约18%"
+    },
+    {
+      "name": "GeForce GTX 980 Ti",
+      "field": "timespy",
+      "old": 6500,
+      "new": 5800,
+      "url": "https://www.notebookcheck.biz/NVIDIA-GeForce-GTX-980-Ti.181865.0.html",
+      "note": "Notebookcheck 5,058(老平台)；社区3dmark用户样本中位约5,800-6,000，原6500略高"
+    },
+    {
+      "name": "GeForce GTX 1070",
+      "field": "timespy",
+      "old": 6000,
+      "new": 6090,
+      "url": "https://www.get-your-rig.de/Home/GpuBestenliste",
+      "note": "get-your-rig 6,091，与原值接近"
+    },
+    {
+      "name": "Intel Arc A770",
+      "field": "timespy",
+      "old": 9500,
+      "new": 13600,
+      "url": "https://www.computerbase.de/artikel/grafikkarten/3dmark-time-spy-benchmark.88185/",
+      "note": "ComputerBase 13,129 / siliconcat 14,039 / cputronic 13,762，约13,600；原9500严重偏低（占位值）"
+    },
+    {
+      "name": "GeForce GTX 1660 SUPER",
+      "field": "timespy",
+      "old": 6500,
+      "new": 6050,
+      "url": "https://www.get-your-rig.de/Home/GpuBestenliste",
+      "note": "get-your-rig 6,045，原6500偏高约7%"
+    },
+    {
+      "name": "Intel Arc A750",
+      "field": "score",
+      "old": 12648,
+      "new": 12652,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 12,652，基本一致"
+    },
+    {
+      "name": "Intel Arc A750",
+      "field": "timespy",
+      "old": 9000,
+      "new": 12350,
+      "url": "https://www.computerbase.de/artikel/grafikkarten/3dmark-time-spy-benchmark.88185/",
+      "note": "ComputerBase 12,407 / siliconcat 12,296，约12,350；原9000严重偏低（占位值）"
+    },
+    {
+      "name": "GeForce GTX 1660 Ti",
+      "field": "score",
+      "old": 12555,
+      "new": 12556,
+      "url": "https://www.videocardbenchmark.net/high_end_gpus.html",
+      "note": "PassMark G3D 12,556，基本一致"
+    },
+    {
+      "name": "GeForce GTX 1660 Ti",
+      "field": "timespy",
+      "old": 6000,
+      "new": 6340,
+      "url": "https://www.get-your-rig.de/Home/GpuBestenliste",
+      "note": "get-your-rig 6,340，原6000略低"
+    },
+    {
+      "name": "GeForce RTX 3050 8GB",
+      "field": "timespy",
+      "old": 6000,
+      "new": 6300,
+      "url": "https://www.get-your-rig.de/Home/GpuBestenliste",
+      "note": "get-your-rig 6,232 / siliconcat 6,454，约6,300，原6000略低"
+    },
+    {
+      "name": "Intel Arc A580",
+      "field": "timespy",
+      "old": 8000,
+      "new": 10700,
+      "url": "https://www.computerbase.de/artikel/grafikkarten/3dmark-time-spy-benchmark.88185/",
+      "note": "ComputerBase 10,365 / siliconcat 10,880 / notebookcheck 10,963，约10,700；原8000严重偏低（占位值）"
+    }
+  ],
+  "noData": [
+    {
+      "name": "AMD Ryzen 3 5100",
+      "reason": "OEM专供中国市场型号，PassMark官网无独立基准页面（直接访问返回link dead）；所有第三方对比站(cpu-compare.com/cpu-comparison.com)均标注为Estimated估算值、0%实际样本，无真实可溯源的PassMark CPU Mark数据。不应编造跑分。"
+    },
+    {
+      "name": "AMD Ryzen 9 9950HX3D",
+      "reason": "2026新款16核3D V-Cache移动旗舰. PassMark新笔记本CPU榜(2026/10/18更新)及直查页均无该型号跑分样本;网络资料仅见新品发布/评测新闻,无PassMark CPU Mark数值.待样本积累后补."
+    },
+    {
+      "name": "AMD Ryzen 9 9845HX",
+      "reason": "12核Fire Range Zen5. PassMark新笔记本榜无此型号条目(同系列9850HX有4样本,但9845HX无任何样本);多家媒体曾指出9845HX可能为CPU-Z早期列表笔误,零售是否独立成SKU待确认.无权威跑分."
+    },
+    {
+      "name": "AMD Ryzen 7 9700HS",
+      "reason": "2025/2026新款Strix/Hawk Point refresh. PassMark直查页被robots拦截,IP直连link dead,新笔记本榜(24个月内)无该型号;cputronic/technical.city均无条目.暂无权威PassMark数值."
+    },
+    {
+      "name": "AMD Ryzen 5 9600HS",
+      "reason": "2025/2026新款6核HS. PassMark直查页被robots拦截,IP直连link dead,新笔记本榜无该型号;第三方站无条目.暂无权威PassMark数值."
+    },
+    {
+      "name": "Intel Core i3-11300",
+      "reason": "PassMark无独立桌面型号页(URL重定向至移动B系列),检索未见权威桌面CPU Mark,疑为OEM/非常规型号"
+    },
+    {
+      "name": "Intel Core i3-11100F",
+      "reason": "11代桌面i3无F后缀型号,PassMark无该条目,检索无权威数据"
+    },
+    {
+      "name": "Intel Pentium G6400",
+      "reason": "cpubenchmark.net该页robots禁抓,二级源仅见单线程2429,多线程权威均值未取得"
+    },
+    {
+      "name": "Intel Core Ultra 7 355H",
+      "reason": "Panther Lake-H(Series3)非X版，规格多源确认存在(benchmark.pl/whatpsu/Intel路线图，Q1'26)，但PassMark(cpubenchmark.net)暂无独立收录页与有效样本，无权威CPU Mark；不估算"
+    },
+    {
+      "name": "Intel Core Ultra 5 325H",
+      "reason": "Panther Lake-H(Series3)非X版，规格确认存在(12核4P+4E+4LPE)，但PassMark暂无独立收录页/样本，无权威CPU Mark；不估算"
+    },
+    {
+      "name": "Intel Core i7-14700H",
+      "reason": "非HX版；访问PassMark该型号URL被重定向至i7-14700HX(36,383)，PassMark未对非HX版单独计分，无权威非HX跑分；不与HX版混用"
+    },
+    {
+      "name": "Intel Core i5-14500H",
+      "reason": "非HX版；访问PassMark该型号URL被重定向至i5-14500HX(28,645)，PassMark未对非HX版单独计分，无权威非HX跑分；不与HX版混用"
+    },
+    {
+      "name": "Radeon RX 9080M",
+      "reason": "RDNA4 旗舰移动 GPU（64CU/16GB，Navi 48）。截至 2026-10 检索：PassMark 无该条目（video_lookup 邻近列表仅见桌面 RX 9060/9070，无 M 后缀移动版）；NotebookCheck 移动显卡榜单(2026-02-10更新)未收录；TechPowerUp 无对应页；仅有 2025-04~05 的规格泄露/传闻页（TweakTown/NotebookCheck/Adrenaline），无任何权威 Time Spy 或 G3D 实测分数。无权威数据，不估算。"
+    },
+    {
+      "name": "Radeon RX 9070M XT",
+      "reason": "RDNA4 移动 GPU（48CU/12GB）。PassMark 无条目；NotebookCheck 榜单未收录；无权威实测分数。网络可见的 22,894 Time Spy 图形分来自泄露的桌面版 RX 9070 XT（@All_The_Watts），非移动 9070M，严禁套用。仅有规格泄露页。待上市评测/3DMark 样本积累后补录。"
+    },
+    {
+      "name": "Radeon RX 9070M",
+      "reason": "RDNA4 移动 GPU（32CU/8GB）。PassMark 无条目；NotebookCheck 榜单未收录；无权威实测跑分。仅 2025 年规格泄露（Adrenaline/DeepInit/PhongVu 等），无 G3D/Time Spy 权威数据。"
+    },
+    {
+      "name": "Radeon RX 9070S",
+      "reason": "RDNA4 低功耗移动 GPU（32CU/8GB）。PassMark 无条目；NotebookCheck 榜单未收录；无权威实测跑分。仅规格泄露页，无 G3D/Time Spy 权威数据。"
+    },
+    {
+      "name": "Radeon RX 9060M",
+      "reason": "RDNA4 移动 GPU（28CU/8GB）。PassMark 无条目；NotebookCheck 榜单未收录；无权威实测跑分。仅 2025-04~05 规格泄露页，无 G3D/Time Spy 权威数据。"
+    },
+    {
+      "name": "Radeon RX 9060S",
+      "reason": "RDNA4 低功耗移动 GPU（28CU/8GB）。PassMark 无条目；NotebookCheck 榜单未收录；无权威实测跑分。仅规格泄露页，无 G3D/Time Spy 权威数据。"
+    },
+    {
+      "name": "GeForce RTX 4070 Ti Laptop",
+      "reason": "NVIDIA Ada Lovelace 笔电 GPU 产品线为 RTX 4050/4060/4070/4080/4090，从未发布过 RTX 4070 Ti Laptop GPU。PassMark 无此独立条目（搜索结果中 id=4699 为桌面版 RTX 4070 Ti，G3D=31,511）。基准清单疑似误录，将桌面版 4070 Ti 与笔电产品线混淆。"
+    },
+    {
+      "name": "GeForce RTX 5060 Ti Laptop",
+      "reason": "NVIDIA Blackwell 笔电 GPU 产品线为 RTX 5050/5060/5070/5070 Ti/5080/5090，无 RTX 5060 Ti Laptop GPU。桌面版 RTX 5060 Ti 存在（PassMark id=6160/6441），但无笔电版。NVIDIA Studio 官方对比页也仅列出 Laptop 版本为 5050/5060/5070/5070 Ti/5080/5090。基准清单疑似误录。"
+    },
+    {
+      "name": "GeForce RTX 5050 Laptop 9GB",
+      "reason": "RTX 5050 Laptop GPU 官方配置为 8GB GDDR6（NVIDIA 官网及 3DMark 用户提交结果均显示 8192MB）。未检索到任何 9GB 变体的发布公告、规格页或评测。基准清单疑似误录，无此变体权威数据。"
+    },
+    {
+      "name": "GeForce RTX 3060 Ti Laptop",
+      "reason": "NVIDIA Ampere 笔电 GPU 产品线为 RTX 3050/3050 Ti/3060/3070/3070 Ti/3080/3080 Ti，从未发布 RTX 3060 Ti Laptop GPU。PassMark id=4318 为桌面版 RTX 3060 Ti（G3D=20,210），非笔电版。基准清单疑似误录。"
+    },
+    {
+      "name": "GeForce RTX 5090 D v2",
+      "reason": "Time Spy 无权威评测直接数据；该卡为 2025 年底缩减版（10,752 CUDA cores / 450W TDP），仅能通过 G3D 相对位置插值估算，暂保持原值 30500 待后续补源"
+    },
+    {
+      "name": "GeForce GTX 560 Ti",
+      "reason": "Fermi架构(2011)不支持DX12，无权威Time Spy数据，原占位值800已移除，前端回退显示PassMark G3D=3080"
+    },
+    {
+      "name": "Radeon HD 6850",
+      "reason": "TeraScale 2架构(2010)不支持DX12，无权威Time Spy数据，原占位值500已移除，前端回退显示PassMark G3D=1928"
+    },
+    {
+      "name": "GeForce GTX 460",
+      "reason": "Fermi架构(2010)不支持DX12，无权威Time Spy数据，原占位值400已移除，前端回退显示PassMark G3D=2268"
+    },
+    {
+      "name": "Radeon HD 5770",
+      "reason": "TeraScale 2架构(2009)不支持DX12，无权威Time Spy数据，原占位值200已移除，前端回退显示PassMark G3D=1346"
+    },
+    {
+      "name": "GeForce 8800 GT",
+      "reason": "Tesla架构(2007)仅支持DX10，无权威Time Spy数据，原占位值100已移除，前端回退显示PassMark G3D=452"
+    },
+    {
+      "name": "GeForce GTS 450",
+      "reason": "Fermi架构(2010)不支持DX12，无权威Time Spy数据，原占位值80已移除，前端回退显示PassMark G3D=1355"
+    },
+    {
+      "name": "GeForce 9800 GT",
+      "reason": "Tesla架构(2008)仅支持DX10，无权威Time Spy数据，原占位值50已移除，前端回退显示PassMark G3D=441"
+    },
+    {
+      "name": "Radeon X1950 Pro",
+      "reason": "R500架构(2006)仅支持DX9，无权威Time Spy数据，原占位值50已移除，前端回退显示PassMark G3D=113"
+    },
+    {
+      "name": "Radeon RX 9060 XT LP",
+      "reason": "LP版(140W SFF)2025年末刚发布，暂无独立媒体Time Spy Graphics测试数据；同芯片9060 XT 8GB约15700，LP应略低。G3D已用PassMark 19061修正，timespy暂保留11000待补测"
+    }
+  ],
+  "sources": {
+    "AMD Ryzen 9 9950X3D2 Dual Edition": {
+      "score": 72076,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+9+9950X3D2&id=7115",
+      "crossCheck": "单源",
+      "note": "PassMark页面名称为AMD Ryzen 9 9950X3D2（即9950X3D2 Dual Edition），Multithread Rating 72076，Samples 568，真实存在非幻觉条目"
+    },
+    "AMD Ryzen 9 3950X": {
+      "score": 38394,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+9+3950X&id=3598",
+      "crossCheck": "第二源",
+      "note": "PassMark 38394；NanoReview交叉验证38436，MaxMyBuild 38412，一致"
+    },
+    "AMD Ryzen 7 1800X": {
+      "score": 16266,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+7+1800X&id=2966",
+      "crossCheck": "单源",
+      "note": "PassMark Multithread Rating 16266，Samples 3188"
+    },
+    "AMD Ryzen 7 1700X": {
+      "score": 15578,
+      "scoreUrl": "https://216.146.205.45/compare/2969vs2966/AMD-Ryzen-7-1700X-vs-AMD-Ryzen-7-1800X",
+      "crossCheck": "单源",
+      "note": "PassMark对比页显示1700X=15578；1800X页面popular comparison交叉确认15578"
+    },
+    "AMD Ryzen 7 1700": {
+      "score": 14730,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+7+1700X&id=2970",
+      "crossCheck": "第二源",
+      "note": "PassMark页面(id=2970)标题为Ryzen 7 1700，Multithread 14730；3500X页面popular comparison交叉确认14730"
+    },
+    "AMD Ryzen 5 3500X": {
+      "score": 13163,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+5+3500X",
+      "crossCheck": "单源",
+      "note": "PassMark Multithread Rating 13163，Samples 2415"
+    },
+    "AMD Ryzen 3 5300G": {
+      "score": 13004,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+3+5300G",
+      "crossCheck": "单源",
+      "note": "PassMark Multithread Rating 13004，Samples 278"
+    },
+    "AMD Ryzen 3 3300X": {
+      "score": 12578,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+3+3300X",
+      "crossCheck": "单源",
+      "note": "PassMark Multithread Rating 12578，Samples 822"
+    },
+    "AMD Ryzen 3 3100": {
+      "score": 11505,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+3+3100",
+      "crossCheck": "单源",
+      "note": "PassMark Multithread Rating 11505，Samples 2118"
+    },
+    "AMD Ryzen 5 3400G": {
+      "score": 9151,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+5+3400G",
+      "crossCheck": "单源",
+      "note": "PassMark Multithread Rating 9151，Samples 5268"
+    },
+    "AMD Ryzen 5 2400G": {
+      "score": 8707,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+5+2400G",
+      "crossCheck": "单源",
+      "note": "PassMark Multithread Rating 8707，Samples 4277"
+    },
+    "AMD Ryzen 3 2300X": {
+      "score": 7576,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+3+2300X",
+      "crossCheck": "单源",
+      "note": "PassMark Multithread Rating 7576，Samples 291"
+    },
+    "AMD Ryzen 3 1300X": {
+      "score": 6921,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+3+1300X",
+      "crossCheck": "单源",
+      "note": "PassMark Multithread Rating 6921，Samples 507"
+    },
+    "AMD Ryzen 3 3200G": {
+      "score": 6969,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+3+3200GE",
+      "crossCheck": "单源",
+      "note": "直接访问3200G URL跳转至3200GE页面；3200G=6969在多个PassMark页面comparison中交叉确认（3400G页/2300X页/1200页均显示6969）"
+    },
+    "AMD Ryzen 3 1200": {
+      "score": 6271,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+3+1200",
+      "crossCheck": "单源",
+      "note": "PassMark Multithread Rating 6271，Samples 1794"
+    },
+    "AMD FX-8300": {
+      "score": 5326,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+FX-8300",
+      "crossCheck": "单源",
+      "note": "PassMark页面名称为FX-8300 Eight-Core，Multithread Rating 5326，Samples 2331"
+    },
+    "AMD Phenom II X6 1090T": {
+      "score": 3841,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Phenom+II+X6+1090T",
+      "crossCheck": "单源",
+      "note": "PassMark Multithread Rating 3841，Samples 2984"
+    },
+    "AMD FX-4300": {
+      "score": 3008,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+FX-4300",
+      "crossCheck": "单源",
+      "note": "PassMark页面名称为FX-4300 Quad-Core，Multithread Rating 3008，Samples 2279"
+    },
+    "AMD Ryzen 9 7945HX": {
+      "score": 53758,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7945HX&id=5232",
+      "crossCheck": "第二源",
+      "note": "PassMark直读3091样本;compare页(216.146.205.45)为53951,nanoreview 53917,基本一致"
+    },
+    "AMD Ryzen 9 7845HX": {
+      "score": 44201,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7845HX",
+      "crossCheck": "第二源",
+      "note": "PassMark 902样本;7945HX3D页对比表同为44201"
+    },
+    "AMD Ryzen 9 8945HS": {
+      "score": 29129,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+8945HS",
+      "crossCheck": "单源",
+      "note": "PassMark 1558样本"
+    },
+    "AMD Ryzen AI 9 HX 370": {
+      "score": 34945,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+9+HX+370",
+      "crossCheck": "单源",
+      "note": "PassMark 3297样本"
+    },
+    "AMD Ryzen AI 9 HX 375": {
+      "score": 35444,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+9+HX+375",
+      "crossCheck": "第二源",
+      "note": "PassMark 149样本;新笔电排行榜(10/18)为34359,直读页(10/26)更新为35444"
+    },
+    "AMD Ryzen AI 7 350": {
+      "score": 24975,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+7+350",
+      "crossCheck": "第二源",
+      "note": "PassMark 2150样本;新笔电榜为24970"
+    },
+    "AMD Ryzen AI 5 330": {
+      "score": 12682,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+5+330",
+      "crossCheck": "第二源",
+      "note": "PassMark 95样本;新笔电榜为11969(旧),直读页更新为12682"
+    },
+    "AMD Ryzen AI Max+ 392": {
+      "score": 45892,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+Max%2B+392",
+      "crossCheck": "单源",
+      "note": "PassMark 45样本,新平台早期数据"
+    },
+    "AMD Ryzen AI Max PRO 385": {
+      "score": 31858,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+Max+PRO+385",
+      "crossCheck": "第二源",
+      "note": "PassMark 44样本;新笔电榜同为31858"
+    },
+    "AMD Ryzen AI Max+ 388": {
+      "score": 32831,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+Max%2B+388",
+      "crossCheck": "单源",
+      "note": "PassMark 24样本,新平台早期数据"
+    },
+    "AMD Ryzen AI 9 HX 475": {
+      "score": 38807,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+9+HX+475",
+      "crossCheck": "第二源",
+      "note": "PassMark仅3样本,误差标记High;新笔电榜同为38807,建议人工复核"
+    },
+    "AMD Ryzen AI 9 HX 470": {
+      "score": 37238,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+9+HX+470",
+      "crossCheck": "单源",
+      "note": "PassMark 162样本"
+    },
+    "AMD Ryzen AI 9 465": {
+      "score": 29164,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+9+465",
+      "crossCheck": "第二源",
+      "note": "PassMark 155样本;新笔电榜为29379"
+    },
+    "AMD Ryzen AI 7 445": {
+      "score": 18281,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=AMD+Ryzen+AI+7+445",
+      "crossCheck": "第二源",
+      "note": "PassMark IP直连(www域被robots拦截),107样本;cputronic镜像为20770(偏高/旧),以PassMark直读18281为准"
+    },
+    "AMD Ryzen AI 5 430": {
+      "score": 13020,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+5+430",
+      "crossCheck": "第二源",
+      "note": "PassMark 65样本;新笔电榜为12989"
+    },
+    "AMD Ryzen AI Max+ 395": {
+      "score": 54782,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+Max%2B+395",
+      "crossCheck": "第二源",
+      "note": "PassMark 1240样本;新笔电榜为54846.注意与'AI Max+ Pro 395'(51962)为不同SKU"
+    },
+    "AMD Ryzen 9 6900HX": {
+      "score": 24010,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+6900HX",
+      "crossCheck": "单源",
+      "note": "PassMark 2650样本"
+    },
+    "AMD Ryzen 7 8845HS": {
+      "score": 28251,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+8845HS",
+      "crossCheck": "第二源",
+      "note": "PassMark 4052样本;8945HS页对比表同为28251"
+    },
+    "AMD Ryzen 7 7840HS": {
+      "score": 28207,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7840HS",
+      "crossCheck": "单源",
+      "note": "PassMark 4504样本"
+    },
+    "AMD Ryzen 5 7640HS": {
+      "score": 22687,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+7640HS",
+      "crossCheck": "单源",
+      "note": "PassMark 1096样本"
+    },
+    "AMD Ryzen 7 7735HS": {
+      "score": 22121,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7735HS",
+      "crossCheck": "单源",
+      "note": "PassMark 4777样本"
+    },
+    "AMD Ryzen 7 5800H": {
+      "score": 20433,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5800H",
+      "crossCheck": "第二源",
+      "note": "PassMark 10961样本;各常见对比表均为20433"
+    },
+    "AMD Ryzen 5 7535HS": {
+      "score": 17542,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+7535HS",
+      "crossCheck": "单源",
+      "note": "PassMark 3283样本"
+    },
+    "AMD Ryzen 5 5600H": {
+      "score": 16333,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5600H",
+      "crossCheck": "第二源",
+      "note": "PassMark 7038样本;各常见对比表均为16333"
+    },
+    "AMD Ryzen 9 9955HX": {
+      "score": 56362,
+      "scoreUrl": "https://216.146.205.45/compare/6664vs6187/AMD-Ryzen-9-9955HX-vs-AMD-Ryzen-9-5900XT",
+      "crossCheck": "第二源",
+      "note": "PassMark compare页(2026/10/27直读)56362;新笔电榜为56325,cputronic镜像58087(偏高).非3D版.www域cpu.php?cpu=...9955HX会跳转至9955HX3D页,故用compare页"
+    },
+    "AMD Ryzen 9 9955HX3D": {
+      "score": 62114,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+9955HX3D",
+      "crossCheck": "第二源",
+      "note": "PassMark 481样本;新笔电榜为62107,pconline引PassMark多核62643"
+    },
+    "AMD Ryzen 7 8745HX": {
+      "score": 31373,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+8745HX",
+      "crossCheck": "单源",
+      "note": "PassMark 152样本"
+    },
+    "AMD Ryzen 7 9850HX": {
+      "score": 51722,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+9850HX",
+      "crossCheck": "单源",
+      "note": "命名待人工确认:PassMark登记该SKU为'AMD Ryzen 9 9850HX'(12核Fire Range),仅4样本误差High;需求写作'Ryzen 7 9850HX',但AMD Fire Range该档位官方为Ryzen 9.暂以同名芯芯片9850HX跑分51722录入,请人工核对前缀"
+    },
+    "AMD Ryzen 7 7745HX": {
+      "score": 32339,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7745HX",
+      "crossCheck": "单源",
+      "note": "PassMark 468样本"
+    },
+    "AMD Ryzen 5 7645HX": {
+      "score": 25777,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+7645HX",
+      "crossCheck": "单源",
+      "note": "PassMark仅16样本,误差Medium,建议人工复核"
+    },
+    "AMD Ryzen 7 6800H": {
+      "score": 22667,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+6800H",
+      "crossCheck": "单源",
+      "note": "PassMark 4128样本"
+    },
+    "AMD Ryzen 9 5900HX": {
+      "score": 21963,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+5900HX",
+      "crossCheck": "单源",
+      "note": "PassMark 4257样本"
+    },
+    "AMD Ryzen 7 6800U": {
+      "score": 20651,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+6800U",
+      "crossCheck": "单源",
+      "note": "PassMark 553样本"
+    },
+    "AMD Ryzen 9 5900H": {
+      "score": 21963,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+5900HX",
+      "crossCheck": "单源",
+      "note": "PassMark将5900H跳转合并至5900HX页(同硅片,Cezanne H/HX),采用同一值21963"
+    },
+    "AMD Ryzen 9 4900H": {
+      "score": 18707,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+4900HS",
+      "crossCheck": "单源",
+      "note": "PassMark将4900H跳转合并至4900HS页(同硅片,Renoire),采用18707"
+    },
+    "AMD Ryzen 7 4800H": {
+      "score": 17791,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+4800U&id=3340",
+      "crossCheck": "第二源",
+      "note": "PassMark常见笔记本CPU对比表登记值17791(各页一致);直查4800H会跳转至4800HS页(17810),二者同硅片,采用对比表规范名值17791"
+    },
+    "AMD Ryzen 5 6600H": {
+      "score": 19801,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+6600H",
+      "crossCheck": "单源",
+      "note": "PassMark跳转至'6600HS with Radeon Graphics'页,仅2样本误差高,建议人工复核;与6600U(16871)同属Rembrandt 6核"
+    },
+    "AMD Ryzen 7 4800U": {
+      "score": 16331,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+4800U&id=3340",
+      "crossCheck": "第二源",
+      "note": "PassMark 560样本;对比表同为16331;cputronic镜像16776略高"
+    },
+    "AMD Ryzen 5 6600U": {
+      "score": 16871,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+6600U",
+      "crossCheck": "单源",
+      "note": "PassMark 96样本"
+    },
+    "AMD Ryzen 5 4600H": {
+      "score": 14169,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+4600HS",
+      "crossCheck": "第二源",
+      "note": "PassMark跳转至4600HS页(同硅片)14169,70样本;4800U对比表登记4600H为14053,取直查页值"
+    },
+    "AMD Ryzen 5 4600U": {
+      "score": 12800,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+4600U",
+      "crossCheck": "单源",
+      "note": "PassMark 111样本"
+    },
+    "AMD Ryzen 3 5400U": {
+      "score": 10707,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+5400U",
+      "crossCheck": "单源",
+      "note": "PassMark 404样本"
+    },
+    "AMD Ryzen 3 4300U": {
+      "score": 7340,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+4300U",
+      "crossCheck": "单源",
+      "note": "PassMark 687样本"
+    },
+    "Intel Core i9-10900K": {
+      "score": 22215,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900K",
+      "crossCheck": "单源",
+      "note": "PassMark V10 multithread rating; price $399.89"
+    },
+    "Intel Core i9-10900KF": {
+      "score": 22129,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900KF",
+      "crossCheck": "单源",
+      "note": "price $275.11"
+    },
+    "Intel Core i9-11900K": {
+      "score": 24891,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900K",
+      "crossCheck": "单源",
+      "note": "price $406.21"
+    },
+    "Intel Core i9-11900KF": {
+      "score": 24495,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900KF",
+      "crossCheck": "单源",
+      "note": "price $399.00"
+    },
+    "Intel Core i7-10700K": {
+      "score": 18480,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10700K",
+      "crossCheck": "单源",
+      "note": "price $301.92"
+    },
+    "Intel Core i7-10700KF": {
+      "score": 18267,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10700KF",
+      "crossCheck": "单源",
+      "note": "price $182.11"
+    },
+    "Intel Core i9-9900K": {
+      "score": 18020,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9900K",
+      "crossCheck": "单源",
+      "note": "price $222.00"
+    },
+    "Intel Core i9-9900KF": {
+      "score": 17991,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9900KF",
+      "crossCheck": "单源",
+      "note": "price $219.26"
+    },
+    "Intel Core i7-11700K": {
+      "score": 24306,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700K",
+      "crossCheck": "单源",
+      "note": "price $241.00"
+    },
+    "Intel Core i7-11700KF": {
+      "score": 23737,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700KF",
+      "crossCheck": "单源",
+      "note": "price $379.99"
+    },
+    "Intel Core i7-10700": {
+      "score": 16083,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10700F",
+      "crossCheck": "单源",
+      "note": "非K/F版本无独立页;取PassMark对比表中i7-10700F=16083(同硅片)"
+    },
+    "Intel Core i7-11700": {
+      "score": 20571,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700K",
+      "crossCheck": "单源",
+      "note": "URL重定向到K;取PassMark对比表i7-11700@2.50GHz=20571"
+    },
+    "Intel Core i7-9700K": {
+      "score": 14396,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700K",
+      "crossCheck": "单源",
+      "note": "price $117.70"
+    },
+    "Intel Core i7-9700KF": {
+      "score": 14248,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700KF",
+      "crossCheck": "单源",
+      "note": "price $150.48"
+    },
+    "Intel Core i5-11600K": {
+      "score": 19472,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600K",
+      "crossCheck": "单源",
+      "note": "price $182.36"
+    },
+    "Intel Core i5-11600KF": {
+      "score": 19379,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600KF",
+      "crossCheck": "单源",
+      "note": "price $152.98"
+    },
+    "Intel Core i5-10600K": {
+      "score": 14237,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10600K",
+      "crossCheck": "单源",
+      "note": "price $145.00"
+    },
+    "Intel Core i5-10600KF": {
+      "score": 14101,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10600KF",
+      "crossCheck": "单源",
+      "note": "price $236.42(陈旧价,2026-02)"
+    },
+    "Intel Core i5-11500": {
+      "score": 17051,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600K",
+      "crossCheck": "单源",
+      "note": "桌面版@2.70GHz=17051;URL会误跳i5-11500B(17075),勿用"
+    },
+    "Intel Core i5-10500": {
+      "score": 12881,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10500",
+      "crossCheck": "单源",
+      "note": "price $129.26"
+    },
+    "Intel Core i7-8700K": {
+      "score": 13554,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8700K",
+      "crossCheck": "单源",
+      "note": "price $112.60"
+    },
+    "Intel Core i5-9600K": {
+      "score": 10653,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9600K",
+      "crossCheck": "单源",
+      "note": "price $89.01"
+    },
+    "Intel Core i5-9600": {
+      "score": 10332,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8400",
+      "crossCheck": "单源",
+      "note": "非K@3.10GHz=10332,取自i5-8400页对比表"
+    },
+    "Intel Core i3-14100F": {
+      "score": 15401,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-14100F",
+      "crossCheck": "单源",
+      "note": "price $104.00"
+    },
+    "Intel Core i3-14100": {
+      "score": 15401,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-14100F",
+      "crossCheck": "单源",
+      "note": "PassMark将非F页重定向到F页;同硅片,分数相同"
+    },
+    "Intel Core i3-13100F": {
+      "score": 14654,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-13100F",
+      "crossCheck": "单源",
+      "note": "price $98.76"
+    },
+    "Intel Core i3-13100": {
+      "score": 14654,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-13100F",
+      "crossCheck": "单源",
+      "note": "PassMark将非F页重定向到F页;同硅片"
+    },
+    "Intel Core i3-12300": {
+      "score": 14365,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100F",
+      "crossCheck": "单源",
+      "note": "桌面版=14365,取自i3-12100F页对比表(勿用i3-12300HL移动版)"
+    },
+    "Intel Core i3-12100F": {
+      "score": 13953,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100F",
+      "crossCheck": "单源",
+      "note": "price $127.87"
+    },
+    "Intel Core i3-12100": {
+      "score": 12525,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100F",
+      "crossCheck": "单源",
+      "note": "非F=12525,取自对比表"
+    },
+    "Intel Core i3-10325": {
+      "score": 10099,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10325",
+      "crossCheck": "单源",
+      "note": "仅8样本,Medium误差;价$190.10为2022陈旧故置null"
+    },
+    "Intel Core i3-10105F": {
+      "score": 8860,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10105F",
+      "crossCheck": "单源",
+      "note": "price $86.90"
+    },
+    "Intel Xeon E3-1230 V5": {
+      "score": 7927,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+E3-1230+V5",
+      "crossCheck": "单源",
+      "note": "price $89.70"
+    },
+    "Intel Core i3-9100F": {
+      "score": 6704,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9100F",
+      "crossCheck": "单源",
+      "note": "price $61.00"
+    },
+    "Intel Core i3-9100": {
+      "score": 6627,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9100F",
+      "crossCheck": "单源",
+      "note": "非F=6627,取自对比表"
+    },
+    "Intel Pentium G5400": {
+      "score": 3729,
+      "scoreUrl": "https://www.passmark.com/cpubenchmark/cpu.php?cpu=Intel+Pentium+Gold+G5400+%40+3.70GHz&id=3248",
+      "crossCheck": "第二源",
+      "note": "PassMark页robots禁抓;多源(e-catalog 3729/xeonlive ~3730)交叉"
+    },
+    "Intel Celeron G5905": {
+      "score": 2762,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5905",
+      "crossCheck": "单源",
+      "note": "2C/2T,229样本"
+    },
+    "Intel Celeron G4900": {
+      "score": 2371,
+      "scoreUrl": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G4900",
+      "crossCheck": "单源",
+      "note": "2C/2T"
+    },
+    "Intel Core i9-14900HX": {
+      "score": 43511,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i9-14900HX",
+      "crossCheck": "第二源",
+      "note": "PassMark官方页Avg CPU Mark，2026-10-22；与对比表同列"
+    },
+    "Intel Core i9-13980HX": {
+      "score": 45256,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i9-14900HX",
+      "crossCheck": "第二源",
+      "note": "PassMark i9-14900HX页Popular comparisons表官方值"
+    },
+    "Intel Core i9-13900HX": {
+      "score": 41367,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i9-14900HX",
+      "crossCheck": "第二源",
+      "note": "PassMark i9-14900HX页Popular comparisons表官方值"
+    },
+    "Intel Core i7-14650HX": {
+      "score": 33263,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+9+185H",
+      "crossCheck": "第二源",
+      "note": "PassMark Ultra9 185H页对比表官方值(33,263)；另14900HX页作33,282"
+    },
+    "Intel Core i7-13700HX": {
+      "score": 31538,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i7-14700HX",
+      "crossCheck": "第二源",
+      "note": "PassMark i7-14700HX页对比表官方值；nanoreview约31,601交叉印证"
+    },
+    "Intel Core Ultra 9 285H": {
+      "score": 34213,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+5+235HX",
+      "crossCheck": "第二源",
+      "note": "PassMark 235HX页对比表官方值34,213；14900HX页作34,219"
+    },
+    "Intel Core Ultra 9 185H": {
+      "score": 28925,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+9+185H",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark，2026-10-27"
+    },
+    "Intel Core Ultra 7 265H": {
+      "score": 33953,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+5+235HX",
+      "crossCheck": "第二源",
+      "note": "PassMark 235HX页对比表官方值33,953；早期对比表作34,031"
+    },
+    "Intel Core Ultra X9 388H": {
+      "score": 36504,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+9+386H",
+      "crossCheck": "第二源",
+      "note": "PassMark 386H页对比表官方值；tadna/nanoreview约36,400交叉"
+    },
+    "Intel Core Ultra X9 378H": {
+      "score": 33002,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+X9+378H",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark，仅9样本误差中等(2026-10-26)"
+    },
+    "Intel Core Ultra X7 368H": {
+      "score": 33547,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+9+386H",
+      "crossCheck": "第二源",
+      "note": "PassMark 386H页对比表官方值"
+    },
+    "Intel Core Ultra 7 366H": {
+      "score": 34086,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+9+386H",
+      "crossCheck": "第二源",
+      "note": "PassMark 386H页对比表官方值"
+    },
+    "Intel Core Ultra 5 338H": {
+      "score": 27989,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+9+386H",
+      "crossCheck": "第二源",
+      "note": "PassMark 386H页对比表官方值；Intel ARK确认Q1'26发布"
+    },
+    "Intel Core Ultra 9 386H": {
+      "score": 36116,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+9+386H",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark，2026-10-27"
+    },
+    "Intel Core Ultra X7 358H": {
+      "score": 33547,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+9+386H",
+      "crossCheck": "单源",
+      "note": "PassMark 386H页对比表官方值33,547(与X7 368H同值，按PassMark原样记录)"
+    },
+    "Intel Core Ultra 7 255H": {
+      "score": 28867,
+      "scoreUrl": "https://cputronic.com/en/cpu/intel-core-ultra-7-255h",
+      "crossCheck": "单源",
+      "note": "非HX版；PassMark官网URL重定向至255HX(47,962)，但图表仍分列255H(单核4,310)；多核取CpuTronic转引PassMark值28,867，单源待核"
+    },
+    "Intel Core Ultra 5 235H": {
+      "score": 23841,
+      "scoreUrl": "https://nanoreview.info/en/compare/cpu/intel-core-ultra-5-235h-vs-intel-core-ultra-7-255h",
+      "crossCheck": "单源",
+      "note": "非HX版；PassMark URL重定向至235HX(40,500)；多核取nanoreview/CpuTronic转引PassMark值23,841，单源待核"
+    },
+    "Intel Core i7-13700H": {
+      "score": 25782,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+7+155H",
+      "crossCheck": "第二源",
+      "note": "PassMark Ultra7 155H页对比表官方值"
+    },
+    "Intel Core i7-12700H": {
+      "score": 24917,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i7-12700H",
+      "crossCheck": "第二源",
+      "note": "PassMark官方页；多页对比表反复出现24,917"
+    },
+    "Intel Core Ultra 7 155H": {
+      "score": 24418,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+7+155H",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark，2026-10-27"
+    },
+    "Intel Core i7-13620H": {
+      "score": 23144,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+7+155H",
+      "crossCheck": "第二源",
+      "note": "PassMark Ultra7 155H页对比表官方值"
+    },
+    "Intel Core i5-13500H": {
+      "score": 20902,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+5+125H",
+      "crossCheck": "第二源",
+      "note": "PassMark Ultra5 125H页对比表官方值"
+    },
+    "Intel Core i5-12500H": {
+      "score": 20210,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i5-12500HL",
+      "crossCheck": "第二源",
+      "note": "PassMark页(重定向至12500HL)对比表中i5-12500H官方值20,210"
+    },
+    "Intel Core Ultra 5 125H": {
+      "score": 19913,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+5+125H",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark"
+    },
+    "Intel Core Ultra 9 290HX Plus": {
+      "score": 58066,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+7+255HX",
+      "crossCheck": "第二源",
+      "note": "PassMark 255HX页对比表官方值；系列旗舰"
+    },
+    "Intel Core Ultra 7 270HX Plus": {
+      "score": 48925,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+7+270HX+Plus",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark"
+    },
+    "Intel Core Ultra 9 285HX": {
+      "score": 56411,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+9+285H",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark，2026-10-27"
+    },
+    "Intel Core Ultra 9 275HX": {
+      "score": 55658,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+9+285H",
+      "crossCheck": "第二源",
+      "note": "PassMark 285HX页对比表官方值"
+    },
+    "Intel Core Ultra 7 251HX": {
+      "score": 47130,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+7+251HX",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark"
+    },
+    "Intel Core i7-14700HX": {
+      "score": 36383,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i7-14700HX",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark"
+    },
+    "Intel Core i9-12900HX": {
+      "score": 32695,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i7-14700HX",
+      "crossCheck": "第二源",
+      "note": "PassMark 14700HX页对比表官方值32,695；14900HX页作32,736"
+    },
+    "Intel Core i7-12800HX": {
+      "score": 30964,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i7-12700H",
+      "crossCheck": "第二源",
+      "note": "PassMark i7-12700H页对比表官方值"
+    },
+    "Intel Core i9-12900H": {
+      "score": 26527,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+7+155H",
+      "crossCheck": "第二源",
+      "note": "PassMark Ultra7 155H页对比表官方值"
+    },
+    "Intel Core i5-13450HX": {
+      "score": 24358,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+7+155H",
+      "crossCheck": "第二源",
+      "note": "PassMark Ultra7 155H页对比表官方值"
+    },
+    "Intel Core i5-14450HX": {
+      "score": 23630,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i5-14450HX",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark，308样本，2026-10-20"
+    },
+    "Intel Core i9-11980HK": {
+      "score": 21880,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i9-11980HK",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark"
+    },
+    "Intel Core i7-11800H": {
+      "score": 19552,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i7-12700H",
+      "crossCheck": "第二源",
+      "note": "PassMark多页对比表反复出现19,552"
+    },
+    "Intel Core i5-12450H": {
+      "score": 15845,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i5-11400H",
+      "crossCheck": "第二源",
+      "note": "PassMark i5-11400H页对比表官方值(非HX版15,845；注意12450HX为17,592)"
+    },
+    "Intel Core i5-11400H": {
+      "score": 15097,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i5-11400H",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark"
+    },
+    "Intel Core i9-10980HK": {
+      "score": 15049,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i9-10980HK",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark"
+    },
+    "Intel Core i7-10875H": {
+      "score": 14350,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i7-10875H",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark"
+    },
+    "Intel Core i7-11370H": {
+      "score": 11520,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i5-11300H",
+      "crossCheck": "第二源",
+      "note": "PassMark i5-11300H页对比表官方值"
+    },
+    "Intel Core i7-10750H": {
+      "score": 11418,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i7-12700H",
+      "crossCheck": "第二源",
+      "note": "PassMark i7-12700H页对比表官方值"
+    },
+    "Intel Core i5-11300H": {
+      "score": 10744,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i5-11300H",
+      "crossCheck": "单源",
+      "note": "PassMark官方页Avg CPU Mark，1673样本"
+    },
+    "Intel Core i5-10300H": {
+      "score": 8169,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i5-10300H",
+      "crossCheck": "第二源",
+      "note": "PassMark官方页及i5-11300H页对比表"
+    },
+    "Intel Core i5-10400H": {
+      "score": 8058,
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+i5-10300H",
+      "crossCheck": "第二源",
+      "note": "PassMark i5-10300H页对比表官方值"
+    },
+    "Radeon RX 7900M": {
+      "score": 22239,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?gpu=Radeon+RX+7900M&id=4946",
+      "timespy": 19434,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark G3D (id=4946, 56 samples) + NotebookCheck Mobile List Time Spy Graphics median (pos 9)",
+      "note": "PassMark Average G3D Mark = 22,239 (Mobile category). NotebookCheck Time Spy Graphics median = 19,434. 3DMark 官方用户提交单个样本 Graphics=20,300 (Alienware, spy/48666153)，中位数略低，采用 NotebookCheck 聚合中位数。"
+    },
+    "Radeon RX 7800M": {
+      "score": 17607,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?id=5646",
+      "timespy": 15806,
+      "timespyUrl": "https://www.digitaltrends.com/computing/amd-radeon-rx-7800m-launch/",
+      "crossCheck": "PassMark G3D (id=5646, Mobile category, 58 samples) + Digital Trends/KitGuru/NotebookCheck 首发评测 Time Spy",
+      "note": "PassMark Average G3D Mark = 17,607. NotebookCheck 移动显卡榜单(2026-02-10更新)尚未收录 RX 7800M 独立行；Time Spy Graphics 采用首发评测聚合值 15,806（Digital Trends 引用、SpecPicks 标注 via NotebookCheck/KitGuru 均为 15,806）。3DMark 用户单样本 Graphics=15,116 (3dm/144480853)、ONEXGPU2=15,916，与 15,806 区间一致。单源（首发评测）为主。"
+    },
+    "Radeon RX 7700S": {
+      "score": 15476,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?id=4887",
+      "timespy": 10206,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark G3D (id=4887, 398 samples) + NotebookCheck Time Spy Graphics median",
+      "note": "PassMark Average G3D Mark = 15,476（页面抓取日显示 15,476；搜索快照偶见 15,480/15,474，为样本累积波动，以精读页 15,476 为准）。NotebookCheck Time Spy Graphics median = 10,206 (pos 75)。"
+    },
+    "Radeon RX 7600S": {
+      "score": 15601,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?id=4835",
+      "timespy": 9203,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark G3D (id=4835, 246 samples) + NotebookCheck Time Spy Graphics median (n3)",
+      "note": "PassMark Average G3D Mark = 15,601（Max Memory 8192MB，确认为移动 S 版，非桌面 RX 7600）。NotebookCheck Time Spy Graphics median = 9,203 (n=3 样本)。"
+    },
+    "Radeon RX 7600M XT": {
+      "score": 14312,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?id=4844",
+      "timespy": 9856,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark G3D (id=4844, Mobile, 436 samples) + NotebookCheck Time Spy Graphics median (n9)",
+      "note": "PassMark Average G3D Mark = 14,312（Mobile category，Max TDP 120W）。NotebookCheck Time Spy Graphics median = 9,856 (n=9)。"
+    },
+    "Radeon RX 7600M": {
+      "score": 10937,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?id=4964",
+      "timespy": 9097,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark G3D (id=4964, 13 samples) + NotebookCheck Time Spy Graphics median",
+      "note": "PassMark Average G3D Mark = 10,937（样本仅 13，偏小，为目前唯一权威聚合值）。NotebookCheck Time Spy Graphics median = 9,097 (pos 91)。"
+    },
+    "Radeon RX 5500 XT": {
+      "score": 9045,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?gpu=Radeon+RX+5500+XT&id=4174",
+      "timespy": 4941,
+      "timespyUrl": "https://www.notebookcheck.net/AMD-Radeon-RX-5500-XT-Desktop-GPU-Benchmarks-and-Specs.539160.0.html",
+      "crossCheck": "PassMark G3D (id=4174, 4202 samples) + NotebookCheck Desktop Time Spy Graphics median；cpuranklist 3DMark 平台中位数 4,869 交叉验证",
+      "note": "桌面版（2020-01 上市，8GB）。PassMark Average G3D Mark = 9,045。NotebookCheck 桌面页 Time Spy Graphics median = 4,941（min 4,891 / avg 4,932 / max 4,965）。price=199.0 为 8GB 首发 MSRP（参考价），value=9045/199≈45.5。"
+    },
+    "GeForce RTX 5090 Laptop": {
+      "score": 28423,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+RTX+5090+Laptop+GPU&id=5754",
+      "timespy": 24483,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark G3D (id=5754) + NotebookCheck Time Spy Graphics median",
+      "note": "PassMark average G3D ~28,299-28,423 range; using latest 28,423 from Oct 2026 page."
+    },
+    "GeForce RTX 4090 Laptop": {
+      "score": 27024,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+RTX+4090+Laptop+GPU&id=4737",
+      "timespy": 21251,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark direct page + NotebookCheck",
+      "note": "Direct PassMark page shows Average G3D Mark = 27,024 (3336 samples)."
+    },
+    "GeForce RTX 5080 Laptop": {
+      "score": 26309,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?id=6099",
+      "timespy": 21453,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark direct page + NotebookCheck",
+      "note": "PassMark page shows Average G3D Mark = 26,309."
+    },
+    "GeForce RTX 4080 Laptop": {
+      "score": 24740,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+RTX+4080+Laptop+GPU&id=4736",
+      "timespy": 18441,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark direct page + NotebookCheck",
+      "note": "Direct PassMark page shows Average G3D Mark = 24,740 (4241 samples)."
+    },
+    "GeForce RTX 5070 Ti Laptop": {
+      "score": 22500,
+      "scoreUrl": "https://www.videocardbenchmark.net/compare/6260vs6216vs6099vs6160vs5940/",
+      "timespy": 16874,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark compare page (id=6216) + NotebookCheck",
+      "note": "G3D from multi-GPU compare page showing RTX 5070 Ti Laptop GPU at 22,500. Time Spy Graphics median = 16,873.5 (rounded to 16,874). Single-source for G3D."
+    },
+    "GeForce RTX 5070 Laptop": {
+      "score": 19157,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?id=6260",
+      "timespy": 13563,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark direct page + NotebookCheck + 3DMark result library",
+      "note": "G3D = 19,157 (3911 samples, id=6260). Time Spy Graphics median = 13,562.5 (rounded 13,563). Cross-checked with 3DMark.com user results showing Graphics Score 13,950-14,755 range (varies by TGP). KEY: vs desktop RTX 2060 G3D=14,072 → RTX 5070 Laptop is ~36% faster in PassMark G3D."
+    },
+    "GeForce RTX 5070 Laptop 12GB": {
+      "score": 19157,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?id=6260",
+      "timespy": 13563,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "ZOL实测 review confirms identical performance to 8GB version",
+      "note": "12GB variant released 2026-04-29. ZOL实测 confirms Steel Nomad and Time Spy scores identical to 8GB version. PassMark has no separate entry for 12GB variant; performance is GPU-bound (same CUDA cores/clocks), VRAM increase doesn't affect these benchmarks. Scores reused from 8GB baseline."
+    },
+    "GeForce RTX 4070 Laptop": {
+      "score": 19456,
+      "scoreUrl": "https://www.videocardbenchmark.net/compare/4752vs4756vs4736vs4491vs4332/",
+      "timespy": 11960,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark compare pages + NotebookCheck",
+      "note": "G3D = 19,456 from multi-GPU compare (id=4756). Time Spy Graphics median = 11,959.5 (rounded 11,960)."
+    },
+    "GeForce RTX 5060 Laptop": {
+      "score": 16772,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+RTX+5060+Laptop+GPU&id=6330",
+      "timespy": 11937,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark direct page + NotebookCheck",
+      "note": "G3D = 16,772-16,774 range across compare pages; using 16,772. Time Spy Graphics median = 11,937."
+    },
+    "GeForce RTX 4060 Laptop": {
+      "score": 17312,
+      "scoreUrl": "https://www.videocardbenchmark.net/compare/4763vs4408vs4752/",
+      "timespy": 10338,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark compare pages + NotebookCheck",
+      "note": "G3D = 17,312 (Oct 2026 compare page, id=4752). Earlier July compare showed 17,357. Time Spy Graphics median = 10,338 (from notebookcheck-ru individual page)."
+    },
+    "GeForce RTX 3080 Ti Laptop": {
+      "score": 18777,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+RTX+3080+Ti+Laptop+GPU&id=4491",
+      "timespy": 12269,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark direct page + NotebookCheck",
+      "note": "Direct PassMark page shows Average G3D Mark = 18,777 (1911 samples). Time Spy Graphics median = 12,269."
+    },
+    "GeForce RTX 3080 Laptop": {
+      "score": 16018,
+      "scoreUrl": "https://www.videocardbenchmark.net/compare/4491vs4332/",
+      "timespy": 10752,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark compare page + NotebookCheck",
+      "note": "G3D = 16,018 from compare with 3080 Ti (id=4332). Time Spy Graphics median = 10,752."
+    },
+    "GeForce RTX 3070 Ti Laptop": {
+      "score": 17244,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?id=4497",
+      "timespy": 10462,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark direct page + NotebookCheck",
+      "note": "Direct PassMark page shows Average G3D Mark = 17,244 (4856 samples). Time Spy Graphics median = 10,462."
+    },
+    "GeForce RTX 3070 Laptop": {
+      "score": 15005,
+      "scoreUrl": "https://www.videocardbenchmark.net/compare/4737vs4331/",
+      "timespy": 9681,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark compare page + NotebookCheck",
+      "note": "G3D = 15,005 from compare with 4090 Laptop (id=4331). Time Spy Graphics = 9,681."
+    },
+    "GeForce RTX 5050 Laptop": {
+      "score": 13967,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+RTX+5050+Laptop+GPU&id=6552",
+      "timespy": 9122,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark direct page + NotebookCheck",
+      "note": "Direct PassMark page shows Average G3D Mark = 13,967 (2778 samples). Time Spy Graphics median = 9,122."
+    },
+    "GeForce RTX 4050 Laptop": {
+      "score": 14193,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?id=4763",
+      "timespy": 8125,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark compare pages + NotebookCheck",
+      "note": "G3D = 14,191-14,193 range; using 14,193. Time Spy Graphics median = 8,125 (from notebookcheck.fr individual page)."
+    },
+    "GeForce RTX 3060 Laptop": {
+      "score": 13093,
+      "scoreUrl": "https://www.videocardbenchmark.net/compare/4342vs4736/",
+      "timespy": 8322,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark compare page + NotebookCheck",
+      "note": "G3D = 13,093 from compare with 4080 Laptop (id=4342). Time Spy Graphics = 8,322."
+    },
+    "GeForce RTX 3050 Ti Laptop": {
+      "score": 10056,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+RTX+3050+Ti+Laptop+GPU&id=4393",
+      "timespy": 5170,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark direct page + NotebookCheck",
+      "note": "Direct PassMark page shows Average G3D Mark = 10,056 (11647 samples). Time Spy Graphics median = 5,170."
+    },
+    "GeForce RTX 3050 Laptop": {
+      "score": 9508,
+      "scoreUrl": "https://www.videocardbenchmark.net/compare/4408vs6552/",
+      "timespy": 4497,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark compare page + NotebookCheck",
+      "note": "Maps to PassMark 'GeForce RTX 3050 4GB Laptop GPU' (id=4408). G3D = 9,508-9,509. Time Spy Graphics median = 4,497. This is the standard 4GB version; a 6GB variant (id=4782) also exists but baseline uses the standard 4GB."
+    },
+    "GeForce GTX 1650 Laptop": {
+      "score": 6968,
+      "scoreUrl": "https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+GTX+1650+%28Mobile%29&id=4090",
+      "timespy": 3488,
+      "timespyUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "crossCheck": "PassMark direct page + NotebookCheck",
+      "note": "Maps to PassMark 'GeForce GTX 1650 (Mobile)' (id=4090). G3D = 6,968. Time Spy Graphics median = 3,488."
+    },
+    "AMD Ryzen 3 5100": {
+      "scoreUrl": "https://finance.sina.com.cn/tech/digi/2025-09-25/doc-infrsfyt0943433.shtml",
+      "note": "无 PassMark 官方实测页（AMD 官网亦无驱动支持页，OEM/灰市散片极冷门）。IT之家 2025-09-25 实物：Cezanne Zen3 4C/8T、3.8/4.2GHz、无核显、65W，为降频无显版 5300G；CPU-Z 截图加速 4236MHz，Cinebench R15 多核 1088cb。PassMark 评分按本机已收录 5300G=13004 降约 4-5% 估算为 12500，估算值非实测。"
+    },
+    "notebookcheck-rdna4-mobile-leak": {
+      "scoreUrl": "https://www.notebookcheck.net/Major-RX-9000-RDNA-4-laptop-GPU-leak-reveals-specs-of-RX-9080M-RX-9070M-XT-and-more.1007213.0.html",
+      "timespyUrl": "https://www.notebookcheck.net/Major-RX-9000-RDNA-4-laptop-GPU-leak-reveals-specs-of-RX-9080M-RX-9070M-XT-and-more.1007213.0.html",
+      "note": "2025-04-30 NotebookCheck 转述 leaker All_The_Watts/KeplerL2：确认六款 RDNA4 移动 SKU 命名（含 9070S/9060S 为 Slim 版）及各自对标的 NVIDIA 笔电 GPU；此为曝料规格，非实测。"
+    },
+    "passmark-desktop-9070xt": {
+      "scoreUrl": "https://www.videocardbenchmark.net/compare/5956vs5958/Radeon-RX-9070-XT-vs-Radeon-RX-9070",
+      "timespyUrl": "https://www.notebookcheck.net/Radeon-RX-9070-XT-vs-Radeon-RX-6700S-vs-Radeon-RX-9070_12956_11140_12958.247598.0.html",
+      "note": "桌面 RX 9070 XT PassMark G3D=26927（2026-10-26）、Time Spy Graphics≈27500（NotebookCheck avg）；RX 9070 G3D=25395。作为同 die 移动降频推算的锚点（桌面实测，非移动实测）。"
+    },
+    "desktop-9060xt-9060-ts": {
+      "scoreUrl": "https://gpu101.com/amd-radeon-rx-9060-non-xt-review-specs-buyers-guide/",
+      "timespyUrl": "https://www.3dmark.com/spy/58507419",
+      "note": "桌面 RX 9060 XT Time Spy Graphics≈16000-18000（3dmark.com 有效提交）、RX 9060 TS≈14100（Tom's/gpu101）。作为 Navi44 移动版推算锚点。"
+    },
+    "nvidia-laptop-anchors": {
+      "scoreUrl": "internal:data/shards/gpu-nvidia-laptop.json",
+      "timespyUrl": "internal:data/shards/gpu-nvidia-laptop.json",
+      "note": "库内已实测笔电竞品锚点：RTX 5080Lap 26309/21453、5070TiLap 22500/16874、5070Lap 19157/13563、5060Lap 16772/11937，用于交叉验证 AMD 移动版定位。"
+    },
+    "Intel Pentium Gold G6400": {
+      "scoreUrl": "https://cputronic.com/en/cpu/intel-pentium-gold-g6400",
+      "note": "CpuTronic 转引 PassMark CPU Multi Core = 4124 / Single Core = 2467；旁证 nbcpu.cn product/?src=199288 (4156)、cpu-comparison.com estimated 4130。Intel ARK 确认 G6400 为 Comet Lake-S 桌面 Pentium Gold，2核4线程，4.00 GHz，LGA1200。"
+    },
+    "PassMark-Ultra7-355": {
+      "scoreUrl": "https://216.146.205.45/compare/7175vs7078/Intel-Ultra-7-355-vs-Intel-Ultra-7-365",
+      "note": "PassMark 官方对比页：Intel Core Ultra 7 355 CPU Mark=20153，Single Thread=3945，283 samples，Laptop CPU Class，FCBGA2540，25W，首登 Q1 2026。"
+    },
+    "IntelARK-Ultra7-355": {
+      "scoreUrl": "https://www.intel.com/content/www/us/en/products/sku/245722/intel-core-ultra-7-processor-355-12m-cache-up-to-4-70-ghz/specifications.html",
+      "note": "Intel ARK：Core Ultra 7 355，Panther Lake，8核(4P+4LPE)8线程，4.7GHz，Base Power 25W / Max Turbo 55W，Launched Q1'26。"
+    },
+    "PassMark-Ultra5-325": {
+      "scoreUrl": "https://216.146.205.45/cpu.php?cpu=Intel+Core+Ultra+5+325",
+      "note": "PassMark 官方：Intel Core Ultra 5 325 Multithread Rating=19150，Single Thread=3764，Samples 202。（注：PassMark 站内该条 id=7199）"
+    },
+    "IntelARK-Ultra5-325": {
+      "scoreUrl": "https://www.intel.com/content/www/us/en/products/sku/245720/intel-core-ultra-5-processor-325-12m-cache-up-to-4-50-ghz/specifications.html",
+      "note": "Intel ARK：Core Ultra 5 325，Panther Lake，8核(4P+4LPE)8线程，4.5GHz，12M L3。"
+    },
+    "IntelSearch-i7-14700H-noresult": {
+      "scoreUrl": "https://www.intel.com/content/www/us/en/search.html?ws=ES-en&q=i7-14700H&category=Processors",
+      "note": "Intel 官网处理器搜索 i7-14700H 返回 No results，无此 SKU 页面。"
+    },
+    "Intel-14thgen-mobile-HX-only": {
+      "scoreUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core/core-14th-gen-mobile-brief.html",
+      "note": "Intel 官方第14代移动处理器简介仅覆盖 HX 系列（14900HX/14700HX/14500HX 等），无 14700H/14500H 这类 45W 非-HX 型号。"
+    },
+    "IntelARK-i5-14500HX": {
+      "scoreUrl": "https://www.intel.cn/content/www/cn/zh/products/sku/235999/intel-core-i5-processor-14500hx-24m-cache-up-to-4-90-ghz/specifications.html",
+      "note": "Intel ARK 证实真实存在的是 i5-14500HX（带X，Raptor Lake），而非 i5-14500H。"
+    },
+    "nvidia-compare-all": {
+      "scoreUrl": "https://www.nvidia.com/en-eu/geforce/laptops/compare/",
+      "timespyUrl": "https://www.nvidia.com/en-eu/geforce/laptops/compare/",
+      "note": "NVIDIA 官方笔电 GPU 对比页：50 系笔电 SKU 仅 5090/5080/5070 Ti/5070/5060/5050 Laptop；40 系笔电 SKU 仅 4090/4080/4070/4060/4050 Laptop。两表均无 5060 Ti Laptop、无 4070 Ti Laptop。"
+    },
+    "nvidia-compare-30": {
+      "scoreUrl": "https://www.nvidia.com/en-eu/geforce/laptops/compare/30-series/",
+      "timespyUrl": "https://www.nvidia.com/en-eu/geforce/laptops/compare/30-series/",
+      "note": "NVIDIA 官方 30 系笔电对比页：SKU 仅 3080 Ti/3080/3070 Ti/3070/3060/3050 Ti/3050 Laptop，无 3060 Ti Laptop。"
+    },
+    "nvidia-5050-news": {
+      "scoreUrl": "https://www.nvidia.com/en-ph/geforce/news/rtx-5050-desktop-gpu-and-laptops/",
+      "timespyUrl": "https://www.nvidia.com/en-ph/geforce/news/rtx-5050-desktop-gpu-and-laptops/",
+      "note": "NVIDIA 官方新闻稿：RTX 5050 Laptop GPU 标配 8GB GDDR7（24 Gbps），128-bit，2560 CUDA，无 9GB 变体。"
+    },
+    "nvidia-5060-family-news": {
+      "scoreUrl": "https://www.nvidia.cn/geforce/news/gfecnt/20254/rtx-5060-desktop-family-laptop-5060-coming-soon/",
+      "timespyUrl": "https://www.nvidia.cn/geforce/news/gfecnt/20254/rtx-5060-desktop-family-laptop-5060-coming-soon/",
+      "note": "RTX 5060 Ti 为桌面 SKU（8GB/16GB，$379/$429）；笔电侧对应的是 RTX 5060 Laptop（无 Ti 后缀）。"
+    }
+  },
+  "notes": [
+    "[cpu-amd-desktop.json] 本片为AMD桌面CPU数据补全。所有跑分均直接从PassMark(cpubenchmark.net)实时页面读取Multithread Rating（截至2026-10-27）。关键发现：(1)9950X3D2 Dual Edition非幻觉条目，AMD于2026年9月正式发布，PassMark已有568个样本，跑分72076；(2)8700G原值24000严重偏低，实际31450；(3)老型号FX-8350/FX-6300/Phenom II X4 955/Athlon 64 X2 5000+原值普遍偏高，已按PassMark V10当前值修正；(4)Ryzen 3 5100为OEM型号无PassMark实测数据，列入noData待人工确认。price全部为null（未获取权威美元零售价来源），value相应为null。old标记：FX系列及Phenom II标old=true，所有Ryzen型号标old=false。",
+    "[cpu-amd-laptop.json] 本片为AMD笔电CPU数据补全,score统一采用PassMark CPU Mark(多线程)口径,数值均于2026/10/26-27从cpubenchmark.net直读;laptop全部true,price/value全部null(笔电CPU无独立零售售价),old全部false.凡H/HS、U/HS等同硅片型号PassMark合并者,已在sources注明并取规范名值.4款新型号(9950HX3D/9845HX/9700HS/9600HS)PassMark尚无样本,列入noData,未做任何估算.注意:AI Max+ 395(54782)与AI Max+ Pro 395(51962)为不同SKU;9955HX(56362,非3D)与9955HX3D(62114)已分别取数.9850HX需求名前缀为'Ryzen 7',但PassMark/AMD官方该SKU为'Ryzen 9',已在sources标注待人工确认前缀.",
+    "[cpu-intel-desktop.json] 本片=Intel桌面CPU,跑分体系统一为PassMark CPU Mark(多线程均值,V10,数据截至2026-10-27),全部从cpubenchmark.net实际页面读取。price为PassMark页面当前美元参考价,无权威现价或价陈旧则置null;value=score/price四舍五入1位。laptop全false。2019及更早型号标old:true。sort留待合并阶段重排。注意:(1)PassMark对部分非F/非K型号会重定向到兄弟型号页,已用对比表中的精确数值并在sources注明;(2)i5-11500勿用i5-11500B(移动)的17075,桌面版=17051;(3)i3-12300勿用i3-12300HL(移动,20321);(4)Q9550/G5400因主站robots用PassMark对比页或多源交叉;(5)Ultra7 270KF Plus与P4 631未取得权威新值,列入verifications待人工。",
+    "[cpu-intel-laptop.json] 本片=Intel笔电CPU，跑分体系统一为PassMark CPU Mark(多核)，数值于2026-10-22~27自cpubenchmark.net官方页及官方对比表读取。全部laptop:true、price/value=null、old:false、sort留待合并阶段重排。2026新命名(Core Ultra X/Series3)已确认存在并取到官方值：X9 388H=36504、X9 378H=33002(仅9样本,误差中等)、X7 368H=33547、7 366H=34086、5 338H=27989、9 386H=36116、X7 358H=33547。Ultra7 255H与Ultra5 235H非HX版PassMark官网URL重定向至HX版，多核值取自CpuTronic/nanoreview转引PassMark(单源,已在source标注待核)。4款无权威数据进noData(355H/325H/14700H非HX/14500H非HX)。",
+    "[gpu-amd.json] 本片负责 AMD GPU 新增 13 款（12 笔电 + 1 桌面 RX 5500 XT）。结果：7 款（RX 7900M / RX 7800M / RX 7700S / RX 7600S / RX 7600M XT / RX 7600M / 桌面 RX 5500 XT）成功进入 entries 并附 sources 溯源；6 款 RDNA4 新型移动 GPU（RX 9080M / 9070M XT / 9070M / 9070S / 9060M / 9060S）因截至 2026-10 无 PassMark / NotebookCheck / TechPowerUp 权威实测分数，进入 noData，未做任何估算。score=PassMark G3D Mark（videocardbenchmark.net，id 可溯源）；timespy=3DMark Time Spy Graphics 分（NotebookCheck 移动/桌面榜单中位数，与 nvidia 片同口径）。笔电 GPU price 全部 null、value null；仅桌面 RX 5500 XT 填 price=199.0（8GB 首发 MSRP 参考价）、value=45.5。全部 laptop 标记：6 款笔电=true，RX 5500 XT=false；old 全 false；sort 留待合并阶段统一重排。timespy 缺失（=null）的款数：0（进入 entries 的 7 款 timespy 均已查到权威值）。待人工跟进：6 款 RDNA4 移动 GPU 待上市后补录。",
+    "[gpu-nvidia-laptop.json] 本片覆盖 NVIDIA 笔电 GPU 共 24 款基准清单型号，其中 20 款成功收录权威跑分数据进入 entries，4 款经核实不存在对应笔电 SKU 而进入 noData。PassMark G3D Mark 分数均来自 videocardbenchmark.net 官方页面（id 可溯源），Time Spy Graphics 分数来自 NotebookCheck 移动显卡基准榜单（中位数聚合值）。RTX 5070 Laptop 与桌面 RTX 2060 对比：G3D 分别为 19,157 vs 14,072，笔电版 RTX 5070 比桌面 RTX 2060 快约 36%。RTX 5070 Laptop 12GB 变体于 2026 年 4 月发布，性能与 8GB 版一致（ZOL 实测确认），PassMark 无独立条目，分数复用 8GB 版。",
+    "[gpu-verify-high.json] 本片核验 40 款高端桌面 GPU 的 PassMark G3D score 与 3DMark Time Spy Graphics 分数。score 字段：绝大多数原值与 PassMark 2026-10 数据偏差 <1%，核验通过；仅 RTX 5090 D v2（37500→34101）和 RTX 5090 D（36500→42260）存在严重偏差，已修正。timespy 字段：原值全部为整数占位值（如 30000、26000、21000），与 3DMark 官网中位数（cpuranklist.com 2026-07 汇总）及权威评测（comparigon/specpicks/ITmedia/DigitalTrends）差距巨大，几乎全部修正。RTX 4090 price 从原 MSRP $1,699 修正为当前 PassMark 追踪市价 $4,450。Time Spy 数据源说明：NVIDIA 卡取 cpuranklist.com 汇总的 3DMark 官网提交中位数；AMD RDNA4 新卡（9070XT/9070/9070GRE/9060XT）取 ITmedia/DigitalTrends 等权威评测实测值；RTX 5060 Ti/5060 取 specpicks/DigitalTrends 评测值。",
+    "[gpu-verify-low.json] 本片完成sort 78-114共37款低位段桌面GPU双体系跑分核验。PassMark G3D全部从videocardbenchmark.net当前页面(2026年10月数据)读取；Time Spy从cputronic.com Time Spy排名表(2026年10月)及3dmark.com/NotebookCheck交叉核验。【5处已知逆序最终判定】(1)RX 9050 4GB vs GTX 1660：GTX 1660 G3D=11610 > RX 9050系≈11272，GTX 1660应排在RX 9050 4GB之前；当前数值基本正确，逆序源于旧数组排列错误，合并阶段按真实跑分重排即可。(2)Arc A380 vs RX 480：Arc A380真实G3D=6331(原误标7500已修正)，RX 480=8525；RX 480 >> Arc A380，RX 480应大幅排在A380之前，A380的score修正后逆序自然消解。(3)Arc A310 vs GTX 1050 Ti：A310=5463 < 1050 Ti=6366，1050 Ti应排在A310之前；数值基本正确，旧数组排列错误，重排即可。(4)GTX 1630 vs GTX 950：GTX 950真实G3D=5357(原误标5700已修正) > GTX 1630=4972，GTX 950应排在1630之前；950 score修正后逆序消解。(5)GTX 950 vs R9 290：R9 290=8132 >> GTX 950=5357，R9 290应大幅排在950之前(中间隔RX 480/RX 580/RX 570等)；950 score修正后重排即解决。【修正统计】score修正16处，timespy修正22处，8款老卡timespy置null(无DX12)。特别注意：最老的4张卡(8800 GT/GTS 450/9800 GT/X1950 Pro)原占位score严重虚高(现代PassMark G3D对仅支持DX9/10的老卡打分极低)，已全部按权威值修正。",
+    "[gpu-verify-mid.json] 本片核验sort 41-77共37款现有桌面GPU的G3D(PassMark)与Time Spy Graphics分数。G3D全部从videocardbenchmark.net high_end_gpus.html实时抓取，绝大多数与原值偏差<1%；少数新卡/冷门卡G3D修正：RX 9060 XT LP 18500→19061、RX 9060 16500→17715、RX 5600 XT 15800→13379、RX Vega 64 15400→13830、Arc B570 14500→14073、RX 9050 13500→11272。Time Spy方面原'整数占位值'大量失真，主要修正：RX 9060 XT 8GB→15760、RX 9060→14285、Arc B580→14660、Arc A770→13600、Arc A750→12350、Arc B570→12470、Arc A580→10700、RTX 5050→10280、RX 6700 XT→12750、RTX 2080→11070、RX 7600→10800、RTX 2070 SUPER→10200、RTX 2060 SUPER→8740、RX Vega 64→7500、GTX 980 Ti→5800、RX 9050→8866等。RTX 2060经多源核验Time Spy Graphics约7800（G3D 14073），与用户提到的RTX 5070笔电(G3D 19157/TimeSpy 13563)对比，2060约为其57%-73%性能，比例合理。",
+    "[residual-amd-cpu.json] 本片 5 款残量结论：(1) Ryzen 3 5100 真实存在（Cezanne/Zen3 4C/8T 无核显 OEM 散片，非任务所述 Renoir/Zen2），无 PassMark 实测，按同级 5300G=13004 降约 4-5% 估算为 12500 并写入 entries。(2) Ryzen 9 9950HX3D 不存在——官方/Gigabyte 实为 9955HX3D（128MB），巴西 TecMundo 报道系笔误，removed（data.json 已有 9955HX3D=62114）。(3) Ryzen 9 9845HX 不存在——Fire Range 12 核实为 9850HX，早期列表笔误，removed。(4)(5) Ryzen 7 9700HS / Ryzen 5 9600HS 均不存在——AMD 8000 系后移动端改用 Ryzen AI 命名，CES 2026 新品矩阵与 Fire Range 线均无此二 SKU，removed。9850HX 前缀顺带核验：AMD 官方多语言页确认为 Ryzen 9（12C/24T Fire Range），已给 rename 至 AMD Ryzen 9 9850HX。",
+    "[residual-amd-laptop-gpu.json] 本片 6 款均为 RDNA4(RX 9000) 移动版。SKU 真实性：经 2025-04-30 NotebookCheck/TweakTown/Tuttotech 等多源曝料交叉确认，六款命名均真实——9080M(完整Navi48/64CU)、9070M XT(削减Navi48/48CU)、9070M(Navi44/32CU)、9070S(=9070M Slim)、9060M(Navi44/28CU)、9060S(=9060M Slim)；S 后缀确为 Slim 笔电版本，非名字错误，故无 removed 项，亦不与已收录 RDNA3 移动版(7900M/7800M/7700S/7600S/7600M XT/7600M)重复。关键判定：截至 2026-10-27 这六款全部未发布——AMD FY2025 10-K 仅列桌面 RX 9000 系列、AMD 驱动页无任何 9000M 条目、NotebookCheck 移动 GPU 榜单(2026-10 更新)最高 AMD 仍为 RX 7900M，PassMark/TechPowerUp 无条目。因此无任何真实实测分，下列数值均为按同 die 桌面实测(9070XT G3D26927/TS~27500；9060XT TS~16500；9060 TS~14100)×移动 TGP 降频系数推算，并以库内已实测笔电竞品(RTX 5080/5070Ti/5070/5060 Laptop)交叉定位，属低置信估算，发布后须以实测替换。",
+    "[residual-intel-desktop.json] 三款残量型号处理结论：(1) Intel Core i3-11300 → removed（官方 Rocket Lake-S ARK 无此 SKU，疑与 i3-12100/i5-11300H 混淆）；(2) Intel Core i3-11100F → removed（Rocket Lake F 系列最低 i5-11400F，无 i3-F 变体；真实存在的是带核显的 i3-11100B Tiger Lake-B）；(3) Intel Pentium Gold G6400 → added-real，PassMark 多核 4124（多源 4124/4130/4156 交叉一致）。两款 removed 均给出 Intel ARK 官方产品线证据 URL，建议从 baseline-models.json 的 cpu_desktop_intel 中删除。",
+    "[residual-intel-laptop.json] 本片处理 4 款残量 Intel 笔电 CPU。结论：(1) Ultra 7 355H 与 (2) Ultra 5 325H 均为 Panther Lake(Series 3) 2026 年新品，此前查不到是因为刚被 PassMark 收录，现已直接取得官方 CPU Mark 实测值（20153 / 19150），按 added-real 补入。二者官方无 H 后缀（就叫 Ultra 7 355 / Ultra 5 325），本梯按笔记本命名惯例保留 H。(3) i7-14700H 与 (4) i5-14500H 经 Intel ARK 与官方产品简介证实为不存在的型号——14 代移动只有 HX 版（14700HX 已在库 36383；真实型号为 14500HX），网络上的 14700H/14500H 系 H/HX 混淆的 SEO 杜撰，按 removed 处理并建议从 baseline-models.json 的 cpu_laptop_intel 删除。",
+    "[residual-nvidia-laptop-gpu.json] 本片 4 款残量 NVIDIA 笔电 GPU 全部判定为基准清单误录（removed），无真实 SKU 需要补跑分。硬证据：(1) NVIDIA 官方全系列笔电对比页 en-eu/laptops/compare 明确列出 50 系笔电仅 5090/5080/5070 Ti/5070/5060/5050、40 系笔电仅 4090/4080/4070/4060/4050——故 4070 Ti Laptop 与 5060 Ti Laptop 均不存在（Ti 后缀在这两代笔电线上只用于 4080/5070 Ti/3080 Ti/3070 Ti 等高端型号，中低端笔电无 Ti 变体）；(2) NVIDIA 30 系笔电对比页确认 Ampere 移动线为 3080 Ti/3080/3070 Ti/3070/3060/3050 Ti/3050，无 3060 Ti Laptop；(3) RTX 5050 Laptop 官方为 8GB GDDR7 而非 9GB，无 9GB 变体。四款均属'桌面 SKU 被误当笔电 SKU 录入'或'显存规格登记错误'，entries 为空，无需 PassMark/Time Spy 补数。"
+  ],
+  "resolutions": [
+    {
+      "name": "AMD Ryzen 9 9950HX3D",
+      "action": "removed-from-baseline",
+      "category": "cpu_laptop_amd",
+      "reason": "AMD 官方 Fire Range 移动版 3D V-Cache 仅存在 Ryzen 9 9955HX3D（16C/32T，128MB 缓存，最高 5.4GHz），官方产品页 https://www.amd.com/en/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9955hx3d.html ；Gigabyte AORUS MASTER 16 Gen2 (AM6J) 官方规格页全球各区域均标注 AMD Ryzen 9 9955HX3D (128MB)，见 https://www.aorus.com/en-me/laptops/AORUS-MASTER-16-AM6J/Specification 。唯一提及 9950HX3D 的是巴西 TecMundo 2026-06-02 Computex 报道（称 144MB 缓存），与 Gigabyte 官方 9955HX3D/128MB 直接矛盾，系媒体笔误。data.json 已收录 9955HX3D=62114，9950HX3D 为重复/误录，删除。"
+    },
+    {
+      "name": "AMD Ryzen 9 9845HX",
+      "action": "removed-from-baseline",
+      "category": "cpu_laptop_amd",
+      "reason": "AMD 官方 Fire Range 9000HX 系列 12 核 SKU 仅为 Ryzen 9 9850HX（12C/24T，Fire Range，Zen5），官方产品页 https://www.amd.com/zh-cn/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9850hx.html ；无任何 9845HX 官方页面或 OEM 规格。9845HX 系早期列表笔误，与 9850HX 重复，删除。"
+    },
+    {
+      "name": "AMD Ryzen 7 9700HS",
+      "action": "removed-from-baseline",
+      "category": "cpu_laptop_amd",
+      "reason": "AMD 现行移动端无 9700HS 此 SKU：8000 系之后 HS/H 命名已并入 Ryzen AI 品牌（Strix Point=AI 9 HX 370 等；Hawk Point 末代为 8945HS/8845HS），Fire Range 高性能线仅 9955HX/9955HX3D/9850HX；CES 2026 官方新闻稿（https://www.amd.com/en/newsroom/press-releases/2026-1-5-amd-expands-ai-leadership-across-client-graphics-.html ）新移动芯片仅列 Ryzen AI 400 系（HX 475/470、465、450、445、435、430）与 AI Max+ 392/388，无 9700HS。全网检索无 AMD 产品页/OEM 规格/媒体实测，删除。"
+    },
+    {
+      "name": "AMD Ryzen 5 9600HS",
+      "action": "removed-from-baseline",
+      "category": "cpu_laptop_amd",
+      "reason": "同 9700HS：AMD 官方移动端无 9600HS 此 SKU（理由同上，CES 2026 新品矩阵与 Fire Range/Hawk Point 线均无此型号），全网无官方页/OEM 规格/媒体实测，删除。"
+    },
+    {
+      "name": "AMD Ryzen 7 9850HX",
+      "action": "renamed",
+      "to": "AMD Ryzen 9 9850HX"
+    },
+    {
+      "name": "AMD Ryzen 7 9850HX",
+      "action": "renamed-in-baseline",
+      "to": "AMD Ryzen 9 9850HX",
+      "category": "cpu_laptop_amd",
+      "reason": "AMD 官方多语言产品页（中/英/葡/日/韩/德）均明确登记为 AMD Ryzen 9 9850HX：12 核 24 线程、Fire Range、Zen5。证据 URL：https://www.amd.com/zh-cn/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9850hx.html （另见 https://www.amd.com/en/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9850hx.html ）。原清单登记为 Ryzen 7 前缀有误，应改为 Ryzen 9。"
+    },
+    {
+      "name": "Intel Core i3-11300",
+      "action": "removed-from-baseline",
+      "category": "cpu_desktop_intel",
+      "reason": "Intel 官方 Rocket Lake-S 桌面产品线 ARK 全表（44 SKU，含 i9/i7/i5/Xeon）中无任何 i3 型号；11 代桌面 i3 在 ARK 公开列表中不存在。相近真实 SKU 为 i3-11100B（Tiger Lake-B，嵌入式/AIO，10nm，12MB 缓存，4C/8T），并非 LGA1200 零售桌面 i3-11300。baseline 登记名 i3-11300 疑为与 12 代 i3-12100（Alder Lake）或移动 i5-11300H 混淆/笔误，官方产品线无此 SKU。"
+    },
+    {
+      "name": "Intel Core i3-11100F",
+      "action": "removed-from-baseline",
+      "category": "cpu_desktop_intel",
+      "reason": "Intel 官方 Rocket Lake-S ARK 全表中 F 系列最低仅到 i5-11400F（i9-11900F/KF、i7-11700F/KF、i5-11400F、i5-11600KF），不存在任何 i3-F 型号；官方 i3-11100B（Tiger Lake-B）自带 UHD 核显，亦无 F （无核显）变体。第三方聚合站 bottleneckpc.com / procesadores.es 所列 'i3-11100F' 为自动生成的低质条目，无 Intel ARK/零售 SKU 支撑，属误录。"
+    },
+    {
+      "name": "Intel Core i7-14700H",
+      "action": "removed-from-baseline",
+      "category": "cpu_laptop_intel",
+      "reason": "非 Intel 真实 SKU：Intel 官网处理器搜索 i7-14700H 无任何结果、无 ARK 页面；第14代移动仅有 HX 系列（真实型号为 i7-14700HX，已收录于本表 score=36383）。网络上 i7-14700H 字样均为 SEO/电商页把 13代 H(13700H) 与 14代 HX(14700HX) 混淆的写法，二级站参数互相矛盾（14C/20T vs 20C/28T），PassMark 亦重定向至 HX 无独立计分。应从基线移除。"
+    },
+    {
+      "name": "Intel Core i5-14500H",
+      "action": "removed-from-baseline",
+      "category": "cpu_laptop_intel",
+      "reason": "非 Intel 真实 SKU：无 Intel ARK 页面；第14代移动真实型号为 i5-14500HX（ARK sku/235999，带X）。二级站对该型号核心数自相矛盾（gpucpucompare 写 12C/16T，俄站写 14C/20T），属 AI/SEO 杜撰，无独立权威跑分。应从基线移除。"
+    },
+    {
+      "name": "GeForce RTX 4070 Ti Laptop",
+      "action": "removed-from-baseline",
+      "category": "gpu_laptop_nvidia",
+      "reason": "Ada Lovelace 笔电线官方 SKU 仅 RTX 4090/4080/4070/4060/4050 Laptop（NVIDIA 官方对比页 40 系表），不存在 4070 Ti Laptop；RTX 4070 Ti 是桌面端 SKU，基准清单将桌面型号误录为笔电型号。"
+    },
+    {
+      "name": "GeForce RTX 5060 Ti Laptop",
+      "action": "removed-from-baseline",
+      "category": "gpu_laptop_nvidia",
+      "reason": "Blackwell 笔电线官方 SKU 仅 RTX 5090/5080/5070 Ti/5070/5060/5050 Laptop（NVIDIA 官方对比页 50 系表，含 2026 年在售全列表），无 5060 Ti Laptop；RTX 5060 Ti 是桌面 SKU（8GB/16GB 两版），笔电侧对应型号为 RTX 5060 Laptop（无 Ti），基准清单误将桌面型号当作笔电 SKU 录入。"
+    },
+    {
+      "name": "GeForce RTX 5050 Laptop 9GB",
+      "action": "removed-from-baseline",
+      "category": "gpu_laptop_nvidia",
+      "reason": "RTX 5050 Laptop 官方显存为 8GB GDDR7（24 Gbps，128-bit，2560 CUDA，NVIDIA 官方新闻稿与对比页一致），不存在 9GB 变体；登记名中的 9GB 显存规格错误，且真实型号应写作 RTX 5050 Laptop（8GB GDDR7），该正确型号已在天梯主表覆盖，本条残量记录按误录移除。"
+    },
+    {
+      "name": "GeForce RTX 3060 Ti Laptop",
+      "action": "removed-from-baseline",
+      "category": "gpu_laptop_nvidia",
+      "reason": "Ampere 笔电线官方 SKU 仅 RTX 3080 Ti/3080/3070 Ti/3070/3060/3050 Ti/3050 Laptop（NVIDIA 官方 30 系笔电对比页），不存在 3060 Ti Laptop；RTX 3060 Ti 是桌面端 SKU，基准清单误录。"
+    }
+  ],
+  "counts": {
+    "cpu": 250,
+    "gpu": 147,
+    "chipset": 26,
+    "additions": 10,
+    "verifications": 8,
+    "laptopForced": 8,
+    "skippedDuplicates": [
+      "AMD Ryzen 9 9950X3D2 Dual Edition",
+      "AMD Ryzen 9 3950X",
+      "AMD Ryzen 7 1800X",
+      "AMD Ryzen 7 1700X",
+      "AMD Ryzen 7 1700",
+      "AMD Ryzen 5 3500X",
+      "AMD Ryzen 3 5300G",
+      "AMD Ryzen 3 3300X",
+      "AMD Ryzen 3 3100",
+      "AMD Ryzen 5 3400G",
+      "AMD Ryzen 5 2400G",
+      "AMD Ryzen 3 2300X",
+      "AMD Ryzen 3 1300X",
+      "AMD Ryzen 3 3200G",
+      "AMD Ryzen 3 1200",
+      "AMD FX-8300",
+      "AMD Phenom II X6 1090T",
+      "AMD FX-4300",
+      "AMD Ryzen 9 7945HX",
+      "AMD Ryzen 9 7845HX",
+      "AMD Ryzen 9 8945HS",
+      "AMD Ryzen AI 9 HX 370",
+      "AMD Ryzen AI 9 HX 375",
+      "AMD Ryzen AI 7 350",
+      "AMD Ryzen AI 5 330",
+      "AMD Ryzen AI Max+ 392",
+      "AMD Ryzen AI Max PRO 385",
+      "AMD Ryzen AI Max+ 388",
+      "AMD Ryzen AI 9 HX 475",
+      "AMD Ryzen AI 9 HX 470",
+      "AMD Ryzen AI 9 465",
+      "AMD Ryzen AI 7 445",
+      "AMD Ryzen AI 5 430",
+      "AMD Ryzen AI Max+ 395",
+      "AMD Ryzen 9 6900HX",
+      "AMD Ryzen 7 8845HS",
+      "AMD Ryzen 7 7840HS",
+      "AMD Ryzen 5 7640HS",
+      "AMD Ryzen 7 7735HS",
+      "AMD Ryzen 7 5800H",
+      "AMD Ryzen 5 7535HS",
+      "AMD Ryzen 5 5600H",
+      "AMD Ryzen 9 9955HX",
+      "AMD Ryzen 9 9955HX3D",
+      "AMD Ryzen 7 8745HX",
+      "AMD Ryzen 7 9850HX",
+      "AMD Ryzen 7 7745HX",
+      "AMD Ryzen 5 7645HX",
+      "AMD Ryzen 7 6800H",
+      "AMD Ryzen 9 5900HX",
+      "AMD Ryzen 7 6800U",
+      "AMD Ryzen 9 5900H",
+      "AMD Ryzen 9 4900H",
+      "AMD Ryzen 7 4800H",
+      "AMD Ryzen 5 6600H",
+      "AMD Ryzen 7 4800U",
+      "AMD Ryzen 5 6600U",
+      "AMD Ryzen 5 4600H",
+      "AMD Ryzen 5 4600U",
+      "AMD Ryzen 3 5400U",
+      "AMD Ryzen 3 4300U",
+      "Intel Core i9-10900K",
+      "Intel Core i9-10900KF",
+      "Intel Core i9-11900K",
+      "Intel Core i9-11900KF",
+      "Intel Core i7-10700K",
+      "Intel Core i7-10700KF",
+      "Intel Core i9-9900K",
+      "Intel Core i9-9900KF",
+      "Intel Core i7-11700K",
+      "Intel Core i7-11700KF",
+      "Intel Core i7-10700",
+      "Intel Core i7-11700",
+      "Intel Core i7-9700K",
+      "Intel Core i7-9700KF",
+      "Intel Core i5-11600K",
+      "Intel Core i5-11600KF",
+      "Intel Core i5-10600K",
+      "Intel Core i5-10600KF",
+      "Intel Core i5-11500",
+      "Intel Core i5-10500",
+      "Intel Core i7-8700K",
+      "Intel Core i5-9600K",
+      "Intel Core i5-9600",
+      "Intel Core i3-14100F",
+      "Intel Core i3-14100",
+      "Intel Core i3-13100F",
+      "Intel Core i3-13100",
+      "Intel Core i3-12300",
+      "Intel Core i3-12100F",
+      "Intel Core i3-12100",
+      "Intel Core i3-10325",
+      "Intel Core i3-10105F",
+      "Intel Xeon E3-1230 V5",
+      "Intel Core i3-9100F",
+      "Intel Core i3-9100",
+      "Intel Pentium G5400",
+      "Intel Celeron G5905",
+      "Intel Celeron G4900",
+      "Intel Core i9-14900HX",
+      "Intel Core i9-13980HX",
+      "Intel Core i9-13900HX",
+      "Intel Core i7-14650HX",
+      "Intel Core i7-13700HX",
+      "Intel Core Ultra 9 285H",
+      "Intel Core Ultra 9 185H",
+      "Intel Core Ultra 7 265H",
+      "Intel Core Ultra X9 388H",
+      "Intel Core Ultra X9 378H",
+      "Intel Core Ultra X7 368H",
+      "Intel Core Ultra 7 366H",
+      "Intel Core Ultra 5 338H",
+      "Intel Core Ultra 9 386H",
+      "Intel Core Ultra X7 358H",
+      "Intel Core Ultra 7 255H",
+      "Intel Core Ultra 5 235H",
+      "Intel Core i7-13700H",
+      "Intel Core i7-12700H",
+      "Intel Core Ultra 7 155H",
+      "Intel Core i7-13620H",
+      "Intel Core i5-13500H",
+      "Intel Core i5-12500H",
+      "Intel Core Ultra 5 125H",
+      "Intel Core Ultra 9 290HX Plus",
+      "Intel Core Ultra 7 270HX Plus",
+      "Intel Core Ultra 9 285HX",
+      "Intel Core Ultra 9 275HX",
+      "Intel Core Ultra 7 251HX",
+      "Intel Core i7-14700HX",
+      "Intel Core i9-12900HX",
+      "Intel Core i7-12800HX",
+      "Intel Core i9-12900H",
+      "Intel Core i5-13450HX",
+      "Intel Core i5-14450HX",
+      "Intel Core i9-11980HK",
+      "Intel Core i7-11800H",
+      "Intel Core i5-12450H",
+      "Intel Core i5-11400H",
+      "Intel Core i9-10980HK",
+      "Intel Core i7-10875H",
+      "Intel Core i7-11370H",
+      "Intel Core i7-10750H",
+      "Intel Core i5-11300H",
+      "Intel Core i5-10300H",
+      "Intel Core i5-10400H",
+      "Radeon RX 7900M",
+      "Radeon RX 7800M",
+      "Radeon RX 7600S",
+      "Radeon RX 7700S",
+      "Radeon RX 7600M XT",
+      "Radeon RX 7600M",
+      "Radeon RX 5500 XT",
+      "GeForce RTX 5090 Laptop",
+      "GeForce RTX 4090 Laptop",
+      "GeForce RTX 5080 Laptop",
+      "GeForce RTX 4080 Laptop",
+      "GeForce RTX 5070 Ti Laptop",
+      "GeForce RTX 5070 Laptop",
+      "GeForce RTX 5070 Laptop 12GB",
+      "GeForce RTX 4070 Laptop",
+      "GeForce RTX 5060 Laptop",
+      "GeForce RTX 4060 Laptop",
+      "GeForce RTX 3080 Ti Laptop",
+      "GeForce RTX 3080 Laptop",
+      "GeForce RTX 3070 Ti Laptop",
+      "GeForce RTX 3070 Laptop",
+      "GeForce RTX 5050 Laptop",
+      "GeForce RTX 4050 Laptop",
+      "GeForce RTX 3060 Laptop",
+      "GeForce RTX 3050 Ti Laptop",
+      "GeForce RTX 3050 Laptop",
+      "GeForce GTX 1650 Laptop"
+    ],
+    "resolutions": 14
+  }
+}

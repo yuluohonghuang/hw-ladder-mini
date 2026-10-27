@@ -29,7 +29,10 @@
     "hb-sdk": "hb-sdk",
     "dev": "hb-sdk dev",
     "build": "hb-sdk build",
-    "deploy": "hb-sdk remote deploy"
+    "deploy": "hb-sdk remote deploy",
+    "check:data": "node scripts/auto-correct.mjs",
+    "fix:data": "node scripts/auto-correct.mjs --fix --align-sort",
+    "validate": "node scripts/validate-data.mjs"
   },
   "dependencies": {
     "@heybox/hb-sdk": "^0.9.1"

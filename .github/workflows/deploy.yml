@@ -27,7 +27,9 @@ jobs:
         run: npm ci
 
       - name: Validate data quality
-        run: node scripts/validate-data.mjs
+        # 数据质量审计（监督模式，不阻断）：产出 data/auto-correct-report.json，
+        # 输出缺失型号/缺失跑分/排序逆序清单，供人工核验补数据
+        run: node scripts/auto-correct.mjs
 
       - name: Inject Heybox login session
         run: |

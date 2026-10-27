@@ -1,0 +1,69 @@
+# =============================================================================
+# 数据自动纠错 workflow：数据变更 → 检查 → 确定性自动纠正 → 回写 + 报告
+# -----------------------------------------------------------------------------
+# 触发：仅数据相关路径（data.json / data/ / scripts/），与 deploy.yml 互不重叠——
+# 符合架构约定"改数据不发布新版本，只有改代码才发版本"。
+# 流程：
+#   1. check  ：只读审计，输出缺失型号/缺失跑分/排序逆序，写 data/auto-correct-report.json
+#   2. fix    ：应用确定性修复（sort 序列重建 / laptop 标记推断 / 去重 / 字段类型归一），
+#               不篡改跑分与价格（文档 Q3：不为位置改跑分）
+#   3. 回写   ：若 fix 确实改动 data.json，自动 commit 回 main（幂等，二次运行无改动则不再提交）
+# =============================================================================
+name: Data Auto-Correct
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data.json'
+      - 'data/**'
+      - 'scripts/**'
+
+permissions:
+  contents: write   # 允许自动纠正后回写 data.json
+
+concurrency:
+  group: data-auto-correct
+  cancel-in-progress: true
+
+jobs:
+  auto-correct:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 需要完整历史以判定是否有实质改动
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 数据质量检查（监督）
+        run: node scripts/auto-correct.mjs
+        continue-on-error: true   # 缺失型号/缺跑分是"待人工录入"，不因检查中断流程
+
+      - name: 确定性自动纠正
+        id: fix
+        run: |
+          node scripts/auto-correct.mjs --fix --align-sort
+          if git diff --quiet data.json; then
+            echo "data_changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "data_changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 回写自动纠正结果
+        if: steps.fix.outputs.data_changed == 'true'
+        run: |
+          git config user.name "hw-ladder-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data.json
+          git commit -m "chore(data): 自动纠错修复（排序/标记/去重）"
+          git push origin main
+
+      - name: 上传数据质量报告
+        uses: actions/upload-artifact@v4
+        with:
+          name: auto-correct-report
+          path: data/auto-correct-report.json
+          if-no-files-found: ignore

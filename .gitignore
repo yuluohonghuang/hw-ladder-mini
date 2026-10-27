@@ -1,5 +1,16 @@
+# 依赖与构建产物
 node_modules/
 dist/
-*.log
+
+# 数据自动纠错报告（含时间戳，每次运行均变化，仅作为 CI artifact 上传，不入库）
+data/auto-correct-report.json
+
+# 中间工作产物（不入库）
+data/shards/
+data/data.json.bak-*
+data_remote.json
+
+# 系统文件
 .DS_Store
 Thumbs.db
+*.log
