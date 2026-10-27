@@ -1,6 +1,6 @@
 {
   "name": "hw-ladder-mini",
-  "version": "0.2.34",
+  "version": "0.2.36",
   "private": true,
   "type": "module",
   "heybox": {
@@ -18,7 +18,12 @@
       "windows",
       "macos"
     ],
-    "permissions": {}
+    "permissions": {
+      "network": {
+        "enabled": true,
+        "useOfficialDomain": false
+      }
+    }
   },
   "scripts": {
     "hb-sdk": "hb-sdk",
