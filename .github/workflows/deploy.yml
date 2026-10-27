@@ -11,6 +11,9 @@ on:
       - 'vite.config.js'
       - 'assets/**'
       - '.github/workflows/**'
+      # 方案A：改数据即自动发版（因 github.io 无法 ICP 备案、远程加载不可用，
+      # 数据内置进构建产物，推送 data.json 即触发提审+发布）
+      - 'data.json'
 
 jobs:
   deploy:
