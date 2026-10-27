@@ -38,9 +38,9 @@ function getCategory(score, allScores){
   const sorted = [...allScores].sort((a,b) => b - a);
   const rank = sorted.indexOf(score);
   const pct = rank / sorted.length;
-  if(pct < 0.05) return '<span class="cat-tag cat-flagship"></span>';
-  if(pct < 0.20) return '<span class="cat-tag cat-high"></span>';
-  if(pct < 0.50) return '<span class="cat-tag cat-mid"></span>';
+  if(pct < 0.10) return '<span class="cat-tag cat-flagship"></span>';
+  if(pct < 0.30) return '<span class="cat-tag cat-high"></span>';
+  if(pct < 0.60) return '<span class="cat-tag cat-mid"></span>';
   return '<span class="cat-tag cat-entry"></span>';
 }
 
@@ -67,7 +67,7 @@ function getFiltered(){
 
 function renderLadder(list){
   const container = document.getElementById('mainContent');
-  const allScores = list.map(it => it.score);
+  const allScores = list.map(it => getBenchmarkScore(it));
   
   if(currentCat === 'chip'){
     let html = `<div class="ladder" style="grid-template-columns:1fr">
@@ -202,6 +202,9 @@ function refresh(){
   const list = getFiltered();
   renderLadder(list);
   renderTable(list);
+  // 只有 GPU 分类才显示跑分体系切换按钮（CPU/芯片组没有 Time Spy 分数）
+  const btn = document.getElementById('fBenchmark');
+  if(btn) btn.style.display = currentCat === 'gpu' ? '' : 'none';
 }
 
 // 事件绑定
