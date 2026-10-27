@@ -114,9 +114,11 @@ function renderLadder(list){
   function renderRow(it, rank){
     if(!it) return '<div class="model" style="visibility:hidden"></div>';
     const laptopTag = it.laptop ? '<span class="laptop-tag">笔电</span>' : '';
+    const unreleasedTag = it.unreleased ? '<span class="unreleased-tag">未发布</span>' : '';
+    const estTag = it.est ? '<span class="est-tag">估算</span>' : '';
     const score = getBenchmarkScore(it);
     const catTag = getCategory(score, allScores);
-    return `<div class="model ${rank === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${catTag}${laptopTag}</span><span class="score num">${fmtNum(score)}</span></div>`;
+    return `<div class="model ${rank === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${catTag}${laptopTag}${unreleasedTag}${estTag}</span><span class="score num">${fmtNum(score)}</span></div>`;
   }
   
   const rowCount = Math.max(leftArr.length, midArr.length, rightArr.length);
@@ -164,10 +166,12 @@ function renderTable(list){
   let html = '';
   list.forEach((it, i) => {
     const laptopTag = it.laptop ? '<span class="laptop-tag" style="font-size:10px;margin-left:4px">笔电</span>' : '';
+    const unreleasedTag = it.unreleased ? '<span class="unreleased-tag" style="font-size:10px;margin-left:4px">未发布</span>' : '';
+    const estTag = it.est ? '<span class="est-tag" style="font-size:10px;margin-left:4px">估算</span>' : '';
     const score = getBenchmarkScore(it);
     html += `<tr>
       <td class="rank num">${i+1}</td>
-      <td class="name">${it.name}${laptopTag}</td>
+      <td class="name">${it.name}${laptopTag}${unreleasedTag}${estTag}</td>
       <td><span class="vchip ${it.vendor}">${it.vendor === 'amd' ? 'AMD' : it.vendor === 'intel' ? 'Intel' : 'NVIDIA'}</span></td>
       <td class="score num">${fmtNum(score)}</td>
       <td class="price num">${fmtPrice(it.price)}</td>

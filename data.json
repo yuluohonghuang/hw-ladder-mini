@@ -1459,7 +1459,8 @@
       "score": 12500,
       "price": null,
       "value": null,
-      "sort": 196
+      "sort": 196,
+      "est": true
     },
     {
       "name": "AMD Ryzen 5 1600",
@@ -1919,7 +1920,8 @@
       "timespy": 30500,
       "price": 1749,
       "value": 19.5,
-      "sort": 5
+      "sort": 5,
+      "est": true
     },
     {
       "name": "Radeon RX 7900 XTX",
@@ -2033,7 +2035,9 @@
       "price": null,
       "value": null,
       "laptop": true,
-      "sort": 19
+      "sort": 19,
+      "unreleased": true,
+      "est": true
     },
     {
       "name": "GeForce RTX 5080 Laptop",
@@ -2183,7 +2187,9 @@
       "price": null,
       "value": null,
       "laptop": true,
-      "sort": 37
+      "sort": 37,
+      "unreleased": true,
+      "est": true
     },
     {
       "name": "Radeon RX 6800",
@@ -2331,7 +2337,9 @@
       "price": null,
       "value": null,
       "laptop": true,
-      "sort": 55
+      "sort": 55,
+      "unreleased": true,
+      "est": true
     },
     {
       "name": "Radeon RX 6700 XT",
@@ -2356,7 +2364,9 @@
       "price": null,
       "value": null,
       "laptop": true,
-      "sort": 58
+      "sort": 58,
+      "unreleased": true,
+      "est": true
     },
     {
       "name": "Intel Arc A750",
@@ -2416,7 +2426,9 @@
       "price": null,
       "value": null,
       "laptop": true,
-      "sort": 65
+      "sort": 65,
+      "unreleased": true,
+      "est": true
     },
     {
       "name": "Radeon RX 7600 XT",
@@ -2440,7 +2452,8 @@
       "timespy": 11000,
       "price": 399,
       "value": 47.8,
-      "sort": 68
+      "sort": 68,
+      "est": true
     },
     {
       "name": "Radeon RX 7600",
@@ -2482,7 +2495,9 @@
       "price": null,
       "value": null,
       "laptop": true,
-      "sort": 73
+      "sort": 73,
+      "unreleased": true,
+      "est": true
     },
     {
       "name": "GeForce RTX 4060",
@@ -2756,7 +2771,8 @@
       "timespy": 6000,
       "price": 199,
       "value": 55.3,
-      "sort": 106
+      "sort": 106,
+      "est": true
     },
     {
       "name": "GeForce GTX 980 Ti",

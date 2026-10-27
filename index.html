@@ -71,6 +71,12 @@ body{background:var(--bg);color:var(--txt);font-family:system-ui,-apple-system,"
 .cat-mid{background:var(--green)}
 .cat-entry{background:var(--mut)}
 
+/* 状态标签：笔电 / 未发布 / 估算 */
+.laptop-tag,.unreleased-tag,.est-tag{display:inline-block;font-size:8px;line-height:1;border-radius:3px;padding:2px 4px;margin-left:4px;vertical-align:middle}
+.laptop-tag{color:var(--dim);border:1px solid var(--line);background:rgba(255,255,255,.03)}
+.unreleased-tag{color:var(--amber);border:1px solid var(--amber);background:rgba(255,176,32,.12)}
+.est-tag{color:var(--cyan);border:1px solid var(--cyan);background:rgba(73,192,240,.10)}
+
 /* Intel Arc 鱼骨式 */
 .ladder-mid{padding:12px 8px;border-left:1px solid var(--line)}
 .fishbone-item{position:relative;padding-left:16px}
