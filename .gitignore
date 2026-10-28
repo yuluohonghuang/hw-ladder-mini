@@ -5,6 +5,9 @@ dist/
 # 数据自动纠错报告（含时间戳，每次运行均变化，仅作为 CI artifact 上传，不入库）
 data/auto-correct-report.json
 
+# 布局对齐验证预览（不入库）
+preview-fixed.html
+
 # 中间工作产物（不入库）
 data/shards/
 data/data.json.bak-*
