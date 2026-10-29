@@ -138,7 +138,8 @@ function renderLadder(list){
   for(let i = 0; i < rowCount; i++) rightHtml += renderRow(rightArr[i], i);
   rightHtml += '</div>';
   
-  const gridCols = currentCat === 'gpu' ? '1fr 1fr 40px 1fr' : '1fr 50px 1fr';
+  // GPU 三列用 minmax 保证型号全名不被压缩，窄屏（手机）下溢出则横向滚动查看 AMD 列
+  const gridCols = currentCat === 'gpu' ? 'minmax(158px,1fr) minmax(158px,1fr) 40px minmax(158px,1fr)' : '1fr 50px 1fr';
   container.innerHTML = `
     <div class="ladder" style="grid-template-columns:${gridCols}">
       <div class="ladder-left">${leftHtml}</div>
