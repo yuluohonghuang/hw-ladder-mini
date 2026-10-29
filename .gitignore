@@ -7,6 +7,7 @@ data/auto-correct-report.json
 
 # 布局对齐验证预览（不入库）
 preview-fixed.html
+gen-preview.mjs
 
 # 中间工作产物（不入库）
 data/shards/

@@ -14,6 +14,16 @@ let currentSort = 'score';
 let currentQuery = '';
 let currentBenchmark = 'timespy'; // 默认 Time Spy（游戏向），可选 passmark（综合向）
 
+// Intel Arc 侧边栏展开/收缩状态（GPU 天梯用），持久化记忆
+let intelOpen = false;
+try { intelOpen = localStorage.getItem('hw_ladder_intel_open') === '1'; } catch(e){}
+let showRank = false; // 展开三列模式：只显排名不显跑分
+function toggleIntel(){
+  intelOpen = !intelOpen;
+  try { localStorage.setItem('hw_ladder_intel_open', intelOpen ? '1' : '0'); } catch(e){}
+  refresh();
+}
+
 function getBenchmarkScore(item){
   if(currentBenchmark === 'timespy' && item.timespy != null) return item.timespy;
   return item.score;
@@ -118,43 +128,70 @@ function renderLadder(list){
     const estTag = it.est ? '<span class="est-tag">估算</span>' : '';
     const score = getBenchmarkScore(it);
     const catTag = getCategory(score, allScores);
-    return `<div class="model ${rank === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${catTag}${laptopTag}${unreleasedTag}${estTag}</span><span class="score num">${fmtNum(score)}</span></div>`;
+    // 展开三列模式只显全局排名；收缩两列模式带跑分
+    const right = showRank
+      ? `<span class="rank-num num">#${rank + 1}</span>`
+      : `<span class="score num">${fmtNum(score)}</span>`;
+    return `<div class="model ${rank === 0 ? 'top' : ''} ${it.old ? 'old' : ''}" title="${it.name}"><span>${shortName(it.name)}${catTag}${laptopTag}${unreleasedTag}${estTag}</span>${right}</div>`;
   }
   
   const rowCount = Math.max(leftArr.length, midArr.length, rightArr.length);
-  
-  let leftHtml = `<div class="vendor-header intel">${currentCat === 'cpu' ? 'Intel' : 'Intel Arc'}</div><div class="model-list">`;
-  for(let i = 0; i < rowCount; i++) leftHtml += renderRow(leftArr[i], i);
-  leftHtml += '</div>';
-  
-  let midHtml = '';
+  const perfCenter = `
+    <div class="ladder-center">
+      <span class="perf-label">最高性能</span>
+      <span class="perf-label">高性能</span>
+      <span class="perf-label">中性能</span>
+      <span class="perf-label">低性能</span>
+      <span class="perf-label">入门性能</span>
+      <span class="perf-label">最低性能</span>
+    </div>`;
+
+  let gridCols = '', leftHtml = '', midHtml = '', rightHtml = '';
+
   if(currentCat === 'gpu'){
+    showRank = intelOpen; // 展开三列：只显排名
+    if(intelOpen){
+      // 展开：Intel 全列 + NVIDIA + AMD 三列并排，均只显全局排名
+      gridCols = 'minmax(158px,1fr) minmax(158px,1fr) 40px minmax(158px,1fr)';
+      leftHtml = `<div class="vendor-header intel" id="intelToggle" title="点击收起 Intel Arc">Intel Arc <span class="tg-arrow">▾</span></div><div class="model-list">`;
+      for(let i = 0; i < rowCount; i++) leftHtml += renderRow(leftArr[i], i);
+      leftHtml += '</div>';
+    } else {
+      // 收缩：Intel 侧边栏（点击展开），主区 NVIDIA + AMD 两列带跑分
+      gridCols = 'minmax(58px,auto) minmax(150px,1fr) 40px minmax(150px,1fr)';
+      leftHtml = `<div class="intel-sidebar" id="intelToggle" title="点击展开 Intel Arc"><span class="sb-label">Intel Arc</span><span class="sb-arrow">▶</span></div>`;
+    }
     midHtml = `<div class="vendor-header nvidia">NVIDIA</div><div class="model-list">`;
     for(let i = 0; i < rowCount; i++) midHtml += renderRow(midArr[i], i);
     midHtml += '</div>';
+    rightHtml = `<div class="vendor-header amd">AMD</div><div class="model-list">`;
+    for(let i = 0; i < rowCount; i++) rightHtml += renderRow(rightArr[i], i);
+    rightHtml += '</div>';
+  } else {
+    // CPU / 芯片组：保持原有两列布局，正常显跑分（chip 在函数开头已提前返回）
+    showRank = false;
+    gridCols = currentCat === 'cpu' ? '1fr 50px 1fr' : '1fr';
+    leftHtml = `<div class="vendor-header ${currentCat === 'cpu' ? 'intel' : ''}">${currentCat === 'cpu' ? 'Intel' : '台式机主板芯片组年代表（1995–2024）'}</div><div class="model-list">`;
+    for(let i = 0; i < rowCount; i++) leftHtml += renderRow(leftArr[i], i);
+    leftHtml += '</div>';
+    if(currentCat === 'cpu'){
+      rightHtml = `<div class="vendor-header amd">AMD</div><div class="model-list">`;
+      for(let i = 0; i < rowCount; i++) rightHtml += renderRow(rightArr[i], i);
+      rightHtml += '</div>';
+    }
   }
-  
-  let rightHtml = `<div class="vendor-header amd">AMD</div><div class="model-list">`;
-  for(let i = 0; i < rowCount; i++) rightHtml += renderRow(rightArr[i], i);
-  rightHtml += '</div>';
-  
-  // GPU 三列用 minmax 保证型号全名不被压缩，窄屏（手机）下溢出则横向滚动查看 AMD 列
-  const gridCols = currentCat === 'gpu' ? 'minmax(158px,1fr) minmax(158px,1fr) 40px minmax(158px,1fr)' : '1fr 50px 1fr';
+
   container.innerHTML = `
     <div class="ladder" style="grid-template-columns:${gridCols}">
       <div class="ladder-left">${leftHtml}</div>
       ${midHtml ? `<div class="ladder-mid">${midHtml}</div>` : ''}
-      <div class="ladder-center">
-        <span class="perf-label">最高性能</span>
-        <span class="perf-label">高性能</span>
-        <span class="perf-label">中性能</span>
-        <span class="perf-label">低性能</span>
-        <span class="perf-label">入门性能</span>
-        <span class="perf-label">最低性能</span>
-      </div>
-      <div class="ladder-right">${rightHtml}</div>
+      ${currentCat !== 'chip' ? perfCenter : ''}
+      ${rightHtml ? `<div class="ladder-right">${rightHtml}</div>` : ''}
     </div>
   `;
+
+  const tg = document.getElementById('intelToggle');
+  if(tg) tg.addEventListener('click', toggleIntel);
 }
 
 function renderTable(list){
